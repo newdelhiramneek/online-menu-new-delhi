@@ -12,7 +12,7 @@
     emptyState: "In dieser Kategorie sind aktuell keine Gerichte hinterlegt.",
     footer: {
       addressHeading: "New Delhi",
-      addressLines: ["Pfotenhauer Straße 70", "01069 Dresden, Germany"],
+      addressLines: ["Pfotenhauer Straße 70", "01307 Dresden, Germany"],
       hoursHeading: "Öffnungszeiten",
       hoursLines: ["Mo-Fr: 11:30-22:30", "Sa-So: 12:00-23:00"],
       contactHeading: "Kontakt",
@@ -38,7 +38,7 @@
     emptyState: "No dishes in this category yet.",
     footer: {
       addressHeading: "New Delhi",
-      addressLines: ["Pfotenhauer Straße 70", "01069 Dresden, Germany"],
+      addressLines: ["Pfotenhauer Straße 70", "01307 Dresden, Germany"],
       hoursHeading: "Opening hours",
       hoursLines: ["Mon-Fri: 11:30-22:30", "Sat-Sun: 12:00-23:00"],
       contactHeading: "Contact",

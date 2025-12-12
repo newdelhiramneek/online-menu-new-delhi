@@ -71,6 +71,33 @@ export const menuData = {
         dietary: ["vegan"]
       },
       {
+        id: "starter-4",
+        category: "starters",
+        name: "Dhokla Glow Tartine",
+        description:
+          "Luftiges Dhokla mit zerdrückter Avocado, Kirschtomaten, Limette, Granatapfel, gerösteten Kürbiskernen und etwas Käse – eine farbenfrohe Hommage an die Aromen Indiens.",
+        price: "7,30 €",
+        dietary: ["vegetarisch"]
+      },
+      {
+        id: "starter-5",
+        category: "starters",
+        name: "Palak Pop Crunch",
+        description:
+          "Knusprige Palak-Blätter, frittiert in Kichererbsenmehl, Hartweizengrieß & Maismehl, serviert mit süßem Joghurt, Saunth- & Minz-Chutney, Granatapfelkernen und knusprigem Sev – ein bunter, texturreicher Snack voller Geschmack und Frische.",
+        price: "8,20 €",
+        dietary: ["vegetarisch"]
+      },
+      {
+        id: "starter-6",
+        category: "starters",
+        name: "Linsen Suppe oder Lasan Suppe",
+        description:
+          "Aromatische Wahl: Rote Linsen mit Kreuzkümmel, Kurkuma & Ingwer oder gerösteter Knoblauch mit Zwiebeln & frischen Kräutern. Slogan: Soulful. Aromatic. Comforting.",
+        price: "5,90 €",
+        dietary: ["vegetarisch"]
+      },
+      {
         id: "bowl-1",
         category: "bowls",
         name: "Avocado Mango Fusion Bowl",
@@ -96,6 +123,24 @@ export const menuData = {
           "Paneer-Würfel, Paprika, Zwiebeln & Chili-Sauce auf Basmati-Reis mit Kräutern.",
         price: "10,50 €",
         dietary: ["vegetarisch"]
+      },
+      {
+        id: "bowl-4",
+        category: "bowls",
+        name: "Tandoori Chicken & Mango Bowl",
+        description:
+          "Zartes Tandoori-Hähnchen auf Quinoa und Babyspinat, kombiniert mit süßer Mango, gerösteten Kichererbsen und Minz-Joghurt-Dressing. Ein leichter, frischer Twist auf indischen Klassiker.",
+        price: "12,70 €",
+        dietary: []
+      },
+      {
+        id: "bowl-5",
+        category: "bowls",
+        name: "Lamb & Quinoa Bowl (Fusion-Style)",
+        description:
+          "Zartes Lammfilet in leichten Garam-Masala-Aromen, serviert auf Quinoa mit gegrilltem Gemüse, Granatapfelkernen und frischem Koriander. Ein frisches, kreatives Fusion-Gericht mit indischem Flair.",
+        price: "14,10 €",
+        dietary: []
       },
       {
         id: "thali-1",
@@ -141,6 +186,267 @@ export const menuData = {
           "Zart geschmortes Lamm in aromatischer Curry-Sauce, serviert mit Basmati-Reis.",
         price: "15,90 €",
         dietary: []
+      },
+      {
+        id: "main-4",
+        category: "mains",
+        name: "Smoky Baingan Roast",
+        description:
+          "Geröstete Aubergine mit rauchigem Aroma, leicht gewürzt und modern angerichtet.",
+        price: "12,40 €",
+        dietary: ["vegetarisch"]
+      },
+      {
+        id: "main-5",
+        category: "mains",
+        name: "Mix Sabji",
+        description:
+          "Bunte Gemüsepfanne mit saisonalem Gemüse in leichter Curry-Sauce, frisch und hausgemacht.",
+        price: "12,95 €",
+        dietary: ["vegetarisch"]
+      },
+      {
+        id: "main-6",
+        category: "mains",
+        name: "Delhi Street Chana",
+        description:
+          "Kichererbsen in leichter Tomaten-Kokos-Sauce mit Curryblättern, Senfsaat und frischen Kräutern.",
+        price: "12,95 €",
+        dietary: ["vegan"]
+      },
+      {
+        id: "main-7",
+        category: "mains",
+        name: "Dal Tadka",
+        description:
+          "Gelbe Linsen mit Gewürzen und frischen Kräutern, aromatisch und leicht.",
+        price: "13,75 €",
+        dietary: ["vegan"]
+      },
+      {
+        id: "main-8",
+        category: "mains",
+        name: "Chili Paneer Stir-Fry / Mushroom & Spinach",
+        description:
+          "Paneerwürfel mit Paprika, Zwiebeln in leichter Chili-Tomatensauce, kurz gebraten.",
+        price: "14,50 €",
+        dietary: ["vegetarisch"]
+      },
+      {
+        id: "main-9",
+        category: "mains",
+        name: "Palak Paneer",
+        description:
+          "Paneer in mildem Spinat-Curry, cremig, leicht und schnell zuzubereiten.",
+        price: "14,95 €",
+        dietary: ["vegetarisch"]
+      },
+      {
+        id: "main-10",
+        category: "mains",
+        name: "Methi Malai Kofta",
+        description:
+          "Gemüse-Klößchen in cremiger Methi-Cashew-Tomaten-Sauce, modern angerichtet.",
+        price: "14,95 €",
+        dietary: ["vegetarisch"]
+      },
+      {
+        id: "main-11",
+        category: "mains",
+        name: "Shahi Paneer",
+        description:
+          "Cremiger Paneer in leichter Cashew-Tomaten-Sauce, modern interpretiert.",
+        price: "15,50 €",
+        dietary: ["vegetarisch"]
+      },
+      {
+        id: "main-12",
+        category: "mains",
+        name: "Dal Makhni",
+        description:
+          "Schwarze Linsen & Kidneybohnen in leichter Butter-Cashew-Sauce, cremig aber leicht.",
+        price: "15,70 €",
+        dietary: ["vegetarisch"]
+      },
+      {
+        id: "main-13",
+        category: "mains",
+        name: "Paneer Tikka Light / Sizzler",
+        description:
+          "Gegrillter Paneer mit Paprika & Zwiebeln, leicht gewürzt, in milder Tomaten-Cashew-Sauce / serviert auf heißem Sizzler mit leichter Masala-Sauce.",
+        price: "15,90 €",
+        dietary: ["vegetarisch"]
+      },
+      {
+        id: "main-14",
+        category: "mains",
+        name: "Chicken Chettinad",
+        description:
+          "Südindisches Hähnchen-Curry mit Pfeffer, Kokos, Curryblättern und aromatischen Gewürzen, kräftig aber ausgewogen.",
+        price: "13,90 €",
+        dietary: []
+      },
+      {
+        id: "main-15",
+        category: "mains",
+        name: "Chicken Jalfrezi",
+        description:
+          "Hähnchenstücke mit Paprika, Zwiebeln und Tomaten in würziger Sauce gebraten.",
+        price: "14,50 €",
+        dietary: []
+      },
+      {
+        id: "main-16",
+        category: "mains",
+        name: "Chicken Madras",
+        description:
+          "Kräftiges Hähnchen-Curry mit Tomaten, Zwiebeln, Curryblättern und südindischen Gewürzen, angenehm scharf.",
+        price: "14,90 €",
+        dietary: []
+      },
+      {
+        id: "main-17",
+        category: "mains",
+        name: "Smoky Tandoori Chicken Sizzler",
+        description:
+          "Zartes, gegrilltes Hähnchen mit rauchiger Tandoori-Note, serviert auf heißer Platte mit leichter Curry-Sauce.",
+        price: "14,90 €",
+        dietary: []
+      },
+      {
+        id: "main-18",
+        category: "mains",
+        name: "Chicken Saagwala",
+        description:
+          "Zartes Hähnchen in cremigem Spinat-Curry mit Ingwer, Knoblauch und leichten Gewürzen.",
+        price: "14,90 €",
+        dietary: []
+      },
+      {
+        id: "main-19",
+        category: "mains",
+        name: "Mango Chicken Curry",
+        description:
+          "Hähnchenstücke in gelb-fruchtiger Mango-Curry-Sauce mit leichten Gewürzen.",
+        price: "14,90 €",
+        dietary: []
+      },
+      {
+        id: "main-20",
+        category: "mains",
+        name: "Chicken Tikka Masala",
+        description:
+          "Gegrilltes Hähnchen in cremiger, mild-würziger orangefarbener Sauce mit Tomaten und Cashew.",
+        price: "15,50 €",
+        dietary: []
+      },
+      {
+        id: "main-21",
+        category: "mains",
+        name: "Butter Chicken",
+        description:
+          "Zartes Hähnchen in cremiger Tomaten-Cashew-Sauce, fein gewürzt.",
+        price: "15,90 €",
+        dietary: []
+      },
+      {
+        id: "main-22",
+        category: "mains",
+        name: "Scampi Masala",
+        description:
+          "Scampi in kräftiger Tomaten-Zwiebel-Sauce mit Ingwer, Knoblauch und aromatischer Gewürzmischung, leicht pikant.",
+        price: "15,50 €",
+        dietary: []
+      },
+      {
+        id: "main-23",
+        category: "mains",
+        name: "Scampi Butter Masala",
+        description:
+          "Scampi in cremiger Butter-Tomaten-Cashew-Sauce, mild gewürzt und verfeinert mit frischem Koriander.",
+        price: "15,90 €",
+        dietary: []
+      },
+      {
+        id: "main-24",
+        category: "mains",
+        name: "Saffron Flame Fish",
+        description:
+          "Zartes Fischfilet in aromatischer Tomaten-Zwiebel-Sauce mit feinen Gewürzen, leichter Schärfe und einem Hauch Safran.",
+        price: "16,50 €",
+        dietary: []
+      },
+      {
+        id: "main-25",
+        category: "mains",
+        name: "Butter Naan",
+        description:
+          "Weiches, frisch gebackenes Naan-Brot mit leichter Butterglaze, ideal zum Dippen in cremige Currys.",
+        price: "3,50 €",
+        dietary: ["vegetarisch"]
+      },
+      {
+        id: "main-26",
+        category: "mains",
+        name: "Garlic Naan",
+        description:
+          "Aromatisches Naan mit frischem Knoblauch und Butter, im Tandoor gebacken, duftend & knusprig.",
+        price: "3,75 €",
+        dietary: ["vegetarisch"]
+      },
+      {
+        id: "main-27",
+        category: "mains",
+        name: "Tandoori Roti (Vollkorn)",
+        description:
+          "Traditionelles, dünnes Vollkornbrot aus dem Tandoor – ohne Butter, leicht & vegan.",
+        price: "3,50 €",
+        dietary: ["vegan"]
+      },
+      {
+        id: "main-28",
+        category: "mains",
+        name: "Paneer Naan",
+        description:
+          "Weiches, im Tandoor gebackenes Naan-Brot, gefüllt mit mild gewürfeltem Paneer und milden indischen Gewürzen – aromatisch & sättigend.",
+        price: "4,20 €",
+        dietary: ["vegetarisch"]
+      },
+      {
+        id: "main-29",
+        category: "mains",
+        name: "Bread Basket (für zwei)",
+        description:
+          "Auswahl aus Butter Naan, Garlic Naan & Tandoori Roti – perfekt zum Teilen.",
+        price: "6,20 €",
+        dietary: ["vegetarisch"]
+      },
+      {
+        id: "main-30",
+        category: "mains",
+        name: "Basmati Reis",
+        description:
+          "Aromatischer, locker gekochter Premium-Basmati – die klassische Beilage zu allen Currys.",
+        price: "3,50 €",
+        dietary: ["vegan", "glutenfrei"]
+      },
+      {
+        id: "main-31",
+        category: "mains",
+        name: "Jeera Rice (Kreuzkümmel-Reis)",
+        description:
+          "Basmati-Reis mit leicht geröstetem Kreuzkümmel & einem Hauch Ghee – duftend und aromatisch.",
+        price: "3,75 €",
+        dietary: ["vegetarisch", "glutenfrei"]
+      },
+      {
+        id: "main-32",
+        category: "mains",
+        name: "Lemon Rice (Südindischer Stil)",
+        description:
+          "Leichter, gelber Reis mit Zitronensaft, Curryblättern & Senfsamen – erfrischend und farbenfroh.",
+        price: "3,75 €",
+        dietary: ["vegetarisch"]
       },
       {
         id: "biryani-1",
@@ -201,6 +507,24 @@ export const menuData = {
           "Frittierte Milchbällchen in warmem Zuckersirup mit Rosenwasser.",
         price: "5,20 €",
         dietary: ["vegetarisch"]
+      },
+      {
+        id: "dessert-3",
+        category: "desserts",
+        name: "Pistazien-Cheesecake",
+        description:
+          "Zarter Cheesecake mit Pistazien-Püree auf knusprigem Boden; cremig, nussig, hellgrün.",
+        price: "6,80 €",
+        dietary: ["vegetarisch"]
+      },
+      {
+        id: "dessert-4",
+        category: "desserts",
+        name: "Kokos & Mango Sorbet",
+        description:
+          "Erfrischendes Sorbet aus Kokos und Mango; fruchtig, exotisch, hellgelb-weiß.",
+        price: "5,70 €",
+        dietary: ["vegan"]
       },
       {
         id: "drink-1",
@@ -300,6 +624,33 @@ export const menuData = {
         dietary: ["vegan"]
       },
       {
+        id: "starter-4",
+        category: "starters",
+        name: "Dhokla Glow Tartine",
+        description:
+          "Fluffy dhokla topped with smashed avocado, cherry tomatoes, lime, pomegranate, roasted pumpkin seeds, and a touch of cheese—a colorful homage to Indian flavors.",
+        price: "7.30 €",
+        dietary: ["vegetarian"]
+      },
+      {
+        id: "starter-5",
+        category: "starters",
+        name: "Palak Pop Crunch",
+        description:
+          "Crispy spinach leaves fried in chickpea, semolina, and cornmeal batter, served with sweet yogurt, saunth and mint chutney, pomegranate seeds, and crunchy sev for a vibrant, texture-rich snack.",
+        price: "8.20 €",
+        dietary: ["vegetarian"]
+      },
+      {
+        id: "starter-6",
+        category: "starters",
+        name: "Lentil Soup or Garlic Soup",
+        description:
+          "Aromatic choice: red lentils with cumin, turmeric, and ginger, or roasted garlic with onions and fresh herbs. Slogan: Soulful. Aromatic. Comforting.",
+        price: "5.90 €",
+        dietary: ["vegetarian"]
+      },
+      {
         id: "bowl-1",
         category: "bowls",
         name: "Avocado Mango Fusion Bowl",
@@ -325,6 +676,24 @@ export const menuData = {
           "Paneer cubes with bell pepper, onions, and chili sauce over basmati rice with herbs.",
         price: "10.50 €",
         dietary: ["vegetarian"]
+      },
+      {
+        id: "bowl-4",
+        category: "bowls",
+        name: "Tandoori Chicken & Mango Bowl",
+        description:
+          "Tender tandoori chicken on quinoa and baby spinach, paired with sweet mango, roasted chickpeas, and mint yogurt dressing. A light, fresh twist on an Indian classic.",
+        price: "12.70 €",
+        dietary: []
+      },
+      {
+        id: "bowl-5",
+        category: "bowls",
+        name: "Lamb & Quinoa Bowl (Fusion-Style)",
+        description:
+          "Tender lamb fillet with light garam masala notes, served on quinoa with grilled vegetables, pomegranate seeds, and fresh coriander. A fresh, creative fusion bowl with Indian flair.",
+        price: "14.10 €",
+        dietary: []
       },
       {
         id: "thali-1",
@@ -370,6 +739,267 @@ export const menuData = {
           "Tender braised lamb in aromatic curry sauce, served with basmati rice.",
         price: "15.90 €",
         dietary: []
+      },
+      {
+        id: "main-4",
+        category: "mains",
+        name: "Smoky Baingan Roast",
+        description:
+          "Roasted eggplant with a smoky aroma, lightly spiced and plated in a modern style.",
+        price: "12.40 €",
+        dietary: ["vegetarian"]
+      },
+      {
+        id: "main-5",
+        category: "mains",
+        name: "Mix Sabji",
+        description:
+          "Colorful seasonal vegetables in a light curry sauce, fresh and homemade.",
+        price: "12.95 €",
+        dietary: ["vegetarian"]
+      },
+      {
+        id: "main-6",
+        category: "mains",
+        name: "Delhi Street Chana",
+        description:
+          "Chickpeas in a light tomato-coconut sauce with curry leaves, mustard seeds, and fresh herbs.",
+        price: "12.95 €",
+        dietary: ["vegan"]
+      },
+      {
+        id: "main-7",
+        category: "mains",
+        name: "Dal Tadka",
+        description:
+          "Yellow lentils with spices and fresh herbs, aromatic and light.",
+        price: "13.75 €",
+        dietary: ["vegan"]
+      },
+      {
+        id: "main-8",
+        category: "mains",
+        name: "Chili Paneer Stir-Fry / Mushroom & Spinach",
+        description:
+          "Paneer cubes with bell peppers and onions in a light chili-tomato sauce, quickly stir-fried.",
+        price: "14.50 €",
+        dietary: ["vegetarian"]
+      },
+      {
+        id: "main-9",
+        category: "mains",
+        name: "Palak Paneer",
+        description:
+          "Paneer in mild spinach curry—creamy, light, and quick to enjoy.",
+        price: "14.95 €",
+        dietary: ["vegetarian"]
+      },
+      {
+        id: "main-10",
+        category: "mains",
+        name: "Methi Malai Kofta",
+        description:
+          "Vegetable dumplings in a creamy fenugreek-cashew-tomato sauce, presented in a modern style.",
+        price: "14.95 €",
+        dietary: ["vegetarian"]
+      },
+      {
+        id: "main-11",
+        category: "mains",
+        name: "Shahi Paneer",
+        description:
+          "Rich paneer in a silky cashew-tomato sauce, given a modern touch.",
+        price: "15.50 €",
+        dietary: ["vegetarian"]
+      },
+      {
+        id: "main-12",
+        category: "mains",
+        name: "Dal Makhni",
+        description:
+          "Black lentils and kidney beans in a light butter-cashew sauce—creamy yet balanced.",
+        price: "15.70 €",
+        dietary: ["vegetarian"]
+      },
+      {
+        id: "main-13",
+        category: "mains",
+        name: "Paneer Tikka Light / Sizzler",
+        description:
+          "Grilled paneer with bell peppers and onions, lightly spiced in mild tomato-cashew sauce, served sizzling with a gentle masala sauce.",
+        price: "15.90 €",
+        dietary: ["vegetarian"]
+      },
+      {
+        id: "main-14",
+        category: "mains",
+        name: "Chicken Chettinad",
+        description:
+          "South Indian chicken curry with pepper, coconut, curry leaves, and aromatic spices—bold yet balanced.",
+        price: "13.90 €",
+        dietary: []
+      },
+      {
+        id: "main-15",
+        category: "mains",
+        name: "Chicken Jalfrezi",
+        description:
+          "Chicken pieces stir-fried with bell peppers, onions, and tomatoes in a spicy sauce.",
+        price: "14.50 €",
+        dietary: []
+      },
+      {
+        id: "main-16",
+        category: "mains",
+        name: "Chicken Madras",
+        description:
+          "Robust chicken curry with tomatoes, onions, curry leaves, and South Indian spices; pleasantly hot.",
+        price: "14.90 €",
+        dietary: []
+      },
+      {
+        id: "main-17",
+        category: "mains",
+        name: "Smoky Tandoori Chicken Sizzler",
+        description:
+          "Tender grilled chicken with smoky tandoori notes, served on a hot plate with a light curry sauce.",
+        price: "14.90 €",
+        dietary: []
+      },
+      {
+        id: "main-18",
+        category: "mains",
+        name: "Chicken Saagwala",
+        description:
+          "Tender chicken in creamy spinach curry with ginger, garlic, and mild spices.",
+        price: "14.90 €",
+        dietary: []
+      },
+      {
+        id: "main-19",
+        category: "mains",
+        name: "Mango Chicken Curry",
+        description:
+          "Chicken in a golden mango curry sauce with gentle spices; fruity, aromatic, juicy.",
+        price: "14.90 €",
+        dietary: []
+      },
+      {
+        id: "main-20",
+        category: "mains",
+        name: "Chicken Tikka Masala",
+        description:
+          "Grilled chicken in a creamy, mildly spiced orange-tinted sauce with tomatoes and cashew.",
+        price: "15.50 €",
+        dietary: []
+      },
+      {
+        id: "main-21",
+        category: "mains",
+        name: "Butter Chicken",
+        description:
+          "Tender chicken in a creamy tomato-cashew sauce, delicately spiced.",
+        price: "15.90 €",
+        dietary: []
+      },
+      {
+        id: "main-22",
+        category: "mains",
+        name: "Scampi Masala",
+        description:
+          "Scampi in a robust tomato-onion sauce with ginger, garlic, and aromatic spices; mildly hot.",
+        price: "15.50 €",
+        dietary: []
+      },
+      {
+        id: "main-23",
+        category: "mains",
+        name: "Scampi Butter Masala",
+        description:
+          "Scampi in a creamy butter-tomato-cashew sauce, gently spiced and finished with fresh coriander.",
+        price: "15.90 €",
+        dietary: []
+      },
+      {
+        id: "main-24",
+        category: "mains",
+        name: "Saffron Flame Fish",
+        description:
+          "Delicate fish fillet in aromatic tomato-onion sauce with fine spices, gentle heat, and a touch of saffron.",
+        price: "16.50 €",
+        dietary: []
+      },
+      {
+        id: "main-25",
+        category: "mains",
+        name: "Butter Naan",
+        description:
+          "Soft, freshly baked naan with a light butter glaze—perfect for dipping into creamy curries.",
+        price: "3.50 €",
+        dietary: ["vegetarian"]
+      },
+      {
+        id: "main-26",
+        category: "mains",
+        name: "Garlic Naan",
+        description:
+          "Fragrant naan with fresh garlic and butter, tandoor-baked to a crisp, aromatic finish.",
+        price: "3.75 €",
+        dietary: ["vegetarian"]
+      },
+      {
+        id: "main-27",
+        category: "mains",
+        name: "Tandoori Roti (Whole Wheat)",
+        description:
+          "Traditional thin whole-wheat bread from the tandoor—no butter, light, and vegan.",
+        price: "3.50 €",
+        dietary: ["vegan"]
+      },
+      {
+        id: "main-28",
+        category: "mains",
+        name: "Paneer Naan",
+        description:
+          "Soft tandoor-baked naan filled with gently spiced paneer cubes; aromatic and satisfying.",
+        price: "4.20 €",
+        dietary: ["vegetarian"]
+      },
+      {
+        id: "main-29",
+        category: "mains",
+        name: "Bread Basket (for two)",
+        description:
+          "Selection of butter naan, garlic naan, and tandoori roti—perfect for sharing.",
+        price: "6.20 €",
+        dietary: ["vegetarian"]
+      },
+      {
+        id: "main-30",
+        category: "mains",
+        name: "Basmati Rice",
+        description:
+          "Aromatic, fluffy premium basmati—the classic side for any curry.",
+        price: "3.50 €",
+        dietary: ["vegan", "gluten free"]
+      },
+      {
+        id: "main-31",
+        category: "mains",
+        name: "Jeera Rice (Cumin Rice)",
+        description:
+          "Basmati rice with lightly toasted cumin and a hint of ghee—fragrant and aromatic.",
+        price: "3.75 €",
+        dietary: ["vegetarian", "gluten free"]
+      },
+      {
+        id: "main-32",
+        category: "mains",
+        name: "Lemon Rice (South Indian Style)",
+        description:
+          "Light, yellow rice with lemon juice, curry leaves, and mustard seeds—refreshing and vibrant.",
+        price: "3.75 €",
+        dietary: ["vegetarian"]
       },
       {
         id: "biryani-1",
@@ -430,6 +1060,24 @@ export const menuData = {
           "Fried milk dumplings in warm rosewater syrup.",
         price: "5.20 €",
         dietary: ["vegetarian"]
+      },
+      {
+        id: "dessert-3",
+        category: "desserts",
+        name: "Pistachio Cheesecake",
+        description:
+          "Delicate cheesecake with pistachio purée on a crisp base; creamy, nutty, pale green.",
+        price: "6.80 €",
+        dietary: ["vegetarian"]
+      },
+      {
+        id: "dessert-4",
+        category: "desserts",
+        name: "Coconut & Mango Sorbet",
+        description:
+          "Refreshing sorbet with coconut and mango; fruity, exotic, light yellow-white.",
+        price: "5.70 €",
+        dietary: ["vegan"]
       },
       {
         id: "drink-1",
