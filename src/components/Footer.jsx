@@ -3,6 +3,15 @@
 const Footer = ({ copy }) => {
   const year = new Date().getFullYear();
   const safeCopy = copy || {};
+  const allergenItems =
+    safeCopy.allergenLegend
+      ?.split(/•|\u0007/)
+      .map((item) => item.trim())
+      .filter(Boolean) || [];
+  const itemsPerColumn = Math.ceil(allergenItems.length / 3) || 1;
+  const allergenColumns = Array.from({ length: 3 }, (_, colIdx) =>
+    allergenItems.slice(colIdx * itemsPerColumn, (colIdx + 1) * itemsPerColumn)
+  );
 
   return (
     <footer className="menu-footer">
@@ -44,7 +53,15 @@ const Footer = ({ copy }) => {
 
       <div id="allergen" className="footer-allergen">
         <h5>{safeCopy.allergenHeading}</h5>
-        <p>{safeCopy.allergenLegend}</p>
+        <div className="footer-allergen-list">
+          {allergenColumns.map((col, idx) => (
+            <ul key={idx} className="allergen-column">
+              {col.map((entry) => (
+                <li key={entry}>{entry}</li>
+              ))}
+            </ul>
+          ))}
+        </div>
         <p className="footer-note">{safeCopy.allergenNote}</p>
       </div>
 

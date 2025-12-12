@@ -26,14 +26,14 @@ const Header = ({
         <button
           className="btn-ghost list-button"
           type="button"
-          onClick={onToggleList}
-          aria-label="View list"
-        >
-          <span className="list-icon" aria-hidden="true">
-            📋
-          </span>
-          <span className="list-count">{listCount}</span>
-        </button>
+        onClick={onToggleList}
+        aria-label="View list"
+      >
+        <span className="list-icon" aria-hidden="true">
+            🛒
+        </span>
+        <span className="list-count">{listCount}</span>
+      </button>
 
         <button
           className="btn-outline"
