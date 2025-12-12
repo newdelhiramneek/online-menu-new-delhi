@@ -6,7 +6,8 @@ const MenuSection = ({
   subtitle,
   items,
   emptyStateText,
-  addToCartLabel
+  addToCartLabel,
+  onAddToList
 }) => {
   const resolvedEmptyState =
     emptyStateText || "No dishes are available in this category.";
@@ -24,6 +25,7 @@ const MenuSection = ({
             key={item.id}
             item={item}
             addToCartLabel={addToCartLabel}
+            onAddToList={onAddToList}
           />
         ))}
         {safeItems.length === 0 && (

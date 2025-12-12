@@ -10,6 +10,8 @@ import { siteCopy } from "./data/siteCopy";
 const App = () => {
   const [language, setLanguage] = useState("de");
   const [activeCategory, setActiveCategory] = useState("starters");
+  const [listItems, setListItems] = useState([]);
+  const [isListOpen, setIsListOpen] = useState(false);
 
   const { categories, items } = menuData[language] || menuData.de;
   const copy = siteCopy[language] || siteCopy.de;
@@ -23,6 +25,14 @@ const App = () => {
     (cat) => cat.id === activeCategory
   );
 
+  const addToList = (item) => {
+    setListItems((prev) => [...prev, item]);
+  };
+
+  const removeFromList = (index) => {
+    setListItems((prev) => prev.filter((_, i) => i !== index));
+  };
+
   return (
     <Layout>
       <Header
@@ -30,37 +40,82 @@ const App = () => {
         onToggleLanguage={() =>
           setLanguage((prev) => (prev === "en" ? "de" : "en"))
         }
+        onToggleList={() => setIsListOpen((prev) => !prev)}
+        listItems={listItems}
       />
-      <main className="menu-main">
-        <section className="menu-hero">
-          <div className="menu-hero-text hero-center">
-            <p className="hero-intro">{copy.hero.intro}</p>
-            <p className="hero-connector">{copy.hero.connector}</p>
-            <div className="hero-brand-line">
-              <span className="hero-flourish" aria-hidden="true">{"\u2766"}</span>
-              <span className="hero-brand">{copy.hero.brand}</span>
-              <span className="hero-flourish" aria-hidden="true">{"\u2766"}</span>
+
+      {isListOpen ? (
+        <main className="menu-main">
+          <section className="list-page">
+            <div className="list-page-header">
+              <h2>My List</h2>
+              <p>{listItems.length} item(s)</p>
             </div>
-            <p className="hero-outro">{copy.hero.outro}</p>
-          </div>
-        </section>
 
-        <section className="menu-section-wrapper">
-          <CategoryTabs
-            categories={categories}
-            activeId={activeCategory}
-            onChange={setActiveCategory}
-          />
+            {listItems.length === 0 ? (
+              <p className="list-page-empty">No items added yet.</p>
+            ) : (
+              <ul className="list-page-items">
+                {listItems.map((item, idx) => (
+                  <li key={`${item.id}-${idx}`} className="list-page-item">
+                    <div className="list-page-item-info">
+                      <span className="list-item-name">{item.name}</span>
+                      <span className="list-item-price">{item.price}</span>
+                    </div>
+                    <button
+                      className="btn-secondary list-remove"
+                      type="button"
+                      onClick={() => removeFromList(idx)}
+                    >
+                      Remove
+                    </button>
+                  </li>
+                ))}
+              </ul>
+            )}
 
-          <MenuSection
-            title={activeCategoryMeta?.title}
-            subtitle={activeCategoryMeta?.subtitle}
-            items={filteredItems}
-            emptyStateText={copy.emptyState}
-            addToCartLabel={copy.addToCart}
-          />
-        </section>
-      </main>
+            <button
+              className="btn-outline list-back"
+              type="button"
+              onClick={() => setIsListOpen(false)}
+            >
+              Back to menu
+            </button>
+          </section>
+        </main>
+      ) : (
+        <main className="menu-main">
+          <section className="menu-hero">
+            <div className="menu-hero-text hero-center">
+              <p className="hero-intro">{copy.hero.intro}</p>
+              <p className="hero-connector">{copy.hero.connector}</p>
+              <div className="hero-brand-line">
+                <span className="hero-flourish" aria-hidden="true">{"\u2766"}</span>
+                <span className="hero-brand">{copy.hero.brand}</span>
+                <span className="hero-flourish" aria-hidden="true">{"\u2766"}</span>
+              </div>
+              <p className="hero-outro">{copy.hero.outro}</p>
+            </div>
+          </section>
+
+          <section className="menu-section-wrapper">
+            <CategoryTabs
+              categories={categories}
+              activeId={activeCategory}
+              onChange={setActiveCategory}
+            />
+
+            <MenuSection
+              title={activeCategoryMeta?.title}
+              subtitle={activeCategoryMeta?.subtitle}
+              items={filteredItems}
+              emptyStateText={copy.emptyState}
+              addToCartLabel={copy.addToCart}
+              onAddToList={addToList}
+            />
+          </section>
+        </main>
+      )}
       <Footer copy={copy.footer} />
     </Layout>
   );

@@ -1,7 +1,7 @@
 ﻿import React from "react";
 
-const MenuItemCard = ({ item, addToCartLabel }) => {
-  const ctaLabel = addToCartLabel || "Add to cart";
+const MenuItemCard = ({ item, addToCartLabel, onAddToList }) => {
+  const ctaLabel = addToCartLabel || "Add To List";
   const isVeg =
     item.dietary &&
     item.dietary.some((tag) => {
@@ -38,7 +38,13 @@ const MenuItemCard = ({ item, addToCartLabel }) => {
         </div>
       ) : null}
 
-      <button className="btn-ghost">{ctaLabel}</button>
+      <button
+        className="btn-ghost"
+        type="button"
+        onClick={() => onAddToList && onAddToList(item)}
+      >
+        {ctaLabel}
+      </button>
     </article>
   );
 };

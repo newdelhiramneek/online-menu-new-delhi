@@ -8,7 +8,7 @@
       outro:
         "Jedes Gericht erzählt eine Geschichte von Gewürzen, Farbe und Harmonie."
     },
-    addToCart: "Zum Warenkorb hinzufügen",
+    addToCart: "Add To List",
     emptyState: "In dieser Kategorie sind aktuell keine Gerichte hinterlegt.",
     footer: {
       addressHeading: "New Delhi",
@@ -34,7 +34,7 @@
       outro:
         "Every dish tells a story of spice, color, and harmony."
     },
-    addToCart: "Add to cart",
+    addToCart: "Add To List",
     emptyState: "No dishes in this category yet.",
     footer: {
       addressHeading: "New Delhi",
