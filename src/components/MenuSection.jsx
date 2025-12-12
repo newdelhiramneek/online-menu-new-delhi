@@ -1,7 +1,16 @@
 import React from "react";
 import MenuItemCard from "./MenuItemCard";
 
-const MenuSection = ({ title, subtitle, items }) => {
+const MenuSection = ({
+  title,
+  subtitle,
+  items,
+  emptyStateText,
+  addToCartLabel
+}) => {
+  const resolvedEmptyState =
+    emptyStateText || "No dishes are available in this category.";
+  const safeItems = items || [];
   return (
     <section className="menu-section">
       <div className="menu-section-header">
@@ -10,13 +19,15 @@ const MenuSection = ({ title, subtitle, items }) => {
       </div>
 
       <div className="menu-items-grid">
-        {items.map((item) => (
-          <MenuItemCard key={item.id} item={item} />
+        {safeItems.map((item) => (
+          <MenuItemCard
+            key={item.id}
+            item={item}
+            addToCartLabel={addToCartLabel}
+          />
         ))}
-        {items.length === 0 && (
-          <p className="empty-state">
-            In dieser Kategorie sind aktuell keine Gerichte hinterlegt.
-          </p>
+        {safeItems.length === 0 && (
+          <p className="empty-state">{resolvedEmptyState}</p>
         )}
       </div>
     </section>

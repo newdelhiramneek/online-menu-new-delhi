@@ -1,6 +1,7 @@
-import React from "react";
+﻿import React from "react";
 
-const MenuItemCard = ({ item }) => {
+const MenuItemCard = ({ item, addToCartLabel }) => {
+  const ctaLabel = addToCartLabel || "Add to cart";
   return (
     <article className="menu-item-card">
       <header className="menu-item-header">
@@ -20,7 +21,7 @@ const MenuItemCard = ({ item }) => {
         </div>
       )}
 
-      <button className="btn-ghost">Zum Warenkorb hinzufügen</button>
+      <button className="btn-ghost">{ctaLabel}</button>
     </article>
   );
 };

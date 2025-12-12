@@ -1,6 +1,8 @@
 import React from "react";
 
-const Header = () => {
+const Header = ({ onToggleLanguage, language }) => {
+  const isEnglish = language === "en";
+  const buttonLabel = isEnglish ? "German Menu" : "English Menu";
   return (
     <header className="menu-header">
       <div className="menu-header-left">
@@ -11,13 +13,14 @@ const Header = () => {
         </div>
       </div>
 
-      <nav className="menu-header-nav">
-        <a href="#menu" className="menu-nav-link">Speisekarte</a>
-        <a href="#allergen" className="menu-nav-link">Allergene</a>
-        <a href="#contact" className="menu-nav-link">Kontakt</a>
-      </nav>
-
-      <button className="btn-outline">Online bestellen</button>
+      <button
+        className="btn-outline"
+        type="button"
+        onClick={onToggleLanguage}
+        aria-pressed={isEnglish}
+      >
+        {buttonLabel}
+      </button>
     </header>
   );
 };
