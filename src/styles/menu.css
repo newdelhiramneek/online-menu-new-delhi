@@ -106,6 +106,7 @@
   display: flex;
   flex-wrap: wrap;
   gap: 4px;
+  margin-bottom: 8px;
 }
 
 .menu-item-tag {
