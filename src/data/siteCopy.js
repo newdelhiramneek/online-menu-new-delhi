@@ -1,11 +1,12 @@
-export const siteCopy = {
+﻿export const siteCopy = {
   de: {
-    heroTagline: "Lieferung • Abholung • Digitale Speisekarte",
-    heroSubtitle:
-      "Modernes indisches Restaurant - kräftige Aromen, frische Zutaten und ein Hauch von Innovation.",
-    ctas: {
-      order: "Bestellen",
-      reserve: "Tisch reservieren"
+    hero: {
+      intro:
+        "Modernes Indien auf dem Teller. Kräftige Aromen, frische Zutaten und ein Hauch von Innovation.",
+      connector: "das ist",
+      brand: "New Delhi",
+      outro:
+        "Jedes Gericht erzählt eine Geschichte von Gewürzen, Farbe und Harmonie."
     },
     addToCart: "Zum Warenkorb hinzufügen",
     emptyState: "In dieser Kategorie sind aktuell keine Gerichte hinterlegt.",
@@ -25,12 +26,13 @@ export const siteCopy = {
     }
   },
   en: {
-    heroTagline: "Delivery • Pickup • Digital menu",
-    heroSubtitle:
-      "Modern Indian restaurant - bold flavors, fresh ingredients, and a touch of innovation.",
-    ctas: {
-      order: "Order now",
-      reserve: "Reserve a table"
+    hero: {
+      intro:
+        "Modern India on the plate. Bold flavors, fresh ingredients, and a touch of innovation.",
+      connector: "this is",
+      brand: "New Delhi",
+      outro:
+        "Every dish tells a story of spice, color, and harmony."
     },
     addToCart: "Add to cart",
     emptyState: "No dishes in this category yet.",

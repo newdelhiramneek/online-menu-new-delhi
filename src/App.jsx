@@ -33,14 +33,15 @@ const App = () => {
       />
       <main className="menu-main">
         <section className="menu-hero">
-          <div className="menu-hero-text">
-            <p className="menu-hero-tagline">{copy.heroTagline}</p>
-            <h1 className="menu-hero-title">New Delhi</h1>
-            <p className="menu-hero-subtitle">{copy.heroSubtitle}</p>
-            <div className="menu-hero-actions">
-              <button className="btn-primary">{copy.ctas.order}</button>
-              <button className="btn-secondary">{copy.ctas.reserve}</button>
+          <div className="menu-hero-text hero-center">
+            <p className="hero-intro">{copy.hero.intro}</p>
+            <p className="hero-connector">{copy.hero.connector}</p>
+            <div className="hero-brand-line">
+              <span className="hero-flourish" aria-hidden="true">{"\u2766"}</span>
+              <span className="hero-brand">{copy.hero.brand}</span>
+              <span className="hero-flourish" aria-hidden="true">{"\u2766"}</span>
             </div>
+            <p className="hero-outro">{copy.hero.outro}</p>
           </div>
         </section>
 
