@@ -66,6 +66,16 @@
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.04);
 }
 
+.menu-item-card--veg {
+  border-color: #5fa968;
+  background: #f2fbf3;
+}
+
+.menu-item-card--nonveg {
+  border-color: #c43b2f;
+  background: #fff4f2;
+}
+
 .menu-item-header {
   display: flex;
   justify-content: space-between;
@@ -104,6 +114,16 @@
   border-radius: 999px;
   background: #f3e6d5;
   text-transform: capitalize;
+}
+
+.menu-item-tag--veg {
+  background: #d9f3dd;
+  color: #25622f;
+}
+
+.menu-item-tag--nonveg {
+  background: #f7d8d3;
+  color: #9e2a21;
 }
 
 /* Responsive columns for items */
