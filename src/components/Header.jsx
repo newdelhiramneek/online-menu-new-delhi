@@ -6,11 +6,11 @@ const Header = ({ onToggleLanguage, language }) => {
   return (
     <header className="menu-header">
       <div className="menu-header-left">
-        <span className="logo-circle">ND</span>
-        <div className="logo-text">
-          <span className="logo-title">New Delhi</span>
-          <span className="logo-subtitle">Indisches Restaurant</span>
-        </div>
+        <img
+          src="/newdelhi_logo.png"
+          alt="New Delhi logo"
+          className="logo-image"
+        />
       </div>
 
       <button
