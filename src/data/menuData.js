@@ -37,6 +37,11 @@ export const menuData = {
         subtitle: "Süßer Abschluss mit einem Hauch Indien."
       },
       {
+        id: "softdrinks",
+        title: "Softdrinks",
+        subtitle: "Erfrischende Limonaden & Saefte."
+      },
+      {
         id: "drinks",
         title: "Getränke",
         subtitle: "Softdrinks, Lassi, Bier, Wein & Cocktails."
@@ -549,6 +554,64 @@ export const menuData = {
         description: "Spritziger Cocktail mit exotischen Früchten.",
         price: "7,50 €",
         dietary: []
+      },
+      {
+        id: "soft-1",
+        category: "softdrinks",
+        name: "San Pellegrino / Acqua Panna",
+        description:
+          "Flasche: 0,75l 5,80 € · 0,25l 2,80 € – Mineralwasser / stilles Mineralwasser.",
+        price: "ab 2,80 €",
+        dietary: []
+      },
+      {
+        id: "soft-2",
+        category: "softdrinks",
+        name: "Coca-Cola / Coca-Cola Zero",
+        description: "0,5l 4,20 € · 0,3l 2,95 €.",
+        price: "ab 2,95 €",
+        dietary: []
+      },
+      {
+        id: "soft-3",
+        category: "softdrinks",
+        name: "Fanta / Sprite / Spezi",
+        description: "0,5l 4,20 € · 0,3l 2,95 €.",
+        price: "ab 2,95 €",
+        dietary: []
+      },
+      {
+        id: "soft-4",
+        category: "softdrinks",
+        name: "Bitter Lemon / Tonic Water / Ginger Ale",
+        description: "0,5l 4,60 € · 0,3l 3,20 €.",
+        price: "ab 3,20 €",
+        dietary: []
+      },
+      {
+        id: "soft-5",
+        category: "softdrinks",
+        name: "Red Bull / Red Bull Zero",
+        description: "Dose 0,25l 4,20 €.",
+        price: "4,20 €",
+        dietary: []
+      },
+      {
+        id: "soft-6",
+        category: "softdrinks",
+        name: "Ice Tea",
+        description: "Flasche 0,25l 4,20 € – Granatapfel, Pfirsich, Zitrone.",
+        price: "4,20 €",
+        dietary: []
+      },
+      {
+        id: "soft-7",
+        category: "softdrinks",
+        name: "Saft-Nektar oder Saftschorle",
+        description:
+          "0,5l 4,60 € · 0,3l 3,20 € – Apfel, Orange, Maracuja, Banane, Kiba.",
+        price: "ab 3,20 €",
+        dietary: []
       }
     ]
   },
@@ -588,6 +651,11 @@ export const menuData = {
         id: "desserts",
         title: "Desserts",
         subtitle: "A sweet finish with a touch of India."
+      },
+      {
+        id: "softdrinks",
+        title: "Soft drinks",
+        subtitle: "Refreshing sodas and juices."
       },
       {
         id: "drinks",
@@ -1101,6 +1169,64 @@ export const menuData = {
         name: "Aperol Passion / Mango",
         description: "Sparkling cocktail with passion fruit or mango.",
         price: "7.50 €",
+        dietary: []
+      },
+      {
+        id: "soft-1",
+        category: "softdrinks",
+        name: "San Pellegrino / Acqua Panna",
+        description:
+          "Bottle: 0.75l 5.80 € · 0.25l 2.80 € – sparkling or still mineral water.",
+        price: "from 2.80 €",
+        dietary: []
+      },
+      {
+        id: "soft-2",
+        category: "softdrinks",
+        name: "Coca-Cola / Coca-Cola Zero",
+        description: "0.5l 4.20 € · 0.3l 2.95 €.",
+        price: "from 2.95 €",
+        dietary: []
+      },
+      {
+        id: "soft-3",
+        category: "softdrinks",
+        name: "Fanta / Sprite / Spezi",
+        description: "0.5l 4.20 € · 0.3l 2.95 €.",
+        price: "from 2.95 €",
+        dietary: []
+      },
+      {
+        id: "soft-4",
+        category: "softdrinks",
+        name: "Bitter Lemon / Tonic Water / Ginger Ale",
+        description: "0.5l 4.60 € · 0.3l 3.20 €.",
+        price: "from 3.20 €",
+        dietary: []
+      },
+      {
+        id: "soft-5",
+        category: "softdrinks",
+        name: "Red Bull / Red Bull Zero",
+        description: "Can 0.25l 4.20 €.",
+        price: "4.20 €",
+        dietary: []
+      },
+      {
+        id: "soft-6",
+        category: "softdrinks",
+        name: "Ice Tea",
+        description: "Bottle 0.25l 4.20 € – pomegranate, peach, lemon.",
+        price: "4.20 €",
+        dietary: []
+      },
+      {
+        id: "soft-7",
+        category: "softdrinks",
+        name: "Juice Nectar or Spritzer",
+        description:
+          "0.5l 4.60 € · 0.3l 3.20 € – apple, orange, passion fruit, banana, cherry-banana.",
+        price: "from 3.20 €",
         dietary: []
       }
     ]
