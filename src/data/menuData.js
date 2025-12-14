@@ -43,7 +43,7 @@ export const menuData = {
       },
       {
         id: "desserts",
-        title: "Dessertkarte",
+        title: "DESSERTKARTE",
         subtitle: "SÃ¼Ãer Abschluss mit einem Hauch Indien."
       },
       {
@@ -618,36 +618,36 @@ export const menuData = {
         category: "desserts",
         name: "Mango Lassi Panna Cotta",
         description:
-          "Panna Cotta mit Mango-Lassi, Kardamom & einem Hauch Rose.",
+          "Seidige Panna Cotta mit Mango-Pueree, leicht gewuerzt mit Kardamom. Geschmack & Farbe: Fruchtig, mild, sonniges Gelb. Slogan: Cremig. Fruchtig. Exotisch.",
         price: "4,70 €",
-        dietary: ["vegetarisch"]
+        dietary: ["vegetarisch"],
       },
       {
         id: "dessert-2",
         category: "desserts",
         name: "Gulab Jamun",
         description:
-          "Frittierte MilchbÃ¤llchen in warmem Zuckersirup mit Rosenwasser.",
-        price: "5,20 €",
-        dietary: ["vegetarisch"]
+          "Mini-Cheesecakes mit Gulab Jamun - karamellfarben und aromatisch. Geschmack & Farbe: Suess, aromatisch, karamellfarben. Slogan: Suess. Aromatisch. Verfuehrerisch.",
+        price: "5,70 €",
+        dietary: ["vegetarisch"],
       },
       {
         id: "dessert-3",
         category: "desserts",
         name: "Pistazien-Cheesecake",
         description:
-          "Zarter Cheesecake mit Pistazien-PÃ¼ree auf knusprigem Boden; cremig, nussig, hellgrÃ¼n.",
+          "Zarter Cheesecake mit Pistazien-Pueree auf knusprigem Boden. Geschmack & Farbe: Cremig, nussig, hellgruen. Slogan: Cremig. Nussig. Verfuehrerisch.",
         price: "6,80 €",
-        dietary: ["vegetarisch"]
+        dietary: ["vegetarisch"],
       },
       {
         id: "dessert-4",
         category: "desserts",
         name: "Kokos & Mango Sorbet",
         description:
-          "Erfrischendes Sorbet aus Kokos und Mango; fruchtig, exotisch, hellgelb-weiÃ.",
+          "Erfrischendes Sorbet aus Kokos und Mango, leicht fruchtig. Geschmack & Farbe: Fruchtig, exotisch, hellgelb-weiss. Slogan: Fruchtig. Erfrischend. Leicht.",
         price: "5,70 €",
-        dietary: ["vegan"]
+        dietary: ["vegan"],
       },
       {
         id: "drink-1",
@@ -777,7 +777,7 @@ export const menuData = {
       },
       {
         id: "desserts",
-        title: "Desserts",
+        title: "DESSERT MENU",
         subtitle: "A sweet finish with a touch of India."
       },
       {
@@ -1352,36 +1352,36 @@ export const menuData = {
         category: "desserts",
         name: "Mango Lassi Panna Cotta",
         description:
-          "Panna cotta with mango lassi, cardamom, and a hint of rose.",
+          "Silky panna cotta with mango puree, lightly spiced with cardamom. Taste & color: fruity, mild, sunlit yellow. Slogan: Creamy. Fruity. Exotic.",
         price: "4.70 €",
-        dietary: ["vegetarian"]
+        dietary: ["vegetarian"],
       },
       {
         id: "dessert-2",
         category: "desserts",
         name: "Gulab Jamun",
         description:
-          "Fried milk dumplings in warm rosewater syrup.",
-        price: "5.20 €",
-        dietary: ["vegetarian"]
+          "Mini cheesecakes with gulab jamun, caramel-toned and aromatic. Taste & color: sweet, aromatic, caramel-colored. Slogan: Sweet. Aromatic. Indulgent.",
+        price: "5.70 €",
+        dietary: ["vegetarian"],
       },
       {
         id: "dessert-3",
         category: "desserts",
         name: "Pistachio Cheesecake",
         description:
-          "Delicate cheesecake with pistachio purÃ©e on a crisp base; creamy, nutty, pale green.",
+          "Delicate cheesecake with pistachio puree on a crisp base. Taste & color: creamy, nutty, pale green. Slogan: Creamy. Nutty. Indulgent.",
         price: "6.80 €",
-        dietary: ["vegetarian"]
+        dietary: ["vegetarian"],
       },
       {
         id: "dessert-4",
         category: "desserts",
         name: "Coconut & Mango Sorbet",
         description:
-          "Refreshing sorbet with coconut and mango; fruity, exotic, light yellow-white.",
+          "Refreshing sorbet of coconut and mango, lightly fruity. Taste & color: fruity, exotic, light yellow-white. Slogan: Fruity. Refreshing. Light.",
         price: "5.70 €",
-        dietary: ["vegan"]
+        dietary: ["vegan"],
       },
       {
         id: "drink-1",
