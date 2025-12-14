@@ -32,6 +32,11 @@ export const menuData = {
         subtitle: "Fein gewÃ¼rzter, duftender Basmati-Reis mit KrÃ¤utern."
       },
       {
+        id: "rice",
+        title: "Reis - Duftend & Leicht",
+        subtitle: "Basmati-Beilagen auf einen Blick: klassisch, Jeera oder Lemon."
+      },
+      {
         id: "bread",
         title: "Brote & Beilagen",
         subtitle: "Frisch aus dem Tandoor und aus der KÃ¼che."
@@ -478,7 +483,7 @@ export const menuData = {
       },
       {
         id: "main-30",
-        category: "mains",
+        category: ["mains", "rice"],
         name: "Basmati Reis",
         description:
           "Aromatischer, locker gekochter Premium-Basmati â die klassische Beilage zu allen Currys.",
@@ -487,8 +492,8 @@ export const menuData = {
       },
       {
         id: "main-31",
-        category: "mains",
-        name: "Jeera Rice (KreuzkÃ¼mmel-Reis)",
+        category: ["mains", "rice"],
+        name: "Jeera Rice (Kreuzkummel-Reis)",
         description:
           "Basmati-Reis mit leicht gerÃ¶stetem KreuzkÃ¼mmel & einem Hauch Ghee â duftend und aromatisch.",
         price: "3,75 €",
@@ -496,8 +501,8 @@ export const menuData = {
       },
       {
         id: "main-32",
-        category: "mains",
-        name: "Lemon Rice (SÃ¼dindischer Stil)",
+        category: ["mains", "rice"],
+        name: "Lemon Rice (Sudindischer Stil)",
         description:
           "Leichter, gelber Reis mit Zitronensaft, CurryblÃ¤ttern & Senfsamen â erfrischend und farbenfroh.",
         price: "3,75 €",
@@ -759,6 +764,11 @@ export const menuData = {
         id: "biryani",
         title: "Biryani rice dishes",
         subtitle: "Fragrant spiced basmati rice with herbs."
+      },
+      {
+        id: "rice",
+        title: "Rice - Fragrant & Light",
+        subtitle: "All basmati sides together: classic, jeera, or lemon."
       },
       {
         id: "bread",
@@ -1207,7 +1217,7 @@ export const menuData = {
       },
       {
         id: "main-30",
-        category: "mains",
+        category: ["mains", "rice"],
         name: "Basmati Rice",
         description:
           "Aromatic, fluffy premium basmatiâthe classic side for any curry.",
@@ -1216,7 +1226,7 @@ export const menuData = {
       },
       {
         id: "main-31",
-        category: "mains",
+        category: ["mains", "rice"],
         name: "Jeera Rice (Cumin Rice)",
         description:
           "Basmati rice with lightly toasted cumin and a hint of gheeâfragrant and aromatic.",
@@ -1225,7 +1235,7 @@ export const menuData = {
       },
       {
         id: "main-32",
-        category: "mains",
+        category: ["mains", "rice"],
         name: "Lemon Rice (South Indian Style)",
         description:
           "Light, yellow rice with lemon juice, curry leaves, and mustard seedsârefreshing and vibrant.",

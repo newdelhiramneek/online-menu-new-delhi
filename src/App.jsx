@@ -17,7 +17,13 @@ const App = () => {
   const copy = siteCopy[language] || siteCopy.de;
 
   const filteredItems = useMemo(
-    () => items.filter((item) => item.category === activeCategory),
+    () =>
+      items.filter((item) => {
+        if (Array.isArray(item.category)) {
+          return item.category.includes(activeCategory);
+        }
+        return item.category === activeCategory;
+      }),
     [items, activeCategory]
   );
 
