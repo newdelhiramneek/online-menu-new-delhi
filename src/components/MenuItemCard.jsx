@@ -10,11 +10,24 @@ const MenuItemCard = ({ item, addToCartLabel, onAddToList }) => {
     });
   const cardClass =
     "menu-item-card" + (isVeg ? " menu-item-card--veg" : " menu-item-card--nonveg");
+  const hasSizes = Array.isArray(item.sizes) && item.sizes.length > 0;
+
   return (
     <article className={cardClass}>
       <header className="menu-item-header">
         <h3 className="menu-item-name">{item.name}</h3>
-        <span className="menu-item-price">{item.price}</span>
+        {hasSizes ? (
+          <div className="menu-item-prices">
+            {item.sizes.map(({ label, price }) => (
+              <div key={`${item.id}-${label}`} className="menu-item-price-row">
+                <span className="menu-item-size">{label}</span>
+                <span className="menu-item-price">{price}</span>
+              </div>
+            ))}
+          </div>
+        ) : (
+          <span className="menu-item-price">{item.price}</span>
+        )}
       </header>
 
       <p className="menu-item-description">{item.description}</p>

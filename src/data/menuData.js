@@ -677,40 +677,56 @@ export const menuData = {
         id: "soft-1",
         category: "softdrinks",
         name: "San Pellegrino / Acqua Panna",
-        description:
-          "Flasche: 0,75l 5,80 € Â· 0,25l 2,80 € â Mineralwasser / stilles Mineralwasser.",
-        price: "ab 2,80 €",
+        description: "Mineralwasser / stilles Mineralwasser.",
+        sizes: [
+          { label: "0,75l", price: "5,80 €" },
+          { label: "0,25l", price: "2,80 €" }
+        ],
+        price: "2,80 €",
         dietary: []
       },
       {
         id: "soft-2",
         category: "softdrinks",
         name: "Coca-Cola / Coca-Cola Zero",
-        description: "0,5l 4,20 € Â· 0,3l 2,95 €.",
-        price: "ab 2,95 €",
+        description: "Klassische Cola, zwei Größen.",
+        sizes: [
+          { label: "0,5l", price: "4,20 €" },
+          { label: "0,3l", price: "2,95 €" }
+        ],
+        price: "2,95 €",
         dietary: []
       },
       {
         id: "soft-3",
         category: "softdrinks",
         name: "Fanta / Sprite / Spezi",
-        description: "0,5l 4,20 € Â· 0,3l 2,95 €.",
-        price: "ab 2,95 €",
+        description: "Zitronig, orange oder klassisch Spezi.",
+        sizes: [
+          { label: "0,5l", price: "4,20 €" },
+          { label: "0,3l", price: "2,95 €" }
+        ],
+        price: "2,95 €",
         dietary: []
       },
       {
         id: "soft-4",
         category: "softdrinks",
         name: "Bitter Lemon / Tonic Water / Ginger Ale",
-        description: "0,5l 4,60 € Â· 0,3l 3,20 €.",
-        price: "ab 3,20 €",
+        description: "Prickelnde Klassiker.",
+        sizes: [
+          { label: "0,5l", price: "4,60 €" },
+          { label: "0,3l", price: "3,20 €" }
+        ],
+        price: "3,20 €",
         dietary: []
       },
       {
         id: "soft-5",
         category: "softdrinks",
         name: "Red Bull / Red Bull Zero",
-        description: "Dose 0,25l 4,20 €.",
+        description: "Dose 0,25l.",
+        sizes: [{ label: "0,25l", price: "4,20 €" }],
         price: "4,20 €",
         dietary: []
       },
@@ -718,7 +734,8 @@ export const menuData = {
         id: "soft-6",
         category: "softdrinks",
         name: "Ice Tea",
-        description: "Flasche 0,25l 4,20 € â Granatapfel, Pfirsich, Zitrone.",
+        description: "Granatapfel, Pfirsich, Zitrone.",
+        sizes: [{ label: "0,25l", price: "4,20 €" }],
         price: "4,20 €",
         dietary: []
       },
@@ -726,9 +743,12 @@ export const menuData = {
         id: "soft-7",
         category: "softdrinks",
         name: "Saft-Nektar oder Saftschorle",
-        description:
-          "0,5l 4,60 € Â· 0,3l 3,20 € â Apfel, Orange, Maracuja, Banane, Kiba.",
-        price: "ab 3,20 €",
+        description: "Apfel, Orange, Maracuja, Banane, Kiba.",
+        sizes: [
+          { label: "0,5l", price: "4,60 €" },
+          { label: "0,3l", price: "3,20 €" }
+        ],
+        price: "3,20 €",
         dietary: []
       }
     ]
@@ -1411,40 +1431,56 @@ export const menuData = {
         id: "soft-1",
         category: "softdrinks",
         name: "San Pellegrino / Acqua Panna",
-        description:
-          "Bottle: 0.75l 5.80 € Â· 0.25l 2.80 € â sparkling or still mineral water.",
-        price: "from 2.80 €",
+        description: "Sparkling or still mineral water.",
+        sizes: [
+          { label: "0.75l", price: "5.80 €" },
+          { label: "0.25l", price: "2.80 €" }
+        ],
+        price: "2.80 €",
         dietary: []
       },
       {
         id: "soft-2",
         category: "softdrinks",
         name: "Coca-Cola / Coca-Cola Zero",
-        description: "0.5l 4.20 € Â· 0.3l 2.95 €.",
-        price: "from 2.95 €",
+        description: "Classic cola in two sizes.",
+        sizes: [
+          { label: "0.5l", price: "4.20 €" },
+          { label: "0.3l", price: "2.95 €" }
+        ],
+        price: "2.95 €",
         dietary: []
       },
       {
         id: "soft-3",
         category: "softdrinks",
         name: "Fanta / Sprite / Spezi",
-        description: "0.5l 4.20 € Â· 0.3l 2.95 €.",
-        price: "from 2.95 €",
+        description: "Orange, lemon-lime, or cola-mix.",
+        sizes: [
+          { label: "0.5l", price: "4.20 €" },
+          { label: "0.3l", price: "2.95 €" }
+        ],
+        price: "2.95 €",
         dietary: []
       },
       {
         id: "soft-4",
         category: "softdrinks",
         name: "Bitter Lemon / Tonic Water / Ginger Ale",
-        description: "0.5l 4.60 € Â· 0.3l 3.20 €.",
-        price: "from 3.20 €",
+        description: "Refreshing mixers.",
+        sizes: [
+          { label: "0.5l", price: "4.60 €" },
+          { label: "0.3l", price: "3.20 €" }
+        ],
+        price: "3.20 €",
         dietary: []
       },
       {
         id: "soft-5",
         category: "softdrinks",
         name: "Red Bull / Red Bull Zero",
-        description: "Can 0.25l 4.20 €.",
+        description: "Can 0.25l.",
+        sizes: [{ label: "0.25l", price: "4.20 €" }],
         price: "4.20 €",
         dietary: []
       },
@@ -1452,7 +1488,8 @@ export const menuData = {
         id: "soft-6",
         category: "softdrinks",
         name: "Ice Tea",
-        description: "Bottle 0.25l 4.20 € â pomegranate, peach, lemon.",
+        description: "Pomegranate, peach, lemon.",
+        sizes: [{ label: "0.25l", price: "4.20 €" }],
         price: "4.20 €",
         dietary: []
       },
@@ -1460,9 +1497,12 @@ export const menuData = {
         id: "soft-7",
         category: "softdrinks",
         name: "Juice Nectar or Spritzer",
-        description:
-          "0.5l 4.60 € Â· 0.3l 3.20 € â apple, orange, passion fruit, banana, cherry-banana.",
-        price: "from 3.20 €",
+        description: "Apple, orange, passion fruit, banana, cherry-banana.",
+        sizes: [
+          { label: "0.5l", price: "4.60 €" },
+          { label: "0.3l", price: "3.20 €" }
+        ],
+        price: "3.20 €",
         dietary: []
       }
     ]
