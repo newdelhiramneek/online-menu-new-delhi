@@ -582,6 +582,33 @@ export const menuData = {
         dietary: ["vegan", "glutenfrei"]
       },
       {
+        id: "bread-4",
+        category: "bread",
+        name: "Tandoori Roti (Vollkorn)",
+        description:
+          "Traditionelles, dünnes Vollkornbrot aus dem Tandoor – ohne Butter, leicht & vegan. Slogan: Dünn. Knusprig. Gesund.",
+        price: "3,50 €",
+        dietary: ["vegan"]
+      },
+      {
+        id: "bread-5",
+        category: "bread",
+        name: "Paneer Naan",
+        description:
+          "Weiches, frisch im Tandoor gebackenes Naan-Brot, gefüllt mit zart gewürfeltem Paneer und milden indischen Gewürzen – aromatisch & sättigend. Slogan: Cremig. Herzhaft. Immer beliebt.",
+        price: "4,20 €",
+        dietary: ["vegetarisch"]
+      },
+      {
+        id: "bread-6",
+        category: "bread",
+        name: "Bread Basket (für zwei)",
+        description:
+          "Auswahl aus Butter Naan, Garlic Naan & Tandoori Roti – perfekt zum Teilen. Slogan: Vielfältig. Frisch. Zum Genießen.",
+        price: "6,20 €",
+        dietary: ["vegetarisch"]
+      },
+      {
         id: "dessert-1",
         category: "desserts",
         name: "Mango Lassi Panna Cotta",
@@ -1282,6 +1309,33 @@ export const menuData = {
         description: "Fragrant premium basmati rice.",
         price: "3.70 €",
         dietary: ["vegan", "gluten free"]
+      },
+      {
+        id: "bread-4",
+        category: "bread",
+        name: "Tandoori Roti (Whole Wheat)",
+        description:
+          "Traditional thin whole-wheat bread from the tandoor—no butter, light, and vegan. Slogan: Thin. Crisp. Healthy.",
+        price: "3.50 €",
+        dietary: ["vegan"]
+      },
+      {
+        id: "bread-5",
+        category: "bread",
+        name: "Paneer Naan",
+        description:
+          "Soft tandoor-baked naan filled with gently spiced paneer cubes—aromatic and satisfying. Slogan: Creamy. Hearty. Always a favorite.",
+        price: "4.20 €",
+        dietary: ["vegetarian"]
+      },
+      {
+        id: "bread-6",
+        category: "bread",
+        name: "Bread Basket (for two)",
+        description:
+          "Selection of butter naan, garlic naan, and tandoori roti—perfect for sharing. Slogan: Variety. Fresh. Ready to enjoy.",
+        price: "6.20 €",
+        dietary: ["vegetarian"]
       },
       {
         id: "dessert-1",
