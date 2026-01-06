@@ -9,6 +9,7 @@
         "Jedes Gericht erzählt eine Geschichte von Gewürzen, Farbe und Harmonie."
     },
     addToCart: "Zur Liste hinzufügen",
+    toastAdded: "Zur Liste hinzugefuegt.",
     emptyState: "In dieser Kategorie sind aktuell keine Gerichte hinterlegt.",
     footer: {
       addressHeading: "New Delhi",
@@ -35,6 +36,7 @@
         "Every dish tells a story of spice, color, and harmony."
     },
     addToCart: "Add To List",
+    toastAdded: "Item added to the list.",
     emptyState: "No dishes in this category yet.",
     footer: {
       addressHeading: "New Delhi",

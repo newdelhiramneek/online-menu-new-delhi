@@ -1,4 +1,4 @@
-﻿import React, { useState, useMemo } from "react";
+﻿import React, { useState, useMemo, useEffect, useRef } from "react";
 import Layout from "./components/Layout";
 import Header from "./components/Header";
 import CategoryTabs from "./components/CategoryTabs";
@@ -12,6 +12,9 @@ const App = () => {
   const [activeCategory, setActiveCategory] = useState("starters");
   const [listItems, setListItems] = useState([]);
   const [isListOpen, setIsListOpen] = useState(false);
+  const [toastMessage, setToastMessage] = useState("");
+  const [isToastVisible, setIsToastVisible] = useState(false);
+  const toastTimerRef = useRef(null);
 
   const { categories, items } = menuData[language] || menuData.de;
   const copy = siteCopy[language] || siteCopy.de;
@@ -33,11 +36,27 @@ const App = () => {
 
   const addToList = (item) => {
     setListItems((prev) => [...prev, item]);
+    setToastMessage(copy.toastAdded);
+    setIsToastVisible(true);
+    if (toastTimerRef.current) {
+      clearTimeout(toastTimerRef.current);
+    }
+    toastTimerRef.current = setTimeout(() => {
+      setIsToastVisible(false);
+    }, 2000);
   };
 
   const removeFromList = (index) => {
     setListItems((prev) => prev.filter((_, i) => i !== index));
   };
+
+  useEffect(() => {
+    return () => {
+      if (toastTimerRef.current) {
+        clearTimeout(toastTimerRef.current);
+      }
+    };
+  }, []);
 
   return (
     <Layout>
@@ -49,6 +68,16 @@ const App = () => {
         onToggleList={() => setIsListOpen((prev) => !prev)}
         listItems={listItems}
       />
+
+      <div
+        className={
+          "toast-notification" + (isToastVisible ? " toast-notification--visible" : "")
+        }
+        role="status"
+        aria-live="polite"
+      >
+        {toastMessage}
+      </div>
 
       {isListOpen ? (
         <main className="menu-main">
