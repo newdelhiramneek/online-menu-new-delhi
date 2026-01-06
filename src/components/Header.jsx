@@ -8,7 +8,10 @@ const Header = ({
 }) => {
   const isEnglish = language === "en";
   const buttonLabel = isEnglish ? "German Menu" : "English Menu";
-  const listCount = listItems.length;
+  const listCount = listItems.reduce(
+    (sum, item) => sum + (item.quantity || 1),
+    0
+  );
 
   return (
     <header className="menu-header">

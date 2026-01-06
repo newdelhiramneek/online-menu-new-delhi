@@ -34,8 +34,23 @@ const App = () => {
     (cat) => cat.id === activeCategory
   );
 
+  const totalCount = listItems.reduce(
+    (sum, item) => sum + (item.quantity || 1),
+    0
+  );
+
   const addToList = (item) => {
-    setListItems((prev) => [...prev, item]);
+    setListItems((prev) => {
+      const existing = prev.find((entry) => entry.id === item.id);
+      if (existing) {
+        return prev.map((entry) =>
+          entry.id === item.id
+            ? { ...entry, quantity: entry.quantity + 1 }
+            : entry
+        );
+      }
+      return [...prev, { ...item, quantity: 1 }];
+    });
     setToastMessage(copy.toastAdded);
     setIsToastVisible(true);
     if (toastTimerRef.current) {
@@ -46,8 +61,28 @@ const App = () => {
     }, 2000);
   };
 
-  const removeFromList = (index) => {
-    setListItems((prev) => prev.filter((_, i) => i !== index));
+  const removeFromList = (id) => {
+    setListItems((prev) => prev.filter((item) => item.id !== id));
+  };
+
+  const increaseQuantity = (id) => {
+    setListItems((prev) =>
+      prev.map((item) =>
+        item.id === id ? { ...item, quantity: item.quantity + 1 } : item
+      )
+    );
+  };
+
+  const decreaseQuantity = (id) => {
+    setListItems((prev) =>
+      prev
+        .map((item) =>
+          item.id === id
+            ? { ...item, quantity: Math.max(0, item.quantity - 1) }
+            : item
+        )
+        .filter((item) => item.quantity > 0)
+    );
   };
 
   useEffect(() => {
@@ -84,26 +119,47 @@ const App = () => {
           <section className="list-page">
             <div className="list-page-header">
               <h2>My List</h2>
-              <p>{listItems.length} item(s)</p>
+              <p>{totalCount} item(s)</p>
             </div>
 
             {listItems.length === 0 ? (
               <p className="list-page-empty">No items added yet.</p>
             ) : (
               <ul className="list-page-items">
-                {listItems.map((item, idx) => (
-                  <li key={`${item.id}-${idx}`} className="list-page-item">
+                {listItems.map((item) => (
+                  <li key={item.id} className="list-page-item">
                     <div className="list-page-item-info">
                       <span className="list-item-name">{item.name}</span>
                       <span className="list-item-price">{item.price}</span>
                     </div>
-                    <button
-                      className="btn-secondary list-remove"
-                      type="button"
-                      onClick={() => removeFromList(idx)}
-                    >
-                      Remove
-                    </button>
+                    <div className="list-page-item-actions">
+                      <div className="list-quantity-controls">
+                        <button
+                          className="btn-ghost list-qty-button"
+                          type="button"
+                          onClick={() => decreaseQuantity(item.id)}
+                          aria-label={`Decrease quantity for ${item.name}`}
+                        >
+                          -
+                        </button>
+                        <span className="list-qty-value">{item.quantity}</span>
+                        <button
+                          className="btn-ghost list-qty-button"
+                          type="button"
+                          onClick={() => increaseQuantity(item.id)}
+                          aria-label={`Increase quantity for ${item.name}`}
+                        >
+                          +
+                        </button>
+                      </div>
+                      <button
+                        className="btn-secondary list-remove"
+                        type="button"
+                        onClick={() => removeFromList(item.id)}
+                      >
+                        Remove
+                      </button>
+                    </div>
                   </li>
                 ))}
               </ul>
