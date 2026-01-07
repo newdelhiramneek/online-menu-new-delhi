@@ -203,6 +203,21 @@
         dietary: []
       },
       {
+        id: "bowl-toppings",
+        category: "bowls",
+        name: "Extra Toppings",
+        description: "Mach deine Bowl noch besser!",
+        sizes: [
+          { label: "Süßkartoffelwürfel", price: "2,50 €" },
+          { label: "Paneer/Avocado", price: "2,80 €" },
+          { label: "Hähnchen", price: "3,50 €" },
+          { label: "Lamm", price: "4,50 €" },
+          { label: "Scampi", price: "5,20 €" },
+          { label: "Sauce nach Wahl", price: "2,60 €" }
+        ],
+        dietary: []
+      },
+      {
         id: "thali-1",
         category: "thalis",
         name: "Vegetarisches Thali",
@@ -954,6 +969,21 @@
         description:
           "Tender lamb fillet with light garam masala notes, served on quinoa with grilled vegetables, pomegranate seeds, and fresh coriander. A fresh, creative fusion bowl with Indian flair.",
         price: "14.10 €",
+        dietary: []
+      },
+      {
+        id: "bowl-toppings",
+        category: "bowls",
+        name: "Extra Toppings",
+        description: "Make your bowl even better!",
+        sizes: [
+          { label: "Sweet potato cubes", price: "2.50 €" },
+          { label: "Paneer/Avocado", price: "2.80 €" },
+          { label: "Chicken", price: "3.50 €" },
+          { label: "Lamb", price: "4.50 €" },
+          { label: "Scampi", price: "5.20 €" },
+          { label: "Sauce of choice", price: "2.60 €" }
+        ],
         dietary: []
       },
       {
