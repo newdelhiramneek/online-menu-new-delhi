@@ -1,4 +1,4 @@
-export const menuData = {
+﻿export const menuData = {
   de: {
     categories: [
       {
@@ -8,8 +8,8 @@ export const menuData = {
       },
       {
         id: "chaat",
-        title: "Chaat SpezialitÃ¤ten",
-        subtitle: "WÃ¼rzige Street-Food-Klassiker aus Indien."
+        title: "Chaat Spezialitäten",
+        subtitle: "Würzige Street-Food-Klassiker aus Indien."
       },
       {
         id: "bowls",
@@ -24,12 +24,12 @@ export const menuData = {
       {
         id: "mains",
         title: "Hauptgerichte",
-        subtitle: "Klassische Currys & SpezialitÃ¤ten, serviert mit Reis."
+        subtitle: "Klassische Currys & Spezialitäten, serviert mit Reis."
       },
       {
         id: "biryani",
         title: "Biryani Reisgerichte",
-        subtitle: "Fein gewÃ¼rzter, duftender Basmati-Reis mit KrÃ¤utern."
+        subtitle: "Fein gewürzter, duftender Basmati-Reis mit Kräutern."
       },
       {
         id: "rice",
@@ -39,12 +39,12 @@ export const menuData = {
       {
         id: "bread",
         title: "Brote & Beilagen",
-        subtitle: "Frisch aus dem Tandoor und aus der KÃ¼che."
+        subtitle: "Frisch aus dem Tandoor und aus der Küche."
       },
       {
         id: "desserts",
         title: "DESSERTKARTE",
-        subtitle: "SÃ¼Ãer Abschluss mit einem Hauch Indien."
+        subtitle: "Süßer Abschluss mit einem Hauch Indien."
       },
       {
         id: "softdrinks",
@@ -53,7 +53,7 @@ export const menuData = {
       },
       {
         id: "drinks",
-        title: "GetrÃ¤nke",
+        title: "Getränke",
         subtitle: "Softdrinks, Lassi, Bier, Wein & Cocktails."
       }
     ],
@@ -72,7 +72,7 @@ export const menuData = {
         category: "starters",
         name: "Tandoori Brokkoli & Blumenkohl",
         description:
-          "Im Tandoor mariniertes GemÃ¼se mit Joghurt, Garam Masala und frischem Koriander.",
+          "Im Tandoor mariniertes Gemüse mit Joghurt, Garam Masala und frischem Koriander.",
         price: "6,10 €",
         dietary: ["vegetarisch"]
       },
@@ -81,7 +81,7 @@ export const menuData = {
         category: "starters",
         name: "Samosa",
         description:
-          "Hausgemachte Teigtaschen gefÃ¼llt mit Kartoffeln, Erbsen & GewÃ¼rzen. Serviert mit Chutneys.",
+          "Hausgemachte Teigtaschen gefüllt mit Kartoffeln, Erbsen & Gewürzen. Serviert mit Chutneys.",
         price: "6,20 €",
         dietary: ["vegan"]
       },
@@ -90,7 +90,7 @@ export const menuData = {
         category: "starters",
         name: "Dhokla Glow Tartine",
         description:
-          "Luftiges Dhokla mit zerdrÃ¼ckter Avocado, Kirschtomaten, Limette, Granatapfel, gerÃ¶steten KÃ¼rbiskernen und etwas KÃ¤se â eine farbenfrohe Hommage an die Aromen Indiens.",
+          "Luftiges Dhokla mit zerdrückter Avocado, Kirschtomaten, Limette, Granatapfel, gerösteten Kürbiskernen und etwas Käse – eine farbenfrohe Hommage an die Aromen Indiens.",
         price: "7,30 €",
         dietary: ["vegetarisch"]
       },
@@ -99,7 +99,7 @@ export const menuData = {
         category: "starters",
         name: "Palak Pop Crunch",
         description:
-          "Knusprige Palak-BlÃ¤tter, frittiert in Kichererbsenmehl, HartweizengrieÃ & Maismehl, serviert mit sÃ¼Ãem Joghurt, Saunth- & Minz-Chutney, Granatapfelkernen und knusprigem Sev â ein bunter, texturreicher Snack voller Geschmack und Frische.",
+          "Knusprige Palak-Blätter, frittiert in Kichererbsenmehl, Hartweizengrieß & Maismehl, serviert mit süßem Joghurt, Saunth- & Minz-Chutney, Granatapfelkernen und knusprigem Sev – ein bunter, texturreicher Snack voller Geschmack und Frische.",
         price: "8,20 €",
         dietary: ["vegetarisch"]
       },
@@ -108,7 +108,7 @@ export const menuData = {
         category: "starters",
         name: "Linsen Suppe oder Lasan Suppe",
         description:
-          "Aromatische Wahl: Rote Linsen mit KreuzkÃ¼mmel, Kurkuma & Ingwer oder gerÃ¶steter Knoblauch mit Zwiebeln & frischen KrÃ¤utern. Slogan: Soulful. Aromatic. Comforting.",
+          "Aromatische Wahl: Rote Linsen mit Kreuzkümmel, Kurkuma & Ingwer oder gerösteter Knoblauch mit Zwiebeln & frischen Kräutern. Slogan: Soulful. Aromatic. Comforting.",
         price: "5,90 €",
         dietary: ["vegetarisch"]
       },
@@ -117,7 +117,7 @@ export const menuData = {
         category: "chaat",
         name: "Peanut Masala Chaat",
         description:
-          "GerÃ¶stete ErdnÃ¼sse mit frischen Tomaten, Zwiebeln, grÃ¼nem Chili, Limette und Koriander â wÃ¼rzig, knackig und erfrischend, wie man es von den StraÃen Mumbais kennt.",
+          "Geröstete Erdnüsse mit frischen Tomaten, Zwiebeln, grünem Chili, Limette und Koriander – würzig, knackig und erfrischend, wie man es von den Straßen Mumbais kennt.",
         price: "6,40 €",
         dietary: ["vegetarisch"]
       },
@@ -126,7 +126,7 @@ export const menuData = {
         category: "chaat",
         name: "Dahi Cloud Papdi",
         description:
-          "Knusprige Papdi-Schichten, cremiger Joghurt, Chutney-Trio und Sev â weich, kÃ¼hl und cremig, mit einem Hauch von SÃ¼Ãe und WÃ¼rze.",
+          "Knusprige Papdi-Schichten, cremiger Joghurt, Chutney-Trio und Sev – weich, kühl und cremig, mit einem Hauch von Süße und Würze.",
         price: "8,20 €",
         dietary: ["vegetarisch"]
       },
@@ -135,7 +135,7 @@ export const menuData = {
         category: "chaat",
         name: "Quinoa Glow Chaat",
         description:
-          "GerÃ¶stete SÃ¼Ãkartoffeln und proteinreiches Quinoa mit Granatapfel, Kichererbsen und erfrischendem Minz-Joghurt-Dressing â gesund, leicht und farbenfroh.",
+          "Geröstete Süßkartoffeln und proteinreiches Quinoa mit Granatapfel, Kichererbsen und erfrischendem Minz-Joghurt-Dressing – gesund, leicht und farbenfroh.",
         price: "10,20 €",
         dietary: ["vegetarisch"]
       },
@@ -144,7 +144,7 @@ export const menuData = {
         category: "chaat",
         name: "Avocado Bombay Bites",
         description:
-          "Mini-Puris gefÃ¼llt mit cremiger Avocado, sÃ¼Ãer Mango und wÃ¼rzigen Kichererbsen â frisch, knackig und ein moderner Twist auf Bombay-Puris.",
+          "Mini-Puris gefüllt mit cremiger Avocado, süßer Mango und würzigen Kichererbsen – frisch, knackig und ein moderner Twist auf Bombay-Puris.",
         price: "10,60 €",
         dietary: ["vegetarisch"]
       },
@@ -153,7 +153,7 @@ export const menuData = {
         category: "chaat",
         name: "Tandoori Street Toss",
         description:
-          "Zartes Tandoori-HÃ¤hnchen, mariniert in GewÃ¼rzen, kombiniert mit Zwiebeln, Tomaten, frischem Koriander und einem Spritzer Limette â rauchig, wÃ¼rzig und aufregend.",
+          "Zartes Tandoori-Hähnchen, mariniert in Gewürzen, kombiniert mit Zwiebeln, Tomaten, frischem Koriander und einem Spritzer Limette – rauchig, würzig und aufregend.",
         price: "11,80 €",
         dietary: []
       },
@@ -171,7 +171,7 @@ export const menuData = {
         category: "bowls",
         name: "Masala Rainbow Veggie Bowl",
         description:
-          "GerÃ¶stetes GemÃ¼se, Linsen, Basmati-Reis, Pickles & Cashew-Masala-Sauce.",
+          "Geröstetes Gemüse, Linsen, Basmati-Reis, Pickles & Cashew-Masala-Sauce.",
         price: "10,20 €",
         dietary: ["vegan"]
       },
@@ -180,7 +180,7 @@ export const menuData = {
         category: "bowls",
         name: "Chili Paneer Power Bowl",
         description:
-          "Paneer-WÃ¼rfel, Paprika, Zwiebeln & Chili-Sauce auf Basmati-Reis mit KrÃ¤utern.",
+          "Paneer-Würfel, Paprika, Zwiebeln & Chili-Sauce auf Basmati-Reis mit Kräutern.",
         price: "10,50 €",
         dietary: ["vegetarisch"]
       },
@@ -189,7 +189,7 @@ export const menuData = {
         category: "bowls",
         name: "Tandoori Chicken & Mango Bowl",
         description:
-          "Zartes Tandoori-HÃ¤hnchen auf Quinoa und Babyspinat, kombiniert mit sÃ¼Ãer Mango, gerÃ¶steten Kichererbsen und Minz-Joghurt-Dressing. Ein leichter, frischer Twist auf indischen Klassiker.",
+          "Zartes Tandoori-Hähnchen auf Quinoa und Babyspinat, kombiniert mit süßer Mango, gerösteten Kichererbsen und Minz-Joghurt-Dressing. Ein leichter, frischer Twist auf indischen Klassiker.",
         price: "12,70 €",
         dietary: []
       },
@@ -198,7 +198,7 @@ export const menuData = {
         category: "bowls",
         name: "Lamb & Quinoa Bowl (Fusion-Style)",
         description:
-          "Zartes Lammfilet in leichten Garam-Masala-Aromen, serviert auf Quinoa mit gegrilltem GemÃ¼se, Granatapfelkernen und frischem Koriander. Ein frisches, kreatives Fusion-Gericht mit indischem Flair.",
+          "Zartes Lammfilet in leichten Garam-Masala-Aromen, serviert auf Quinoa mit gegrilltem Gemüse, Granatapfelkernen und frischem Koriander. Ein frisches, kreatives Fusion-Gericht mit indischem Flair.",
         price: "14,10 €",
         dietary: []
       },
@@ -207,7 +207,7 @@ export const menuData = {
         category: "thalis",
         name: "Vegetarisches Thali",
         description:
-          "Paneer-Curry, GemÃ¼se-Sabji, Dal, Raita, Papadam, Naan & Dessert des Tages.",
+          "Paneer-Curry, Gemüse-Sabji, Dal, Raita, Papadam, Naan & Dessert des Tages.",
         price: "22,50 €",
         dietary: ["vegetarisch"]
       },
@@ -216,7 +216,7 @@ export const menuData = {
         category: "thalis",
         name: "New Delhi Signature Thali",
         description:
-          "Butter Chicken, Lamm Curry, Dal Makhni, GemÃ¼se, Reis, Naan & Dessert.",
+          "Butter Chicken, Lamm Curry, Dal Makhni, Gemüse, Reis, Naan & Dessert.",
         price: "24,60 €",
         dietary: []
       },
@@ -225,7 +225,7 @@ export const menuData = {
         category: "mains",
         name: "Aloo Shimla Masala",
         description:
-          "Kartoffeln & Paprika in krÃ¤ftiger Tomaten-Zwiebel-Sauce mit nordindischen GewÃ¼rzen.",
+          "Kartoffeln & Paprika in kräftiger Tomaten-Zwiebel-Sauce mit nordindischen Gewürzen.",
         price: "12,40 €",
         dietary: ["vegan"]
       },
@@ -234,7 +234,7 @@ export const menuData = {
         category: "mains",
         name: "Chicken Tikka Masala",
         description:
-          "Gegrillte HÃ¤hnchenstÃ¼cke in cremiger Tomaten-Cashew-Sauce mit feiner WÃ¼rze.",
+          "Gegrillte Hähnchenstücke in cremiger Tomaten-Cashew-Sauce mit feiner Würze.",
         price: "15,50 €",
         dietary: []
       },
@@ -252,7 +252,7 @@ export const menuData = {
         category: "mains",
         name: "Smoky Baingan Roast",
         description:
-          "GerÃ¶stete Aubergine mit rauchigem Aroma, leicht gewÃ¼rzt und modern angerichtet.",
+          "Geröstete Aubergine mit rauchigem Aroma, leicht gewürzt und modern angerichtet.",
         price: "12,40 €",
         dietary: ["vegetarisch"]
       },
@@ -261,7 +261,7 @@ export const menuData = {
         category: "mains",
         name: "Mix Sabji",
         description:
-          "Bunte GemÃ¼sepfanne mit saisonalem GemÃ¼se in leichter Curry-Sauce, frisch und hausgemacht.",
+          "Bunte Gemüsepfanne mit saisonalem Gemüse in leichter Curry-Sauce, frisch und hausgemacht.",
         price: "12,95 €",
         dietary: ["vegetarisch"]
       },
@@ -270,7 +270,7 @@ export const menuData = {
         category: "mains",
         name: "Delhi Street Chana",
         description:
-          "Kichererbsen in leichter Tomaten-Kokos-Sauce mit CurryblÃ¤ttern, Senfsaat und frischen KrÃ¤utern.",
+          "Kichererbsen in leichter Tomaten-Kokos-Sauce mit Curryblättern, Senfsaat und frischen Kräutern.",
         price: "12,95 €",
         dietary: ["vegan"]
       },
@@ -279,7 +279,7 @@ export const menuData = {
         category: "mains",
         name: "Dal Tadka",
         description:
-          "Gelbe Linsen mit GewÃ¼rzen und frischen KrÃ¤utern, aromatisch und leicht.",
+          "Gelbe Linsen mit Gewürzen und frischen Kräutern, aromatisch und leicht.",
         price: "13,75 €",
         dietary: ["vegan"]
       },
@@ -288,7 +288,7 @@ export const menuData = {
         category: "mains",
         name: "Chili Paneer Stir-Fry / Mushroom & Spinach",
         description:
-          "PaneerwÃ¼rfel mit Paprika, Zwiebeln in leichter Chili-Tomatensauce, kurz gebraten.",
+          "Paneerwürfel mit Paprika, Zwiebeln in leichter Chili-Tomatensauce, kurz gebraten.",
         price: "14,50 €",
         dietary: ["vegetarisch"]
       },
@@ -306,7 +306,7 @@ export const menuData = {
         category: "mains",
         name: "Methi Malai Kofta",
         description:
-          "GemÃ¼se-KlÃ¶Ãchen in cremiger Methi-Cashew-Tomaten-Sauce, modern angerichtet.",
+          "Gemüse-Klößchen in cremiger Methi-Cashew-Tomaten-Sauce, modern angerichtet.",
         price: "14,95 €",
         dietary: ["vegetarisch"]
       },
@@ -333,7 +333,7 @@ export const menuData = {
         category: "mains",
         name: "Paneer Tikka Light / Sizzler",
         description:
-          "Gegrillter Paneer mit Paprika & Zwiebeln, leicht gewÃ¼rzt, in milder Tomaten-Cashew-Sauce / serviert auf heiÃem Sizzler mit leichter Masala-Sauce.",
+          "Gegrillter Paneer mit Paprika & Zwiebeln, leicht gewürzt, in milder Tomaten-Cashew-Sauce / serviert auf heißem Sizzler mit leichter Masala-Sauce.",
         price: "15,90 €",
         dietary: ["vegetarisch"]
       },
@@ -342,7 +342,7 @@ export const menuData = {
         category: "mains",
         name: "Chicken Chettinad",
         description:
-          "SÃ¼dindisches HÃ¤hnchen-Curry mit Pfeffer, Kokos, CurryblÃ¤ttern und aromatischen GewÃ¼rzen, krÃ¤ftig aber ausgewogen.",
+          "Südindisches Hähnchen-Curry mit Pfeffer, Kokos, Curryblättern und aromatischen Gewürzen, kräftig aber ausgewogen.",
         price: "13,90 €",
         dietary: []
       },
@@ -351,7 +351,7 @@ export const menuData = {
         category: "mains",
         name: "Chicken Jalfrezi",
         description:
-          "HÃ¤hnchenstÃ¼cke mit Paprika, Zwiebeln und Tomaten in wÃ¼rziger Sauce gebraten.",
+          "Hähnchenstücke mit Paprika, Zwiebeln und Tomaten in würziger Sauce gebraten.",
         price: "14,50 €",
         dietary: []
       },
@@ -360,7 +360,7 @@ export const menuData = {
         category: "mains",
         name: "Chicken Madras",
         description:
-          "KrÃ¤ftiges HÃ¤hnchen-Curry mit Tomaten, Zwiebeln, CurryblÃ¤ttern und sÃ¼dindischen GewÃ¼rzen, angenehm scharf.",
+          "Kräftiges Hähnchen-Curry mit Tomaten, Zwiebeln, Curryblättern und südindischen Gewürzen, angenehm scharf.",
         price: "14,90 €",
         dietary: []
       },
@@ -369,7 +369,7 @@ export const menuData = {
         category: "mains",
         name: "Smoky Tandoori Chicken Sizzler",
         description:
-          "Zartes, gegrilltes HÃ¤hnchen mit rauchiger Tandoori-Note, serviert auf heiÃer Platte mit leichter Curry-Sauce.",
+          "Zartes, gegrilltes Hähnchen mit rauchiger Tandoori-Note, serviert auf heißer Platte mit leichter Curry-Sauce.",
         price: "14,90 €",
         dietary: []
       },
@@ -378,7 +378,7 @@ export const menuData = {
         category: "mains",
         name: "Chicken Saagwala",
         description:
-          "Zartes HÃ¤hnchen in cremigem Spinat-Curry mit Ingwer, Knoblauch und leichten GewÃ¼rzen.",
+          "Zartes Hähnchen in cremigem Spinat-Curry mit Ingwer, Knoblauch und leichten Gewürzen.",
         price: "14,90 €",
         dietary: []
       },
@@ -387,7 +387,7 @@ export const menuData = {
         category: "mains",
         name: "Mango Chicken Curry",
         description:
-          "HÃ¤hnchenstÃ¼cke in gelb-fruchtiger Mango-Curry-Sauce mit leichten GewÃ¼rzen.",
+          "Hähnchenstücke in gelb-fruchtiger Mango-Curry-Sauce mit leichten Gewürzen.",
         price: "14,90 €",
         dietary: []
       },
@@ -396,7 +396,7 @@ export const menuData = {
         category: "mains",
         name: "Chicken Tikka Masala",
         description:
-          "Gegrilltes HÃ¤hnchen in cremiger, mild-wÃ¼rziger orangefarbener Sauce mit Tomaten und Cashew.",
+          "Gegrilltes Hähnchen in cremiger, mild-würziger orangefarbener Sauce mit Tomaten und Cashew.",
         price: "15,50 €",
         dietary: []
       },
@@ -405,7 +405,7 @@ export const menuData = {
         category: "mains",
         name: "Butter Chicken",
         description:
-          "Zartes HÃ¤hnchen in cremiger Tomaten-Cashew-Sauce, fein gewÃ¼rzt.",
+          "Zartes Hähnchen in cremiger Tomaten-Cashew-Sauce, fein gewürzt.",
         price: "15,90 €",
         dietary: []
       },
@@ -414,7 +414,7 @@ export const menuData = {
         category: "mains",
         name: "Scampi Masala",
         description:
-          "Scampi in krÃ¤ftiger Tomaten-Zwiebel-Sauce mit Ingwer, Knoblauch und aromatischer GewÃ¼rzmischung, leicht pikant.",
+          "Scampi in kräftiger Tomaten-Zwiebel-Sauce mit Ingwer, Knoblauch und aromatischer Gewürzmischung, leicht pikant.",
         price: "15,50 €",
         dietary: []
       },
@@ -423,7 +423,7 @@ export const menuData = {
         category: "mains",
         name: "Scampi Butter Masala",
         description:
-          "Scampi in cremiger Butter-Tomaten-Cashew-Sauce, mild gewÃ¼rzt und verfeinert mit frischem Koriander.",
+          "Scampi in cremiger Butter-Tomaten-Cashew-Sauce, mild gewürzt und verfeinert mit frischem Koriander.",
         price: "15,90 €",
         dietary: []
       },
@@ -432,7 +432,7 @@ export const menuData = {
         category: "mains",
         name: "Saffron Flame Fish",
         description:
-          "Zartes Fischfilet in aromatischer Tomaten-Zwiebel-Sauce mit feinen GewÃ¼rzen, leichter SchÃ¤rfe und einem Hauch Safran.",
+          "Zartes Fischfilet in aromatischer Tomaten-Zwiebel-Sauce mit feinen Gewürzen, leichter Schärfe und einem Hauch Safran.",
         price: "16,50 €",
         dietary: []
       },
@@ -459,7 +459,7 @@ export const menuData = {
         category: "mains",
         name: "Tandoori Roti (Vollkorn)",
         description:
-          "Traditionelles, dÃ¼nnes Vollkornbrot aus dem Tandoor â ohne Butter, leicht & vegan.",
+          "Traditionelles, dünnes Vollkornbrot aus dem Tandoor – ohne Butter, leicht & vegan.",
         price: "3,50 €",
         dietary: ["vegan"]
       },
@@ -468,16 +468,16 @@ export const menuData = {
         category: "mains",
         name: "Paneer Naan",
         description:
-          "Weiches, im Tandoor gebackenes Naan-Brot, gefÃ¼llt mit mild gewÃ¼rfeltem Paneer und milden indischen GewÃ¼rzen â aromatisch & sÃ¤ttigend.",
+          "Weiches, im Tandoor gebackenes Naan-Brot, gefüllt mit mild gewürfeltem Paneer und milden indischen Gewürzen – aromatisch & sättigend.",
         price: "4,20 €",
         dietary: ["vegetarisch"]
       },
       {
         id: "main-29",
         category: "mains",
-        name: "Bread Basket (fÃ¼r zwei)",
+        name: "Bread Basket (für zwei)",
         description:
-          "Auswahl aus Butter Naan, Garlic Naan & Tandoori Roti â perfekt zum Teilen.",
+          "Auswahl aus Butter Naan, Garlic Naan & Tandoori Roti – perfekt zum Teilen.",
         price: "6,20 €",
         dietary: ["vegetarisch"]
       },
@@ -486,7 +486,7 @@ export const menuData = {
         category: ["mains", "rice"],
         name: "Basmati Reis",
         description:
-          "Aromatischer, locker gekochter Premium-Basmati â die klassische Beilage zu allen Currys.",
+          "Aromatischer, locker gekochter Premium-Basmati – die klassische Beilage zu allen Currys.",
         price: "3,50 €",
         dietary: ["vegan", "glutenfrei"]
       },
@@ -495,7 +495,7 @@ export const menuData = {
         category: ["mains", "rice"],
         name: "Jeera Rice (Kreuzkummel-Reis)",
         description:
-          "Basmati-Reis mit leicht gerÃ¶stetem KreuzkÃ¼mmel & einem Hauch Ghee â duftend und aromatisch.",
+          "Basmati-Reis mit leicht geröstetem Kreuzkümmel & einem Hauch Ghee – duftend und aromatisch.",
         price: "3,75 €",
         dietary: ["vegetarisch", "glutenfrei"]
       },
@@ -504,7 +504,7 @@ export const menuData = {
         category: ["mains", "rice"],
         name: "Lemon Rice (Sudindischer Stil)",
         description:
-          "Leichter, gelber Reis mit Zitronensaft, CurryblÃ¤ttern & Senfsamen â erfrischend und farbenfroh.",
+          "Leichter, gelber Reis mit Zitronensaft, Curryblättern & Senfsamen – erfrischend und farbenfroh.",
         price: "3,75 €",
         dietary: ["vegetarisch"]
       },
@@ -513,7 +513,7 @@ export const menuData = {
         category: "mains",
         name: "Lamm Rogan Josh",
         description:
-          "Zarte LammstÃ¼cke in aromatischer, tiefroter Tomaten-GewÃ¼rz-Sauce nach nordindischer Art.",
+          "Zarte Lammstücke in aromatischer, tiefroter Tomaten-Gewürz-Sauce nach nordindischer Art.",
         price: "15,90 €",
         dietary: []
       },
@@ -522,7 +522,7 @@ export const menuData = {
         category: "mains",
         name: "Lamm Saag",
         description:
-          "Zartes Lamm in leuchtend grÃ¼ner Spinat-Sauce, verfeinert mit frischen GewÃ¼rzen.",
+          "Zartes Lamm in leuchtend grüner Spinat-Sauce, verfeinert mit frischen Gewürzen.",
         price: "15,90 €",
         dietary: []
       },
@@ -540,16 +540,16 @@ export const menuData = {
         category: "mains",
         name: "Smoky Lamm Sizzler",
         description:
-          "Gegrillte LammstÃ¼cke mit rauchiger Note, serviert auf heiÃer Platte mit leichter Masala-Sauce und frischen KrÃ¤utern.",
+          "Gegrillte Lammstücke mit rauchiger Note, serviert auf heißer Platte mit leichter Masala-Sauce und frischen Kräutern.",
         price: "16,90 €",
         dietary: []
       },
       {
         id: "biryani-1",
         category: "biryani",
-        name: "GemÃ¼se Biryani",
+        name: "Gemüse Biryani",
         description:
-          "Basmati-Reis mit GemÃ¼se, Minze, RÃ¶stzwiebeln und Biryani-GewÃ¼rzen, serviert mit Raita.",
+          "Basmati-Reis mit Gemüse, Minze, Röstzwiebeln und Biryani-Gewürzen, serviert mit Raita.",
         price: "13,20 €",
         dietary: ["vegetarisch"]
       },
@@ -558,7 +558,7 @@ export const menuData = {
         category: "biryani",
         name: "Chicken Biryani",
         description:
-          "Mariniertes HÃ¤hnchen, Basmati-Reis, Safran & KrÃ¤uter, im Dum-Stil gegart.",
+          "Mariniertes Hähnchen, Basmati-Reis, Safran & Kräuter, im Dum-Stil gegart.",
         price: "14,90 €",
         dietary: []
       },
@@ -653,7 +653,7 @@ export const menuData = {
         id: "drink-1",
         category: "drinks",
         name: "Mango Lassi",
-        description: "JoghurtgetrÃ¤nk mit Mango & Kardamom.",
+        description: "Joghurtgetränk mit Mango & Kardamom.",
         price: "3,80 €",
         dietary: ["vegetarisch"]
       },
@@ -661,7 +661,7 @@ export const menuData = {
         id: "drink-2",
         category: "drinks",
         name: "Masala Chai",
-        description: "Indischer GewÃ¼rztee mit Milch.",
+        description: "Indischer Gewürztee mit Milch.",
         price: "3,50 €",
         dietary: ["vegetarisch"]
       },
@@ -669,7 +669,7 @@ export const menuData = {
         id: "drink-3",
         category: "drinks",
         name: "Aperol Maracuja / Mango",
-        description: "Spritziger Cocktail mit exotischen FrÃ¼chten.",
+        description: "Spritziger Cocktail mit exotischen Früchten.",
         price: "7,50 €",
         dietary: []
       },
@@ -844,7 +844,7 @@ export const menuData = {
         category: "starters",
         name: "Dhokla Glow Tartine",
         description:
-          "Fluffy dhokla topped with smashed avocado, cherry tomatoes, lime, pomegranate, roasted pumpkin seeds, and a touch of cheeseâa colorful homage to Indian flavors.",
+          "Fluffy dhokla topped with smashed avocado, cherry tomatoes, lime, pomegranate, roasted pumpkin seeds, and a touch of cheese—a colorful homage to Indian flavors.",
         price: "7.30 €",
         dietary: ["vegetarian"]
       },
@@ -871,7 +871,7 @@ export const menuData = {
         category: "chaat",
         name: "Peanut Masala Chaat",
         description:
-          "Roasted peanuts with fresh tomatoes, onions, green chili, lime, and corianderâspicy, crunchy, and refreshing like Mumbaiâs streets.",
+          "Roasted peanuts with fresh tomatoes, onions, green chili, lime, and coriander—spicy, crunchy, and refreshing like Mumbai’s streets.",
         price: "6.40 €",
         dietary: ["vegetarian"]
       },
@@ -880,7 +880,7 @@ export const menuData = {
         category: "chaat",
         name: "Dahi Cloud Papdi",
         description:
-          "Crispy papdi layers, creamy yogurt, chutney trio, and sevâcool, creamy with a hint of sweetness and spice.",
+          "Crispy papdi layers, creamy yogurt, chutney trio, and sev—cool, creamy with a hint of sweetness and spice.",
         price: "8.20 €",
         dietary: ["vegetarian"]
       },
@@ -889,7 +889,7 @@ export const menuData = {
         category: "chaat",
         name: "Quinoa Glow Chaat",
         description:
-          "Roasted sweet potatoes and protein-rich quinoa with pomegranate, chickpeas, and mint-yogurt dressingâhealthy, light, and colorful.",
+          "Roasted sweet potatoes and protein-rich quinoa with pomegranate, chickpeas, and mint-yogurt dressing—healthy, light, and colorful.",
         price: "10.20 €",
         dietary: ["vegetarian"]
       },
@@ -898,7 +898,7 @@ export const menuData = {
         category: "chaat",
         name: "Avocado Bombay Bites",
         description:
-          "Mini puris filled with creamy avocado, sweet mango, and spiced chickpeasâfresh, crisp, and a modern take on Bombay puris.",
+          "Mini puris filled with creamy avocado, sweet mango, and spiced chickpeas—fresh, crisp, and a modern take on Bombay puris.",
         price: "10.60 €",
         dietary: ["vegetarian"]
       },
@@ -907,7 +907,7 @@ export const menuData = {
         category: "chaat",
         name: "Tandoori Street Toss",
         description:
-          "Tender tandoori chicken tossed with onions, tomatoes, fresh coriander, spices, and a squeeze of limeâsmoky, spicy, and exciting.",
+          "Tender tandoori chicken tossed with onions, tomatoes, fresh coriander, spices, and a squeeze of lime—smoky, spicy, and exciting.",
         price: "11.80 €",
         dietary: []
       },
@@ -1051,7 +1051,7 @@ export const menuData = {
         category: "mains",
         name: "Palak Paneer",
         description:
-          "Paneer in mild spinach curryâcreamy, light, and quick to enjoy.",
+          "Paneer in mild spinach curry—creamy, light, and quick to enjoy.",
         price: "14.95 €",
         dietary: ["vegetarian"]
       },
@@ -1078,7 +1078,7 @@ export const menuData = {
         category: "mains",
         name: "Dal Makhni",
         description:
-          "Black lentils and kidney beans in a light butter-cashew sauceâcreamy yet balanced.",
+          "Black lentils and kidney beans in a light butter-cashew sauce—creamy yet balanced.",
         price: "15.70 €",
         dietary: ["vegetarian"]
       },
@@ -1096,7 +1096,7 @@ export const menuData = {
         category: "mains",
         name: "Chicken Chettinad",
         description:
-          "South Indian chicken curry with pepper, coconut, curry leaves, and aromatic spicesâbold yet balanced.",
+          "South Indian chicken curry with pepper, coconut, curry leaves, and aromatic spices—bold yet balanced.",
         price: "13.90 €",
         dietary: []
       },
@@ -1195,7 +1195,7 @@ export const menuData = {
         category: "mains",
         name: "Butter Naan",
         description:
-          "Soft, freshly baked naan with a light butter glazeâperfect for dipping into creamy curries.",
+          "Soft, freshly baked naan with a light butter glaze—perfect for dipping into creamy curries.",
         price: "3.50 €",
         dietary: ["vegetarian"]
       },
@@ -1213,7 +1213,7 @@ export const menuData = {
         category: "mains",
         name: "Tandoori Roti (Whole Wheat)",
         description:
-          "Traditional thin whole-wheat bread from the tandoorâno butter, light, and vegan.",
+          "Traditional thin whole-wheat bread from the tandoor—no butter, light, and vegan.",
         price: "3.50 €",
         dietary: ["vegan"]
       },
@@ -1231,7 +1231,7 @@ export const menuData = {
         category: "mains",
         name: "Bread Basket (for two)",
         description:
-          "Selection of butter naan, garlic naan, and tandoori rotiâperfect for sharing.",
+          "Selection of butter naan, garlic naan, and tandoori roti—perfect for sharing.",
         price: "6.20 €",
         dietary: ["vegetarian"]
       },
@@ -1240,7 +1240,7 @@ export const menuData = {
         category: ["mains", "rice"],
         name: "Basmati Rice",
         description:
-          "Aromatic, fluffy premium basmatiâthe classic side for any curry.",
+          "Aromatic, fluffy premium basmati—the classic side for any curry.",
         price: "3.50 €",
         dietary: ["vegan", "gluten free"]
       },
@@ -1249,7 +1249,7 @@ export const menuData = {
         category: ["mains", "rice"],
         name: "Jeera Rice (Cumin Rice)",
         description:
-          "Basmati rice with lightly toasted cumin and a hint of gheeâfragrant and aromatic.",
+          "Basmati rice with lightly toasted cumin and a hint of ghee—fragrant and aromatic.",
         price: "3.75 €",
         dietary: ["vegetarian", "gluten free"]
       },
@@ -1258,7 +1258,7 @@ export const menuData = {
         category: ["mains", "rice"],
         name: "Lemon Rice (South Indian Style)",
         description:
-          "Light, yellow rice with lemon juice, curry leaves, and mustard seedsârefreshing and vibrant.",
+          "Light, yellow rice with lemon juice, curry leaves, and mustard seeds—refreshing and vibrant.",
         price: "3.75 €",
         dietary: ["vegetarian"]
       },
