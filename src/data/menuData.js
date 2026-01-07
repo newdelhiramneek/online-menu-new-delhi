@@ -117,7 +117,7 @@
         category: "chaat",
         name: "Peanut Masala Chaat",
         description:
-          "Geröstete Erdnüsse mit frischen Tomaten, Zwiebeln, grünem Chili, Limette und Koriander – würzig, knackig und erfrischend, wie man es von den Straßen Mumbais kennt.",
+          "Geröstete Erdnüsse mit frischen Tomaten, Zwiebeln, grünem Chili, Limette und Koriander – würzig,knackig und erfrischend, wie man es von den Straßen Mumbais kennt. Leicht, proteinreich & voll Geschmack. (e) Slogan: Spicy. Tangy. Crunchy.",
         price: "6,40 €",
         dietary: ["vegetarisch"]
       },
@@ -126,7 +126,7 @@
         category: "chaat",
         name: "Dahi Cloud Papdi",
         description:
-          "Knusprige Papdi-Schichten, cremiger Joghurt, Chutney-Trio und Sev – weich, kühl und cremig, mit einem Hauch von Süße und Würze.",
+          "Knusprige Papdi-Schichten, cremiger Joghurt, Chutney-Trio und Sev – weich,kühl und cremig, mit einem Hauch von Süße und Würze. (a,g)",
         price: "8,20 €",
         dietary: ["vegetarisch"]
       },
@@ -135,7 +135,7 @@
         category: "chaat",
         name: "Quinoa Glow Chaat",
         description:
-          "Geröstete Süßkartoffeln und proteinreiches Quinoa mit Granatapfel, Kichererbsen und erfrischendem Minz-Joghurt-Dressing – gesund, leicht und farbenfroh.",
+          "Geröstete Süßkartoffeln und proteinreiches Quinoa mit frischem Granatapfel, Kichererbsen und einem erfrischenden Minz-Joghurt-Dressing. Gesund, leicht und farbenfroh – perfekt für bewusste Genießer. (g,h)",
         price: "10,20 €",
         dietary: ["vegetarisch"]
       },
@@ -144,7 +144,7 @@
         category: "chaat",
         name: "Avocado Bombay Bites",
         description:
-          "Mini-Puris gefüllt mit cremiger Avocado, süßer Mango und würzigen Kichererbsen – frisch, knackig und ein moderner Twist auf Bombay-Puris.",
+          "Mini-Puris gefüllt mit cremiger Avocado, süßer Mango, würzigen Kichererbsen und knusprigem Sev. Frisch, knackig und ein moderner Twist auf die traditionellen Bombay-Puris. (a,e)",
         price: "10,60 €",
         dietary: ["vegetarisch"]
       },
@@ -153,7 +153,7 @@
         category: "chaat",
         name: "Tandoori Street Toss",
         description:
-          "Zartes Tandoori-Hähnchen, mariniert in Gewürzen, kombiniert mit Zwiebeln, Tomaten, frischem Koriander und einem Spritzer Limette – rauchig, würzig und aufregend.",
+          "Zartes Tandoori-Hähnchen, mariniert in Gewürzen, kombiniert mit Zwiebeln, Tomaten, frischem Koriander und einem Spritzer Limette. Rauchig, würzig und aufregend – ein moderner Street-Food-Genuss. (g)",
         price: "11,80 €",
         dietary: []
       },
