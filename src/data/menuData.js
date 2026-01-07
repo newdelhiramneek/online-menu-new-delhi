@@ -70,7 +70,7 @@
   "id": "starter-2",
   "category": "starters",
   "name": "Tandoori Brokkoli & Blumenkohl",
-  "description": "Im Tandoor mariniert und geröstet, serviert mit Limetten-Joghurt, Granatapfel und frischem Koriander. (g)",
+  "description": "Im Tandoor mariniert und geröstet, serviert mit Limetten-Joghurt, Granatapfel und frischem Koriander (g)",
   "price": "6,10 €",
   "dietary": ["vegetarisch"]
 },
@@ -86,7 +86,7 @@
   "id": "starter-4",
   "category": "starters",
   "name": "Dhokla Glow Tartine",
-  "description": "Luftiges Dhokla mit zerdrückter Avocado, Kirschtomaten, Limette, Granatapfel, gerösteten Kürbiskernen und etwas Käse – eine farbenfrohe Hommage an die Aromen Indiens. (a,g)",
+  "description": "luftiges Dhokla mit zerdrückter Avocado, Kirschtomaten, Limette, Granatapfel, gerösteten Kürbiskernen und etwas Käse-eine farbenfrohe Hommage an die Aromen Indiens (a,g)",
   "price": "7,30 €",
   "dietary": ["vegetarisch"]
 },
@@ -94,7 +94,7 @@
   "id": "starter-5",
   "category": "starters",
   "name": "Palak Corn Tikki",
-  "description": "Goldbraun gebratene Küchlein aus frischem Spinat und süßem Mais, fein abgeschmeckt mit ausgewählten indischen Gewürzen, serviert mit hausgemachtem Chutney. (a1)",
+  "description": "Goldbraun gebratene Küchlein aus frischem Spinat und süßem Mais, fein abgeschmeckt mit ausgewählten indischen Gewürzen, serviert mit hausgemachtem Chutney (a1)",
   "price": "8,20 €",
   "dietary": ["vegetarisch"]
 },
@@ -102,7 +102,7 @@
   "id": "starter-6",
   "category": "starters",
   "name": "Linsen Suppe oder Lasan Suppe",
-  "description": "(Knoblauchsuppe) Aromatische Wahl: Rote Linsen mit Kreuzkümmel, Kurkuma & Ingwer oder gerösteter Knoblauch mit Zwiebeln & frischen Kräutern. (– / g bei Ghee). Slogan: Soulful. Aromatic. Comforting.",
+  "description": "(Knoblauchsuppe)\nAromatische Wahl: Rote Linsen mit Kreuzkümmel, Kurkuma & Ingwer oder gerösteter Knoblauch mit Zwiebeln & frischen Kräutern. (– / g bei Ghee)\nSlogan:  Soulful . Aromatic.  Comforting.",
   "price": "5,90 €",
   "dietary": ["vegetarisch"]
 },
