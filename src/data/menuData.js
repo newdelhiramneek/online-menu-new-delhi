@@ -230,7 +230,7 @@
         category: "mains",
         name: "Aloo Shimla Masala",
         description:
-          "Kartoffeln mit Paprika & Zwiebeln in kräftiger Tomaten-Zwiebel-Sauce, leicht geröstet und aromatisch gewürzt. (m) Slogan: Herzhaft. Kräftig. Hausgemacht.",
+          "Kartoffeln mit Paprika & Zwiebeln in krÃ¤ftiger Tomaten-Zwiebel-Sauce, leicht gerÃ¶stet und aromatisch gewÃ¼rzt. (m)\nSlogan: Herzhaft. KrÃ¤ftig. Hausgemacht.",
         price: "12,40 €",
         dietary: ["vegetarisch"]
       },
@@ -239,7 +239,7 @@
         category: "mains",
         name: "Smoky Baingan Roast",
         description:
-          "Geröstete Aubergine mit rauchigem Aroma, leicht gewürzt, modern angerichtet. (– ) Slogan: Rauchig. Würzig. Gesund.",
+          "GerÃ¶stete Aubergine mit rauchigem Aroma, leicht gewÃ¼rzt, modern angerichtet. (â )\nSlogan: Rauchig. WÃ¼rzig. Gesund.",
         price: "12,40 €",
         dietary: ["vegetarisch"]
       },
@@ -248,313 +248,232 @@
         category: "mains",
         name: "Mix Sabji",
         description:
-          "Bunte Gemüsepfanne mit saisonalem Gemüse in leichter Curry-Sauce, frisch und hausgemacht. (– ) Slogan: Frisch. Bunt. Hausgemacht.",
+          "Bunte GemÃ¼sepfanne mit saisonalem GemÃ¼se in leichter Curry-Sauce, frisch und hausgemacht. (â )\nSlogan: Frisch. Bunt. Hausgemacht.",
         price: "12,95 €",
         dietary: ["vegetarisch"]
       },
       {
         id: "main-4",
         category: "mains",
-        name: "Smoky Baingan Roast",
-        description: 
-        "Geröstete Aubergine mit rauchigem Aroma, leicht gewürzt und modern angerichtet.",
-        price: "12,40 €",
-        dietary: ["vegetarisch"]
+        name: "Delhi Street Chana",
+        description:
+          "Kichererbsen in leichter Tomaten-Kokos-Sauce mit CurryblÃ¤ttern, Senfsaat und frischen KrÃ¤utern.\nInspiriert vom Geschmack Delhis â modern, leicht und aromatisch serviert. (j)\nSlogan: Herzhaft. Frisch. Authentisch.",
+        price: "12,95 €",
+        dietary: ["vegan"]
       },
       {
         id: "main-5",
         category: "mains",
-        name: "Mix Sabji",
-        description:
-          "Bunte Gemüsepfanne mit saisonalem Gemüse in leichter Curry-Sauce, frisch und hausgemacht.",
-        price: "12,95 €",
-        dietary: ["vegetarisch"]
-      },
-      {
-        id: "main-6",
-        category: "mains",
-        name: "Delhi Street Chana",
-        description:
-          "Kichererbsen in leichter Tomaten-Kokos-Sauce mit Curryblättern, Senfsaat und frischen Kräutern.",
-        price: "12,95 €",
-        dietary: ["vegan"]
-      },
-      {
-        id: "main-7",
-        category: "mains",
         name: "Dal Tadka",
         description:
-          "Gelbe Linsen mit Gewürzen und frischen Kräutern, aromatisch und leicht.",
+          "Gelbe Linsen mit GewÃ¼rzen & frischen KrÃ¤utern, aromatisch und leicht.\nSlogan: Herzhaft. WÃ¼rzig. Leicht.",
         price: "13,75 €",
         dietary: ["vegan"]
       },
       {
-        id: "main-8",
+        id: "main-6",
         category: "mains",
         name: "Chili Paneer Stir-Fry / Mushroom & Spinach",
         description:
-          "Paneerwürfel mit Paprika, Zwiebeln in leichter Chili-Tomatensauce, kurz gebraten.",
+          "PaneerwÃ¼rfel mit Paprika, Zwiebeln in leichter Chili-Tomatensauce, kurz gebraten. (g)\nSlogan: WÃ¼rzig. Knackig. Leicht.",
         price: "14,50 €",
+        dietary: ["vegetarisch"]
+      },
+      {
+        id: "main-7",
+        category: "mains",
+        name: "Palak Paneer",
+        description:
+          "Paneer in mildem Spinat-Curry, cremig, leicht und schnell zuzubereiten. (g)\nSlogan: GrÃ¼n. Cremig. Gesund.",
+        price: "14,95 €",
+        dietary: ["vegetarisch"]
+      },
+      {
+        id: "main-8",
+        category: "mains",
+        name: "Methi Malai Kofta (Alternative mit Kartoffel )",
+        description:
+          "GemÃ¼se-KlÃ¶Ãchen in cremiger Methi-Cashew-Tomaten-Sauce, modern angerichtet. (g,h1,h4)\nSlogan: Cremig. Leicht. KÃ¶stlich.",
+        price: "14,95 €",
         dietary: ["vegetarisch"]
       },
       {
         id: "main-9",
         category: "mains",
-        name: "Palak Paneer",
+        name: "Shahi Paneer",
         description:
-          "Paneer in mildem Spinat-Curry, cremig, leicht und schnell zuzubereiten.",
-        price: "14,95 €",
+          "Cremiger Paneer in leichter Cashew-Tomaten-Sauce, modern interpretiert. (g,h1,h4)\nSlogan: Cremig. Aromatisch. Elegant.",
+        price: "15,50 €",
         dietary: ["vegetarisch"]
       },
       {
         id: "main-10",
         category: "mains",
-        name: "Methi Malai Kofta",
+        name: "Dal Makhni",
         description:
-          "Gemüse-Klößchen in cremiger Methi-Cashew-Tomaten-Sauce, modern angerichtet.",
-        price: "14,95 €",
+          "Schwarze Linsen und Kidneybohnen, Ã¼ber 16 Stunden sanft geschmort, in leichter\nButter-Sahne Sauce nach original indischer Art (g,h) \nSlogan: Cremig. Aromatisch. Traditionell.",
+        price: "15,70 €",
         dietary: ["vegetarisch"]
       },
       {
         id: "main-11",
         category: "mains",
-        name: "Shahi Paneer",
+        name: "Paneer Tikka Light / Sizzler",
         description:
-          "Cremiger Paneer in leichter Cashew-Tomaten-Sauce, modern interpretiert.",
-        price: "15,50 €",
+          "Gegrillte PaneerwÃ¼rfel mit Paprika & Zwiebeln, leicht gewÃ¼rzt, in milder Tomaten-Cashew-Sauce. / serviert auf\nheiÃer gusseisernen Platte mit rauchiger Masala-Sauce. (g,h4)\nSlogan: Gegrillt. Aromatisch. Leicht.",
+        price: "15,90 €",
         dietary: ["vegetarisch"]
       },
       {
         id: "main-12",
         category: "mains",
-        name: "Dal Makhni",
+        name: "Chicken Chettinad",
         description:
-          "Schwarze Linsen & Kidneybohnen in leichter Butter-Cashew-Sauce, cremig aber leicht.",
-        price: "15,70 €",
-        dietary: ["vegetarisch"]
+          "SÃ¼dindisches HÃ¤hnchen-Curry mit Pfeffer, Kokos, CurryblÃ¤ttern und aromatischen GewÃ¼rzen, krÃ¤ftig aber ausgewogen. (g)\nSlogan: KrÃ¤ftig. WÃ¼rzig. Authentisch.",
+        price: "13,90 €",
+        dietary: []
       },
       {
         id: "main-13",
         category: "mains",
-        name: "Paneer Tikka Light / Sizzler",
+        name: "Chicken Jalfrezi",
         description:
-          "Gegrillter Paneer mit Paprika & Zwiebeln, leicht gewürzt, in milder Tomaten-Cashew-Sauce / serviert auf heißem Sizzler mit leichter Masala-Sauce.",
-        price: "15,90 €",
-        dietary: ["vegetarisch"]
+          "HÃ¤hnchenstÃ¼cke mit Paprika, Zwiebeln und Tomaten in wÃ¼rziger Sauce gebraten. (â )\nSlogan: Knackig. WÃ¼rzig. Aromatisch.",
+        price: "14,50 €",
+        dietary: []
       },
       {
         id: "main-14",
         category: "mains",
-        name: "Chicken Chettinad",
+        name: "Chicken Madras",
         description:
-          "Südindisches Hähnchen-Curry mit Pfeffer, Kokos, Curryblättern und aromatischen Gewürzen, kräftig aber ausgewogen.",
-        price: "13,90 €",
+          "KrÃ¤ftiges HÃ¤hnchen-Curry mit Tomaten, Zwiebeln, CurryblÃ¤ttern und sÃ¼dindischen GewÃ¼rzen, angenehm scharf. (â )\nSlogan: Aromatisch. Pikant. Klassisch.",
+        price: "14,90 €",
         dietary: []
       },
       {
         id: "main-15",
         category: "mains",
-        name: "Chicken Jalfrezi",
+        name: "Smoky Tandoori Chicken Sizzler",
         description:
-          "Hähnchenstücke mit Paprika, Zwiebeln und Tomaten in würziger Sauce gebraten.",
-        price: "14,50 €",
+          "Zartes, gegrilltes HÃ¤hnchen mit rauchiger Tandoori-Note, serviert auf heiÃer Platte mit leichter Curry-Sauce. (g)\nSlogan: Rauchig. WÃ¼rzig. Knusprig.",
+        price: "14,90 €",
         dietary: []
       },
       {
         id: "main-16",
         category: "mains",
-        name: "Chicken Madras",
+        name: "Chicken Saagwala",
         description:
-          "Kräftiges Hähnchen-Curry mit Tomaten, Zwiebeln, Curryblättern und südindischen Gewürzen, angenehm scharf.",
+          "Zartes HÃ¤hnchen in cremigem Spinat-Curry mit Ingwer, Knoblauch und leichten GewÃ¼rzen. (g)\nSlogan: GrÃ¼n. Cremig. Gesund.",
         price: "14,90 €",
         dietary: []
       },
       {
         id: "main-17",
         category: "mains",
-        name: "Smoky Tandoori Chicken Sizzler",
+        name: "Mango Chicken Curry",
         description:
-          "Zartes, gegrilltes Hähnchen mit rauchiger Tandoori-Note, serviert auf heißer Platte mit leichter Curry-Sauce.",
+          "HÃ¤hnchenstÃ¼cke in gelb-fruchtiger Mango-Curry-Sauce mit leichten GewÃ¼rzen. (g)\nSlogan: Fruchtig. Aromatisch. Saftig.",
         price: "14,90 €",
         dietary: []
       },
       {
         id: "main-18",
         category: "mains",
-        name: "Chicken Saagwala",
+        name: "Chicken Tikka Masala",
         description:
-          "Zartes Hähnchen in cremigem Spinat-Curry mit Ingwer, Knoblauch und leichten Gewürzen.",
-        price: "14,90 €",
+          "Gegrilltes HÃ¤hnchen in cremiger, mild-wÃ¼rziger orangefarbener Sauce mit Tomaten und Cashew. (g,h4)\nSlogan: Cremig. Aromatisch. WÃ¼rzig.",
+        price: "15,50 €",
         dietary: []
       },
       {
         id: "main-19",
         category: "mains",
-        name: "Mango Chicken Curry",
+        name: "Butter Chicken",
         description:
-          "Hähnchenstücke in gelb-fruchtiger Mango-Curry-Sauce mit leichten Gewürzen.",
-        price: "14,90 €",
+          "Zartes HÃ¤hnchen in cremiger Tomaten-Cashew-Sauce, fein gewÃ¼rzt. (g,h4)\nSlogan: Cremig. Aromatisch. Saftig.",
+        price: "15,90 €",
         dietary: []
       },
       {
         id: "main-20",
         category: "mains",
-        name: "Chicken Tikka Masala",
+        name: "Delhi Lamm Curry",
         description:
-          "Gegrilltes Hähnchen in cremiger, mild-würziger orangefarbener Sauce mit Tomaten und Cashew.",
+          "Zartes Lamm in aromatischer Tomaten-Zwiebel-Sauce mit Ingwer, Knoblauch und feiner GewÃ¼rzmischung, nach traditioneller Art aus Neu-Delhi. (g)\nSlogan: Aromatisch. Authentisch. Unvergesslich.",
         price: "15,50 €",
         dietary: []
       },
       {
         id: "main-21",
         category: "mains",
-        name: "Butter Chicken",
+        name: "Lamm Rogan Josh",
         description:
-          "Zartes Hähnchen in cremiger Tomaten-Cashew-Sauce, fein gewürzt.",
+          "Zarte LammstÃ¼cke in aromatischer, tiefroter Tomaten-GewÃ¼rz-Sauce nach nordindischer Art. (g)\nSlogan: KrÃ¤ftig. WÃ¼rzig. Authentisch.",
         price: "15,90 €",
         dietary: []
       },
       {
         id: "main-22",
         category: "mains",
-        name: "Scampi Masala",
+        name: "Lamm Saag",
         description:
-          "Scampi in kräftiger Tomaten-Zwiebel-Sauce mit Ingwer, Knoblauch und aromatischer Gewürzmischung, leicht pikant.",
-        price: "15,50 €",
+          "Zartes Lamm in leuchtend grÃ¼ner Spinat-Sauce, verfeinert mit frischen GewÃ¼rzen. (g)\nSlogan: GrÃ¼n. WÃ¼rzig. Herzhaft.",
+        price: "15,90 €",
         dietary: []
       },
       {
         id: "main-23",
         category: "mains",
-        name: "Scampi Butter Masala",
+        name: "Lamm Korma",
         description:
-          "Scampi in cremiger Butter-Tomaten-Cashew-Sauce, mild gewürzt und verfeinert mit frischem Koriander.",
-        price: "15,90 €",
+          "Zartes Lamm in cremiger, hellgelber Cashew-Sauce mit einer feinen nussigen Note. (g, h4)\nSlogan: Mild. Cremig. Elegant.",
+        price: "16,50 €",
         dietary: []
       },
       {
         id: "main-24",
         category: "mains",
-        name: "Saffron Flame Fish",
+        name: "Smoky Lamm Sizzler",
         description:
-          "Zartes Fischfilet in aromatischer Tomaten-Zwiebel-Sauce mit feinen Gewürzen, leichter Schärfe und einem Hauch Safran.",
-        price: "16,50 €",
+          "Gegrillte LammstÃ¼cke mit rauchiger Note, serviert auf heiÃer Platte mit leichter Masala-Sauce und frischen KrÃ¤utern. (g)\nSlogan: Rauchig. Zart. Aromatisch",
+        price: "16,90 €",
         dietary: []
       },
       {
         id: "main-25",
         category: "mains",
-        name: "Butter Naan",
+        name: "Scampi Masala",
         description:
-          "Weiches, frisch gebackenes Naan-Brot mit leichter Butterglaze, ideal zum Dippen in cremige Currys.",
-        price: "3,50 €",
-        dietary: ["vegetarisch"]
+          "Scampi in krÃ¤ftiger Tomaten-Zwiebel-Sauce mit Ingwer, Knoblauch und aromatischer GewÃ¼rzmischung, leicht pikant. (b)\nSlogan: Aromatisch. WÃ¼rzig. Herzhaft.",
+        price: "15,50 €",
+        dietary: []
       },
       {
         id: "main-26",
         category: "mains",
-        name: "Garlic Naan",
+        name: "Scampi Butter Masala",
         description:
-          "Aromatisches Naan mit frischem Knoblauch und Butter, im Tandoor gebacken, duftend & knusprig.",
-        price: "3,75 €",
-        dietary: ["vegetarisch"]
+          "Scampi in cremiger Butter-Tomaten-Cashew-Sauce, mild gewÃ¼rzt und verfeinert mit frischem Koriander. (b,g,h4)\nSlogan: Cremig. Aromatisch. Elegant.",
+        price: "15,90 €",
+        dietary: []
       },
       {
         id: "main-27",
         category: "mains",
-        name: "Tandoori Roti (Vollkorn)",
+        name: "Saffron Flame Fish",
         description:
-          "Traditionelles, dünnes Vollkornbrot aus dem Tandoor – ohne Butter, leicht & vegan.",
-        price: "3,50 €",
-        dietary: ["vegan"]
-      },
-      {
-        id: "main-28",
-        category: "mains",
-        name: "Paneer Naan",
-        description:
-          "Weiches, im Tandoor gebackenes Naan-Brot, gefüllt mit mild gewürfeltem Paneer und milden indischen Gewürzen – aromatisch & sättigend.",
-        price: "4,20 €",
-        dietary: ["vegetarisch"]
-      },
-      {
-        id: "main-29",
-        category: "mains",
-        name: "Bread Basket (für zwei)",
-        description:
-          "Auswahl aus Butter Naan, Garlic Naan & Tandoori Roti – perfekt zum Teilen.",
-        price: "6,20 €",
-        dietary: ["vegetarisch"]
-      },
-      {
-        id: "main-30",
-        category: ["mains", "rice"],
-        name: "Basmati Reis",
-        description:
-          "Aromatischer, locker gekochter Premium-Basmati – die klassische Beilage zu allen Currys.",
-        price: "3,50 €",
-        dietary: ["vegan", "glutenfrei"]
-      },
-      {
-        id: "main-31",
-        category: ["mains", "rice"],
-        name: "Jeera Rice (Kreuzkummel-Reis)",
-        description:
-          "Basmati-Reis mit leicht geröstetem Kreuzkümmel & einem Hauch Ghee – duftend und aromatisch.",
-        price: "3,75 €",
-        dietary: ["vegetarisch", "glutenfrei"]
-      },
-      {
-        id: "main-32",
-        category: ["mains", "rice"],
-        name: "Lemon Rice (Sudindischer Stil)",
-        description:
-          "Leichter, gelber Reis mit Zitronensaft, Curryblättern & Senfsamen – erfrischend und farbenfroh.",
-        price: "3,75 €",
-        dietary: ["vegetarisch"]
-      },
-      {
-        id: "main-33",
-        category: "mains",
-        name: "Lamm Rogan Josh",
-        description:
-          "Zarte Lammstücke in aromatischer, tiefroter Tomaten-Gewürz-Sauce nach nordindischer Art.",
-        price: "15,90 €",
-        dietary: []
-      },
-      {
-        id: "main-34",
-        category: "mains",
-        name: "Lamm Saag",
-        description:
-          "Zartes Lamm in leuchtend grüner Spinat-Sauce, verfeinert mit frischen Gewürzen.",
-        price: "15,90 €",
-        dietary: []
-      },
-      {
-        id: "main-35",
-        category: "mains",
-        name: "Lamm Korma",
-        description:
-          "Zartes Lamm in cremiger, hellgelber Cashew-Sauce mit einer feinen nussigen Note.",
+          "Zartes Fischfilet in aromatischer Tomaten-Zwiebel-Sauce mit feinen GewÃ¼rzen, leichter SchÃ¤rfe und einem Hauch Safran. (d,g)\nSlogan: Fein. Exotisch. VerfÃ¼hrerisch.",
         price: "16,50 €",
-        dietary: []
-      },
-      {
-        id: "main-36",
-        category: "mains",
-        name: "Smoky Lamm Sizzler",
-        description:
-          "Gegrillte Lammstücke mit rauchiger Note, serviert auf heißer Platte mit leichter Masala-Sauce und frischen Kräutern.",
-        price: "16,90 €",
         dietary: []
       },
       {
         id: "biryani-1",
         category: "biryani",
-        name: "Gemüse Biryani",
+        name: "GemÃ¼se Biryani",
         description:
-          "Basmati-Reis mit Gemüse, Minze, Röstzwiebeln und Biryani-Gewürzen, serviert mit Raita.",
+          "Basmati-Reis mit GemÃ¼se, Minze, RÃ¶stzwiebeln und Biryani-GewÃ¼rzen, serviert mit Raita.",
         price: "13,20 €",
         dietary: ["vegetarisch"]
       },
@@ -563,7 +482,7 @@
         category: "biryani",
         name: "Chicken Biryani",
         description:
-          "Mariniertes Hähnchen, Basmati-Reis, Safran & Kräuter, im Dum-Stil gegart.",
+          "Mariniertes HÃ¤hnchen, Basmati-Reis, Safran & KrÃ¤uter, im Dum-Stil gegart.",
         price: "14,90 €",
         dietary: []
       },
@@ -571,7 +490,8 @@
         id: "bread-1",
         category: "bread",
         name: "Butter Naan",
-        description: "Weiches Fladenbrot aus dem Tandoor mit Butter.",
+        description:
+          "Weiches, frisch gebackenes Naan-Brot mit leichter Butterglaze, ideal zum Dippen in cremige Currys. (a,g)\nSlogan: Weich. Klassisch. Perfekt zu jedem Curry.",
         price: "3,50 €",
         dietary: ["vegetarisch"]
       },
@@ -579,43 +499,63 @@
         id: "bread-2",
         category: "bread",
         name: "Garlic Naan",
-        description: "Naan mit Knoblauch & Koriander.",
-        price: "3,70 €",
+        description:
+          "Aromatisches Naan mit frischem Knoblauch und Butter, im Tandoor gebacken, duftend & knusprig. (a,g)\nSlogan: Duftend. Knusprig. Beliebt.",
+        price: "3,75 €",
         dietary: ["vegetarisch"]
       },
       {
         id: "bread-3",
         category: "bread",
-        name: "Basmati Reis",
-        description: "Duftender Premium-Basmati-Reis.",
-        price: "3,70 €",
-        dietary: ["vegan", "glutenfrei"]
-      },
-      {
-        id: "bread-4",
-        category: "bread",
         name: "Tandoori Roti (Vollkorn)",
         description:
-          "Traditionelles, dünnes Vollkornbrot aus dem Tandoor – ohne Butter, leicht & vegan. Slogan: Dünn. Knusprig. Gesund.",
+          "Traditionelles, dÃ¼nnes Vollkornbrot aus dem Tandoor â ohne Butter, leicht & vegan. (a)\nSlogan: DÃ¼nn. Knusprig. Gesund.",
         price: "3,50 €",
         dietary: ["vegan"]
       },
       {
-        id: "bread-5",
+        id: "bread-4",
         category: "bread",
         name: "Paneer Naan",
         description:
-          "Weiches, frisch im Tandoor gebackenes Naan-Brot, gefüllt mit zart gewürfeltem Paneer und milden indischen Gewürzen – aromatisch & sättigend. Slogan: Cremig. Herzhaft. Immer beliebt.",
-        price: "4,20 €",
+          "Weiches, frisch im Tandoor gebackenes Naan-Brot, gefÃ¼llt mit zart gewÃ¼rfeltem Paneer und milden indischen GewÃ¼rzen â aromatisch & sÃ¤ttigend. (a, g)\nSlogan: Cremig. Herzhaft. Immer beliebt.",
+        price: "4,20€",
         dietary: ["vegetarisch"]
       },
       {
-        id: "bread-6",
+        id: "bread-5",
         category: "bread",
-        name: "Bread Basket (für zwei)",
+        name: "Bread Basket (fÃ¼r zwei)",
         description:
-          "Auswahl aus Butter Naan, Garlic Naan & Tandoori Roti – perfekt zum Teilen. Slogan: Vielfältig. Frisch. Zum Genießen.",
+          "Auswahl aus Butter Naan, Garlic Naan & Tandoori Roti â perfekt zum Teilen. (a,g)\nSlogan: VielfÃ¤ltig. Frisch. Zum GenieÃen.",
         price: "6,20 €",
+        dietary: ["vegetarisch"]
+      },
+      {
+        id: "rice-1",
+        category: "rice",
+        name: "Basmati Reis",
+        description:
+          "Aromatischer, locker gekochter Premium-Basmati â die klassische Beilage zu allen Currys. (â )\nSlogan: Duftend. Locker. Klassisch.",
+        price: "3,50 €",
+        dietary: ["vegan"]
+      },
+      {
+        id: "rice-2",
+        category: "rice",
+        name: "Jeera Rice (KreuzkÃ¼mmel-Reis)",
+        description:
+          "Basmati-Reis mit leicht gerÃ¶stetem KreuzkÃ¼mmel & einem Hauch Ghee â duftend und aromatisch. (g)\nSlogan: Aromatisch. Fein. Leicht.",
+        price: "3,75 €",
+        dietary: ["vegetarisch"]
+      },
+      {
+        id: "rice-3",
+        category: "rice",
+        name: "Lemon Rice (SÃ¼dindischer Stil)",
+        description:
+          "Leichter, gelber Reis mit Zitronensaft, CurryblÃ¤ttern & Senfsamen â erfrischend und farbenfroh. (j)\nSlogan: Frisch. Leicht. SÃ¼dindisch.",
+        price: "3,75 €",
         dietary: ["vegetarisch"]
       },
       {
