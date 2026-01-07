@@ -63,7 +63,7 @@
         category: "starters",
         name: "Masala Papadam Chips",
         description:
-          "Knusprige Papadam-Chips mit hausgemachtem Masala-Salz, dazu Mango-Chutney und Minz-Joghurt.",
+          "Knusprige Papadam-Chips mit Masala-Salz. Dazu hausgemachte Dips: Mango-Chutney,Minz-Joghurt & Tomaten-Salsa. (f,g)",
         price: "3,80 €",
         dietary: ["vegan"]
       },
@@ -72,7 +72,7 @@
         category: "starters",
         name: "Tandoori Brokkoli & Blumenkohl",
         description:
-          "Im Tandoor mariniertes Gemüse mit Joghurt, Garam Masala und frischem Koriander.",
+          "Im Tandoor mariniert und geröstet, serviert mit Limetten-Joghurt, Granatapfel und frischem Koriander (g)",
         price: "6,10 €",
         dietary: ["vegetarisch"]
       },
@@ -81,7 +81,7 @@
         category: "starters",
         name: "Samosa",
         description:
-          "Hausgemachte Teigtaschen gefüllt mit Kartoffeln, Erbsen & Gewürzen. Serviert mit Chutneys.",
+          "Dreierlei klassische Samosas: Kartoffel-Erbse, Mango-Chili. Serviert mit Minz- und Tamarinden-Chutney. (a,)",
         price: "6,20 €",
         dietary: ["vegan"]
       },
@@ -90,16 +90,16 @@
         category: "starters",
         name: "Dhokla Glow Tartine",
         description:
-          "Luftiges Dhokla mit zerdrückter Avocado, Kirschtomaten, Limette, Granatapfel, gerösteten Kürbiskernen und etwas Käse – eine farbenfrohe Hommage an die Aromen Indiens.",
+          "Luftiges Dhokla mit zerdrückter Avocado, Kirschtomaten, Limette, Granatapfel,gerösteten Kürbiskernen und etwas Käse – eine farbenfrohe Hommage an die Aromen Indiens (a,g)",
         price: "7,30 €",
         dietary: ["vegetarisch"]
       },
       {
         id: "starter-5",
         category: "starters",
-        name: "Palak Pop Crunch",
+        name: "Palak Corn Tikki",
         description:
-          "Knusprige Palak-Blätter, frittiert in Kichererbsenmehl, Hartweizengrieß & Maismehl, serviert mit süßem Joghurt, Saunth- & Minz-Chutney, Granatapfelkernen und knusprigem Sev – ein bunter, texturreicher Snack voller Geschmack und Frische.",
+          "Goldbraun gebratene Küchlein aus frischem Spinat und süßem Mais, fein abgeschmeckt mit ausgewählten indischen Gewürzen, serviert mit hausgemachtem Chutney (a,)",
         price: "8,20 €",
         dietary: ["vegetarisch"]
       },
@@ -108,7 +108,7 @@
         category: "starters",
         name: "Linsen Suppe oder Lasan Suppe",
         description:
-          "Aromatische Wahl: Rote Linsen mit Kreuzkümmel, Kurkuma & Ingwer oder gerösteter Knoblauch mit Zwiebeln & frischen Kräutern. Slogan: Soulful. Aromatic. Comforting.",
+          "(Knoblauchsuppe) Aromatische Wahl: Rote Linsen mit Kreuzkümmel, Kurkuma & Ingwer oder gerösteter Knoblauch mit Zwiebeln & frischen Kräutern. (– / g bei Ghee) Slogan: Soulful. Aromatic. Comforting.",
         price: "5,90 €",
         dietary: ["vegetarisch"]
       },
