@@ -210,9 +210,9 @@
       {
         id: "thali-1",
         category: "thalis",
-        name: "Vegetarisch Thali",
+        name: "Vegetarisch",
         description:
-          "Palak Paneer, Mix Sabji  & Chili Paneer Stir-Fry, serviert mit duftendem Basmati-Reis, Naan und einem kleinen Dal Makhani. Abgerundet mit einem erfrischenden Schwarze Johannisbeere Sorbet oder einem Stück Pistazien-Cheesecake. (a1,g) Slogan : Leicht. Bunt. Aromatisch.",
+          "Palak Paneer, Mix Sabji  & Chili Paneer Stir-Fry, serviert mit duftendem Basmati-Reis, Naan und einem kleinen Dal Makhani. Abgerundet mit einem erfrischenden Schwarze Johannisbeere Sorbet oder einem Stück Pistazien-Cheesecake. (a1,g)\nSlogan : Leicht. Bunt. Aromatisch.",
         price: "22,95 €",
         dietary: ["vegetarisch"]
       },
@@ -221,7 +221,7 @@
         category: "thalis",
         name: "Nicht-Vegetarisch",
         description:
-          "Tandoori Chicken Masala & Lamb Saag Curry, serviert mit Basmati-Reis Naan und einem cremigen Dal Makhni.Dazu als süßer Abschluss wahlweise Mango Lassi Panna Cotta oder Pistazien-Cheesecake. (a2,g,h5) Slogan : Aromatisch. Leicht. Exotisch",
+          "Tandoori Chicken Masala & Lamb Saag Curry, serviert mit Basmati-Reis Naan und einem cremigen Dal Makhni.Dazu als süßer Abschluss wahlweise Mango Lassi Panna Cotta oder Pistazien-Cheesecake. (a2,g,h5)\nSlogan : Aromatisch. Leicht. Exotisch",
         price: "24,60 €",
         dietary: ["vegetarisch"]
       },
