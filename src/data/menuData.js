@@ -59,110 +59,100 @@
     ],
     items: [
       {
-        id: "starter-1",
-        category: "starters",
-        name: "Masala Papadam Chips",
-        description:
-          "Knusprige Papadam-Chips mit Masala-Salz. Dazu hausgemachte Dips: Mango-Chutney,Minz-Joghurt & Tomaten-Salsa. (f,g)",
-        price: "3,80 €",
-        dietary: ["vegan"]
-      },
-      {
-        id: "starter-2",
-        category: "starters",
-        name: "Tandoori Brokkoli & Blumenkohl",
-        description:
-          "Im Tandoor mariniert und geröstet, serviert mit Limetten-Joghurt, Granatapfel und frischem Koriander (g)",
-        price: "6,10 €",
-        dietary: ["vegetarisch"]
-      },
-      {
-        id: "starter-3",
-        category: "starters",
-        name: "Samosa",
-        description:
-          "Dreierlei klassische Samosas: Kartoffel-Erbse, Mango-Chili. Serviert mit Minz- und Tamarinden-Chutney. (a1)",
-        price: "6,20 €",
-        dietary: ["vegan"]
-      },
-      {
-        id: "starter-4",
-        category: "starters",
-        name: "Dhokla Glow Tartine",
-        description:
-          "luftiges Dhokla mit zerdrückter Avocado, Kirschtomaten, Limette, Granatapfel,gerösteten Kürbiskernen und etwas Käse-eine farbenfrohe Hommage an die Aromen Indiens (a,g)",
-        price: "7,30 €",
-        dietary: ["vegetarisch"]
-      },
-      {
-        id: "starter-5",
-        category: "starters",
-        name: "Palak Corn Tikki",
-        description:
-          "Goldbraun gebratene Küchlein aus frischem Spinat und süßem Mais, fein abgeschmeckt mit ausgewählten indischen Gewürzen, serviert mit hausgemachtem Chutney (a1)",
-        price: "8,20 €",
-        dietary: ["vegetarisch"]
-      },
-      {
-        id: "starter-6",
-        category: "starters",
-        name: "Linsen Suppe oder Lasan Suppe",
-        description:
-          "(Knoblauchsuppe) Aromatische Wahl: Rote Linsen mit Kreuzkümmel, Kurkuma & Ingwer oder gerösteter Knoblauch mit Zwiebeln & frischen Kräutern. (– / g bei Ghee) Slogan:  Soulful . Aromatic.  Comforting.",
-        price: "5,90 €",
-        dietary: ["vegetarisch"]
-      },
-      {
-        id: "chaat-1",
-        category: "chaat",
-        name: "Peanut Masala Chaat",
-        description:
-          "Geröstete Erdnüsse mit frischen Tomaten, Zwiebeln, grünem Chili, Limette und Koriander –würzig, knackig und erfrischend, wie man es von den Straßen Mumbais kennt.Leicht, proteinreich & voll Geschmack. (e)Slogan:  Spicy. Tangy. Crunchy.",
-        price: "6,40 €",
-        dietary: ["vegetarisch"]
-      },
-      {
-        id: "chaat-2",
-        category: "chaat",
-        name: "Dahi Cloud Papdi",
-        description:
-          "Knusprige Papdi-Schichten, cremiger Joghurt, Chutney-Trio und Sev – weich,kühl und cremig, mit einem Hauch von Süße und Würze. (a1,g)",
-        price: "8,20 €",
-        dietary: ["vegetarisch"]
-      },
-      {
-        id: "chaat-3",
-        category: "chaat",
-        name: "Quinoa Glow Chaat ",
-        description:
-          "Geröstete Süßkartoffeln und proteinreiches Quinoa mit frischem Granatapfel, Kichererbsen und einem erfrischenden Minz-Joghurt-Dressing. Gesund, leicht und farbenfroh – perfekt für bewusste Genießer. (g,h)",
-        price: "10,20 €",
-        dietary: ["vegetarisch"]
-      },
-      {
-        id: "chaat-4",
-        category: "chaat",
-        name: "Avocado Bombay Bites",
-        description:
-          "Mini-Puris gefüllt mit cremiger Avocado, süßer Mango, würzigen Kichererbsen und knusprigem Sev. Frisch, knackig und ein moderner Twist auf die traditionellen Bombay-Puris. (a,e)",
-        price: "10,60 €",
-        dietary: ["vegetarisch"]
-      },
-      {
-        id: "chaat-5",
-        category: "chaat",
-        name: "Tandoori Street Toss",
-        description:
-          "Zartes Tandoori-Hähnchen, mariniert in Gewürzen, kombiniert mit Zwiebeln, Tomaten, frischem Koriander und einem Spritzer Limette. Rauchig, würzig und aufregend – ein moderner Street-Food-Genuss. (g)",
-        price: "11,80 €",
-        dietary: []
-      },
+  "id": "starter-1",
+  "category": "starters",
+  "name": "Masala Papadam Chips",
+  "description": "Knusprige Papadam-Chips mit Masala-Salz. Dazu hausgemachte Dips: Mango-Chutney, Minz-Joghurt & Tomaten-Salsa. (f,g)",
+  "price": "3,80 €",
+  "dietary": ["vegetarisch"]
+},
+{
+  "id": "starter-2",
+  "category": "starters",
+  "name": "Tandoori Brokkoli & Blumenkohl",
+  "description": "Im Tandoor mariniert und geröstet, serviert mit Limetten-Joghurt, Granatapfel und frischem Koriander. (g)",
+  "price": "6,10 €",
+  "dietary": ["vegetarisch"]
+},
+{
+  "id": "starter-3",
+  "category": "starters",
+  "name": "Samosa",
+  "description": "Dreierlei klassische Samosas: Kartoffel-Erbse, Mango-Chili. Serviert mit Minz- und Tamarinden-Chutney. (a1)",
+  "price": "6,20 €",
+  "dietary": ["vegetarisch"]
+},
+{
+  "id": "starter-4",
+  "category": "starters",
+  "name": "Dhokla Glow Tartine",
+  "description": "Luftiges Dhokla mit zerdrückter Avocado, Kirschtomaten, Limette, Granatapfel, gerösteten Kürbiskernen und etwas Käse – eine farbenfrohe Hommage an die Aromen Indiens. (a,g)",
+  "price": "7,30 €",
+  "dietary": ["vegetarisch"]
+},
+{
+  "id": "starter-5",
+  "category": "starters",
+  "name": "Palak Corn Tikki",
+  "description": "Goldbraun gebratene Küchlein aus frischem Spinat und süßem Mais, fein abgeschmeckt mit ausgewählten indischen Gewürzen, serviert mit hausgemachtem Chutney. (a1)",
+  "price": "8,20 €",
+  "dietary": ["vegetarisch"]
+},
+{
+  "id": "starter-6",
+  "category": "starters",
+  "name": "Linsen Suppe oder Lasan Suppe",
+  "description": "(Knoblauchsuppe) Aromatische Wahl: Rote Linsen mit Kreuzkümmel, Kurkuma & Ingwer oder gerösteter Knoblauch mit Zwiebeln & frischen Kräutern. (– / g bei Ghee). Slogan: Soulful. Aromatic. Comforting.",
+  "price": "5,90 €",
+  "dietary": ["vegetarisch"]
+},
+
+     {
+  "id": "chaat-1",
+  "category": "chaat",
+  "name": "Peanut Masala Chaat",
+  "description": "Geröstete Erdnüsse mit frischen Tomaten, Zwiebeln, grünem Chili, Limette und Koriander – würzig, knackig und erfrischend, wie man es von den Straßen Mumbais kennt. Leicht, proteinreich & voll Geschmack. (e) Slogan: Spicy. Tangy. Crunchy.",
+  "price": "6,40 €",
+  "dietary": ["vegetarisch"]
+},
+{
+  "id": "chaat-2",
+  "category": "chaat",
+  "name": "Dahi Cloud Papdi",
+  "description": "Knusprige Papdi-Schichten, cremiger Joghurt, Chutney-Trio und Sev – weich, kühl und cremig, mit einem Hauch von Süße und Würze. (a1,g)",
+  "price": "8,20 €",
+  "dietary": ["vegetarisch"]
+},
+{
+  "id": "chaat-3",
+  "category": "chaat",
+  "name": "Quinoa Glow Chaat",
+  "description": "Geröstete Süßkartoffeln und proteinreiches Quinoa mit frischem Granatapfel, Kichererbsen und einem erfrischenden Minz-Joghurt-Dressing. Gesund, leicht und farbenfroh – perfekt für bewusste Genießer. (g,h)",
+  "price": "10,20 €",
+  "dietary": ["vegetarisch"]
+},
+{
+  "id": "chaat-4",
+  "category": "chaat",
+  "name": "Avocado Bombay Bites",
+  "description": "Mini-Puris gefüllt mit cremiger Avocado, süßer Mango, würzigen Kichererbsen und knusprigem Sev. Frisch, knackig und ein moderner Twist auf die traditionellen Bombay-Puris. (a,e)",
+  "price": "10,60 €",
+  "dietary": ["vegetarisch"]
+},
+{
+  "id": "chaat-5",
+  "category": "chaat",
+  "name": "Tandoori Street Toss",
+  "description": "Zartes Tandoori-Hähnchen, mariniert in Gewürzen, kombiniert mit Zwiebeln, Tomaten, frischem Koriander und einem Spritzer Limette. Rauchig, würzig und aufregend – ein moderner Street-Food-Genuss. (g)",
+  "price": "11,80 €",
+  "dietary": []
+},
       {
         id: "bowl-1",
         category: "bowls",
         name: "Avocado Mango Fusion Bowl (Vegan möglich)",
         description:
-          "Cremige Avocado und sonnengereifte Mango auf einem Bett aus Quinoa und Babyspinat, mit gerösteten Kichererbsen,Granatapfel, frischer Minze & Koriander. Abgerundet mit einem leichten Joghurt-Cumin-Dressing oder Kokosjoghurt. (g) Slogan: Tropisch. frisch. leicht.",
+          "Cremige Avocado und sonnengereifte Mango auf einem Bett aus Quinoa und Babyspinat, mit gerösteten Kicherer y bsen, Granatapfel, frischer Minze & Koriander. Abgerundet mit einem leichten Joghurt-Cumin-Dressing oder Kokosjoghurt. (g) Slogan: Tropisch. frisch. leicht.",
         price: "10,20 €",
         dietary: ["vegetarisch"]
       },
@@ -171,7 +161,7 @@
         category: "bowls",
         name: "Masala Rainbow Veggie Bowl (Vegan)",
         description:
-          "Buntes Gemüse (Karotten, Zucchini, Brokkoli, Blumenkohl) in mildem Masala-Curry, serviert auf Vollkornreis oder Quinoa. Mit gerösteten Walnüssen, frischen Kräutern und Granatapfelkernen für Farbe und Crunch. (h.) Slogan: Gesund. aromatisch. Instagram-tauglich.",
+          "Buntes Gemüse (Karotten, Zucchini, Brokkoli, Blumenkohl) in mildem Masala-Curry, serviert auf Vollkornreis oder Quinoa. Mit gerösteten walnüsse, frischen Kräutern und Granatapfelkernen für Farbe und Crunch. (h3) Slogan: Gesund. aromatisch. Instagram-tauglich.",
         price: "10,20 €",
         dietary: ["vegan"]
       },
@@ -180,7 +170,7 @@
         category: "bowls",
         name: "Chili Paneer Power Bowl",
         description:
-          "Beschreibung: Gebratener Paneer mit Paprika, Zuckerschoten und Frühlingszwiebeln in einer würzig-süßen Chili-Masala-Sauce, serviert mit Basmatireis. Ein moderner Klassiker voller Farbe, Aroma und Energie – perfekt für alle, die es würzig lieben. (g) Slogan: Hot. Sweet. Addictive.",
+          "Beschreibung: Gebratener Paneer mit Paprika, Zuckerschoten und Frühlingszwiebeln in einer würzig-süßenChili-Masala-Sauce, serviert mit Basmatireis. Ein moderner Klassiker voller Farbe, Aroma und Energie – perfekt für alle, die es würzig lieben. (g) Slogan: Hot.  Sweet.  Addictive.",
         price: "10,50 €",
         dietary: ["vegetarisch"]
       },
@@ -196,9 +186,9 @@
       {
         id: "bowl-5",
         category: "bowls",
-        name: "Lamb & Quinoa Bowl (Fusion-Style) ",
+        name: "Lamb & Quinoa Bowl (Fusion-Style)",
         description:
-          "Zartes Lammfilet in leichten Garam-Masala-Aromen, serviert auf Quinoa mit gegrilltem Gemüse, Walnüsse und frischem Koriander. Ein frisches, kreatives Fusion-Gericht mit indischem Flair. (h.) Slogan: Leicht. würzig. modern.",
+          "Zartes Lammfilet in leichten Garam-Masala-Aromen, serviert auf Quinoa mit gegrilltem Gemüse, Walnüsse und frischem Koriander. Ein frisches, kreatives Fusion-Gericht mit indischem Flair. (h3) Slogan: Leicht. würzig. modern.",
         price: "14,10 €",
         dietary: []
       },
@@ -222,7 +212,7 @@
         category: "thalis",
         name: "Vegetarisch Thali",
         description:
-          "Palak Paneer, Mix Sabji  & Chili Paneer Stir-Fry, serviert mit duftendem Basmati-Reis, Naan und einem kleinen Dal Makhani. Abgerundet mit einem erfrischenden Schwarze Johannisbeere Sorbet oder einem Stück Pistazien-Cheesecake. (a1,g) Slogan : icht. Bunt. Aromatisch.",
+          "Palak Paneer, Mix Sabji  & Chili Paneer Stir-Fry, serviert mit duftendem Basmati-Reis, Naan und einem kleinen Dal Makhani. Abgerundet mit einem erfrischenden Schwarze Johannisbeere Sorbet oder einem Stück Pistazien-Cheesecake. (a1,g) Slogan : Leicht. Bunt. Aromatisch.",
         price: "22,95 €",
         dietary: ["vegetarisch"]
       },
@@ -242,7 +232,7 @@
         description:
           "Kartoffeln mit Paprika & Zwiebeln in kräftiger Tomaten-Zwiebel-Sauce, leicht geröstet und aromatisch gewürzt. (m) Slogan: Herzhaft. Kräftig. Hausgemacht.",
         price: "12,40 €",
-        dietary: ["vegan"]
+        dietary: ["vegetarisch"]
       },
       {
         id: "main-2",
@@ -256,18 +246,18 @@
       {
         id: "main-3",
         category: "mains",
-        name: "Delhi Lamm Curry",
+        name: "Mix Sabji",
         description:
-          "Zart geschmortes Lamm in aromatischer Curry-Sauce, serviert mit Basmati-Reis.",
-        price: "15,90 €",
-        dietary: []
+          "Bunte Gemüsepfanne mit saisonalem Gemüse in leichter Curry-Sauce, frisch und hausgemacht. (– ) Slogan: Frisch. Bunt. Hausgemacht.",
+        price: "12,95 €",
+        dietary: ["vegetarisch"]
       },
       {
         id: "main-4",
         category: "mains",
         name: "Smoky Baingan Roast",
-        description:
-          "Geröstete Aubergine mit rauchigem Aroma, leicht gewürzt und modern angerichtet.",
+        description: 
+        "Geröstete Aubergine mit rauchigem Aroma, leicht gewürzt und modern angerichtet.",
         price: "12,40 €",
         dietary: ["vegetarisch"]
       },
