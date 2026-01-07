@@ -81,7 +81,7 @@
         category: "starters",
         name: "Samosa",
         description:
-          "Dreierlei klassische Samosas: Kartoffel-Erbse, Mango-Chili. Serviert mit Minz- und Tamarinden-Chutney. (a,)",
+          "Dreierlei klassische Samosas: Kartoffel-Erbse, Mango-Chili. Serviert mit Minz- und Tamarinden-Chutney. (a1)",
         price: "6,20 €",
         dietary: ["vegan"]
       },
@@ -90,7 +90,7 @@
         category: "starters",
         name: "Dhokla Glow Tartine",
         description:
-          "Luftiges Dhokla mit zerdrückter Avocado, Kirschtomaten, Limette, Granatapfel,gerösteten Kürbiskernen und etwas Käse – eine farbenfrohe Hommage an die Aromen Indiens (a,g)",
+          "luftiges Dhokla mit zerdrückter Avocado, Kirschtomaten, Limette, Granatapfel,gerösteten Kürbiskernen und etwas Käse-eine farbenfrohe Hommage an die Aromen Indiens (a,g)",
         price: "7,30 €",
         dietary: ["vegetarisch"]
       },
@@ -99,7 +99,7 @@
         category: "starters",
         name: "Palak Corn Tikki",
         description:
-          "Goldbraun gebratene Küchlein aus frischem Spinat und süßem Mais, fein abgeschmeckt mit ausgewählten indischen Gewürzen, serviert mit hausgemachtem Chutney (a,)",
+          "Goldbraun gebratene Küchlein aus frischem Spinat und süßem Mais, fein abgeschmeckt mit ausgewählten indischen Gewürzen, serviert mit hausgemachtem Chutney (a1)",
         price: "8,20 €",
         dietary: ["vegetarisch"]
       },
@@ -108,7 +108,7 @@
         category: "starters",
         name: "Linsen Suppe oder Lasan Suppe",
         description:
-          "(Knoblauchsuppe) Aromatische Wahl: Rote Linsen mit Kreuzkümmel, Kurkuma & Ingwer oder gerösteter Knoblauch mit Zwiebeln & frischen Kräutern. (– / g bei Ghee) Slogan: Soulful. Aromatic. Comforting.",
+          "(Knoblauchsuppe) Aromatische Wahl: Rote Linsen mit Kreuzkümmel, Kurkuma & Ingwer oder gerösteter Knoblauch mit Zwiebeln & frischen Kräutern. (– / g bei Ghee) Slogan:  Soulful . Aromatic.  Comforting.",
         price: "5,90 €",
         dietary: ["vegetarisch"]
       },
@@ -117,7 +117,7 @@
         category: "chaat",
         name: "Peanut Masala Chaat",
         description:
-          "Geröstete Erdnüsse mit frischen Tomaten, Zwiebeln, grünem Chili, Limette und Koriander – würzig,knackig und erfrischend, wie man es von den Straßen Mumbais kennt. Leicht, proteinreich & voll Geschmack. (e) Slogan: Spicy. Tangy. Crunchy.",
+          "Geröstete Erdnüsse mit frischen Tomaten, Zwiebeln, grünem Chili, Limette und Koriander –würzig, knackig und erfrischend, wie man es von den Straßen Mumbais kennt.Leicht, proteinreich & voll Geschmack. (e)Slogan:  Spicy. Tangy. Crunchy.",
         price: "6,40 €",
         dietary: ["vegetarisch"]
       },
@@ -126,14 +126,14 @@
         category: "chaat",
         name: "Dahi Cloud Papdi",
         description:
-          "Knusprige Papdi-Schichten, cremiger Joghurt, Chutney-Trio und Sev – weich,kühl und cremig, mit einem Hauch von Süße und Würze. (a,g)",
+          "Knusprige Papdi-Schichten, cremiger Joghurt, Chutney-Trio und Sev – weich,kühl und cremig, mit einem Hauch von Süße und Würze. (a1,g)",
         price: "8,20 €",
         dietary: ["vegetarisch"]
       },
       {
         id: "chaat-3",
         category: "chaat",
-        name: "Quinoa Glow Chaat",
+        name: "Quinoa Glow Chaat ",
         description:
           "Geröstete Süßkartoffeln und proteinreiches Quinoa mit frischem Granatapfel, Kichererbsen und einem erfrischenden Minz-Joghurt-Dressing. Gesund, leicht und farbenfroh – perfekt für bewusste Genießer. (g,h)",
         price: "10,20 €",
@@ -220,38 +220,38 @@
       {
         id: "thali-1",
         category: "thalis",
-        name: "Vegetarisches Thali",
+        name: "Vegetarisch Thali",
         description:
-          "Paneer-Curry, Gemüse-Sabji, Dal, Raita, Papadam, Naan & Dessert des Tages.",
-        price: "22,50 €",
+          "Palak Paneer, Mix Sabji  & Chili Paneer Stir-Fry, serviert mit duftendem Basmati-Reis, Naan und einem kleinen Dal Makhani. Abgerundet mit einem erfrischenden Schwarze Johannisbeere Sorbet oder einem Stück Pistazien-Cheesecake. (a1,g) Slogan : icht. Bunt. Aromatisch.",
+        price: "22,95 €",
         dietary: ["vegetarisch"]
       },
       {
         id: "thali-2",
         category: "thalis",
-        name: "New Delhi Signature Thali",
+        name: "Nicht-Vegetarisch",
         description:
-          "Butter Chicken, Lamm Curry, Dal Makhni, Gemüse, Reis, Naan & Dessert.",
+          "Tandoori Chicken Masala & Lamb Saag Curry, serviert mit Basmati-Reis Naan und einem cremigen Dal Makhni.Dazu als süßer Abschluss wahlweise Mango Lassi Panna Cotta oder Pistazien-Cheesecake. (a2,g,h5) Slogan : Aromatisch. Leicht. Exotisch",
         price: "24,60 €",
-        dietary: []
+        dietary: ["vegetarisch"]
       },
       {
         id: "main-1",
         category: "mains",
         name: "Aloo Shimla Masala",
         description:
-          "Kartoffeln & Paprika in kräftiger Tomaten-Zwiebel-Sauce mit nordindischen Gewürzen.",
+          "Kartoffeln mit Paprika & Zwiebeln in kräftiger Tomaten-Zwiebel-Sauce, leicht geröstet und aromatisch gewürzt. (m) Slogan: Herzhaft. Kräftig. Hausgemacht.",
         price: "12,40 €",
         dietary: ["vegan"]
       },
       {
         id: "main-2",
         category: "mains",
-        name: "Chicken Tikka Masala",
+        name: "Smoky Baingan Roast",
         description:
-          "Gegrillte Hähnchenstücke in cremiger Tomaten-Cashew-Sauce mit feiner Würze.",
-        price: "15,50 €",
-        dietary: []
+          "Geröstete Aubergine mit rauchigem Aroma, leicht gewürzt, modern angerichtet. (– ) Slogan: Rauchig. Würzig. Gesund.",
+        price: "12,40 €",
+        dietary: ["vegetarisch"]
       },
       {
         id: "main-3",
