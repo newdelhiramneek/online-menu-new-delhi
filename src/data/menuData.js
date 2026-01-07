@@ -160,18 +160,18 @@
       {
         id: "bowl-1",
         category: "bowls",
-        name: "Avocado Mango Fusion Bowl",
+        name: "Avocado Mango Fusion Bowl (Vegan möglich)",
         description:
-          "Bunte Bowl mit Quinoa, Avocado, Mango, Babyspinat, Kichererbsen & Minz-Joghurt-Dressing.",
+          "Cremige Avocado und sonnengereifte Mango auf einem Bett aus Quinoa und Babyspinat, mit gerösteten Kichererbsen,Granatapfel, frischer Minze & Koriander. Abgerundet mit einem leichten Joghurt-Cumin-Dressing oder Kokosjoghurt. (g) Slogan: Tropisch. frisch. leicht.",
         price: "10,20 €",
         dietary: ["vegetarisch"]
       },
       {
         id: "bowl-2",
         category: "bowls",
-        name: "Masala Rainbow Veggie Bowl",
+        name: "Masala Rainbow Veggie Bowl (Vegan)",
         description:
-          "Geröstetes Gemüse, Linsen, Basmati-Reis, Pickles & Cashew-Masala-Sauce.",
+          "Buntes Gemüse (Karotten, Zucchini, Brokkoli, Blumenkohl) in mildem Masala-Curry, serviert auf Vollkornreis oder Quinoa. Mit gerösteten Walnüssen, frischen Kräutern und Granatapfelkernen für Farbe und Crunch. (h.) Slogan: Gesund. aromatisch. Instagram-tauglich.",
         price: "10,20 €",
         dietary: ["vegan"]
       },
@@ -180,25 +180,25 @@
         category: "bowls",
         name: "Chili Paneer Power Bowl",
         description:
-          "Paneer-Würfel, Paprika, Zwiebeln & Chili-Sauce auf Basmati-Reis mit Kräutern.",
+          "Beschreibung: Gebratener Paneer mit Paprika, Zuckerschoten und Frühlingszwiebeln in einer würzig-süßen Chili-Masala-Sauce, serviert mit Basmatireis. Ein moderner Klassiker voller Farbe, Aroma und Energie – perfekt für alle, die es würzig lieben. (g) Slogan: Hot. Sweet. Addictive.",
         price: "10,50 €",
         dietary: ["vegetarisch"]
       },
       {
         id: "bowl-4",
         category: "bowls",
-        name: "Tandoori Chicken & Mango Bowl",
+        name: "Tandoori Chicken & Mango Bowl (bleibt)",
         description:
-          "Zartes Tandoori-Hähnchen auf Quinoa und Babyspinat, kombiniert mit süßer Mango, gerösteten Kichererbsen und Minz-Joghurt-Dressing. Ein leichter, frischer Twist auf indischen Klassiker.",
+          "Zartes Tandoori-Hähnchen auf Quinoa und Babyspinat, kombiniert mit süßer Mango, gerösteten Kichererbsen und Minz-Joghurt-Dressing. Ein leichter, frischer Twist auf indischem Klassiker. (g) Slogan: Aromatisch. leicht. tropisch.",
         price: "12,70 €",
         dietary: []
       },
       {
         id: "bowl-5",
         category: "bowls",
-        name: "Lamb & Quinoa Bowl (Fusion-Style)",
+        name: "Lamb & Quinoa Bowl (Fusion-Style) ",
         description:
-          "Zartes Lammfilet in leichten Garam-Masala-Aromen, serviert auf Quinoa mit gegrilltem Gemüse, Granatapfelkernen und frischem Koriander. Ein frisches, kreatives Fusion-Gericht mit indischem Flair.",
+          "Zartes Lammfilet in leichten Garam-Masala-Aromen, serviert auf Quinoa mit gegrilltem Gemüse, Walnüsse und frischem Koriander. Ein frisches, kreatives Fusion-Gericht mit indischem Flair. (h.) Slogan: Leicht. würzig. modern.",
         price: "14,10 €",
         dietary: []
       },
