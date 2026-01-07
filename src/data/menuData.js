@@ -111,7 +111,7 @@
   "id": "chaat-1",
   "category": "chaat",
   "name": "Peanut Masala Chaat",
-  "description": "Geröstete Erdnüsse mit frischen Tomaten, Zwiebeln, grünem Chili, Limette und Koriander – würzig, knackig und erfrischend, wie man es von den Straßen Mumbais kennt. Leicht, proteinreich & voll Geschmack. (e) Slogan: Spicy. Tangy. Crunchy.",
+  "description": "Geröstete Erdnüsse mit frischen Tomaten, Zwiebeln, grünem Chili, Limette und Koriander –würzig, knackig und erfrischend, wie man es von den Straßen Mumbais kennt.Leicht, proteinreich & voll Geschmack. (e)\nSlogan:  Spicy. Tangy. Crunchy.",
   "price": "6,40 €",
   "dietary": ["vegetarisch"]
 },
