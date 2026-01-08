@@ -548,43 +548,43 @@
         ],
         dietary: []
       },
-
       {
         id: "dessert-1",
         category: "desserts",
         name: "Mango Lassi Panna Cotta",
         description:
-          "Seidige Panna Cotta mit Mango-Pueree, leicht gewuerzt mit Kardamom. Geschmack & Farbe: Fruchtig, mild, sonniges Gelb. Slogan: Cremig. Fruchtig. Exotisch.",
-        price: "4,70 €",
-        dietary: ["vegetarisch"],
+          "Seidige Panna Cotta mit Mango-P?ree, leicht gew?rzt mit Kardamom. Geschmack & Farbe: Fruchtig, mild, sonniges Gelb (g)\nSlogan: Cremig. Fruchtig. Exotisch.",
+        price: "4,70 ?",
+        dietary: ["vegetarisch"]
       },
       {
         id: "dessert-2",
         category: "desserts",
-        name: "Gulab Jamun",
+        name: "Pistazien-Cheesecake",
         description:
-          "Mini-Cheesecakes mit Gulab Jamun - karamellfarben und aromatisch. Geschmack & Farbe: Suess, aromatisch, karamellfarben. Slogan: Suess. Aromatisch. Verfuehrerisch.",
-        price: "5,70 €",
-        dietary: ["vegetarisch"],
+          "Zarter Cheesecake mit Pistazien-P?ree auf knusprigem Boden. Geschmack & Farbe: Cremig, nussig, hellgr?n (a1,c,g,h5)\nSlogan: Cremig. Nussig. Verf?hrerisch.",
+        price: "6,80 ?",
+        dietary: ["vegetarisch"]
       },
       {
         id: "dessert-3",
         category: "desserts",
-        name: "Pistazien-Cheesecake",
+        name: "Schwarze Johannisbeere Sorbet",
         description:
-          "Zarter Cheesecake mit Pistazien-Pueree auf knusprigem Boden. Geschmack & Farbe: Cremig, nussig, hellgruen. Slogan: Cremig. Nussig. Verfuehrerisch.",
-        price: "6,80 €",
-        dietary: ["vegetarisch"],
+          "Fruchtiges Sorbet aus schwarzer Johannisbeere. (?)\nSlogan: Fruchtig. Erfrischend. Leicht.",
+        price: "5,70 ?",
+        dietary: ["vegan"]
       },
       {
         id: "dessert-4",
         category: "desserts",
-        name: "Kokos & Mango Sorbet",
+        name: "Gulab Jamun",
         description:
-          "Erfrischendes Sorbet aus Kokos und Mango, leicht fruchtig. Geschmack & Farbe: Fruchtig, exotisch, hellgelb-weiss. Slogan: Fruchtig. Erfrischend. Leicht.",
-        price: "5,70 €",
-        dietary: ["vegan"],
+          "Mini-Cheesecakes mit Gulab Jamun karamellfarben und aromatisch. Geschmack & Farbe: S??, aromatisch, karamellfarben (g, h5)\nSlogan: S??. Aromatisch. Verf?hrerisch.",
+        price: "5,70 ?",
+        dietary: ["vegetarisch"]
       },
+
       {
         id: "drink-1",
         category: "drinks",
@@ -601,14 +601,7 @@
         price: "3,50 €",
         dietary: ["vegetarisch"]
       },
-      {
-        id: "drink-3",
-        category: "drinks",
-        name: "Aperol Maracuja / Mango",
-        description: "Spritziger Cocktail mit exotischen Früchten.",
-        price: "7,50 €",
-        dietary: []
-      },
+
       {
         id: "soft-1",
         category: "softdrinks",
@@ -1240,42 +1233,6 @@
       },
 
       {
-        id: "dessert-1",
-        category: "desserts",
-        name: "Mango Lassi Panna Cotta",
-        description:
-          "Silky panna cotta with mango puree, lightly spiced with cardamom. Taste & color: fruity, mild, sunlit yellow. Slogan: Creamy. Fruity. Exotic.",
-        price: "4.70 €",
-        dietary: ["vegetarian"],
-      },
-      {
-        id: "dessert-2",
-        category: "desserts",
-        name: "Gulab Jamun",
-        description:
-          "Mini cheesecakes with gulab jamun, caramel-toned and aromatic. Taste & color: sweet, aromatic, caramel-colored. Slogan: Sweet. Aromatic. Indulgent.",
-        price: "5.70 €",
-        dietary: ["vegetarian"],
-      },
-      {
-        id: "dessert-3",
-        category: "desserts",
-        name: "Pistachio Cheesecake",
-        description:
-          "Delicate cheesecake with pistachio puree on a crisp base. Taste & color: creamy, nutty, pale green. Slogan: Creamy. Nutty. Indulgent.",
-        price: "6.80 €",
-        dietary: ["vegetarian"],
-      },
-      {
-        id: "dessert-4",
-        category: "desserts",
-        name: "Coconut & Mango Sorbet",
-        description:
-          "Refreshing sorbet of coconut and mango, lightly fruity. Taste & color: fruity, exotic, light yellow-white. Slogan: Fruity. Refreshing. Light.",
-        price: "5.70 €",
-        dietary: ["vegan"],
-      },
-      {
         id: "drink-1",
         category: "drinks",
         name: "Mango Lassi",
@@ -1292,13 +1249,42 @@
         dietary: ["vegetarian"]
       },
       {
-        id: "drink-3",
-        category: "drinks",
-        name: "Aperol Passion / Mango",
-        description: "Sparkling cocktail with passion fruit or mango.",
-        price: "7.50 €",
-        dietary: []
+        id: "dessert-1",
+        category: "desserts",
+        name: "Mango Lassi Panna Cotta",
+        description:
+          "Silky panna cotta with mango pur?e, lightly spiced with cardamom. Taste & color: fruity, mild, sunny yellow (g)\nSlogan: Creamy. Fruity. Exotic.",
+        price: "4.70 ?",
+        dietary: ["vegetarian"]
       },
+      {
+        id: "dessert-2",
+        category: "desserts",
+        name: "Pistachio Cheesecake",
+        description:
+          "Delicate cheesecake with pistachio pur?e on a crunchy base. Taste & color: creamy, nutty, light green (a1,c,g,h5)\nSlogan: Creamy. Nutty. Irresistible.",
+        price: "6.80 ?",
+        dietary: ["vegetarian"]
+      },
+      {
+        id: "dessert-3",
+        category: "desserts",
+        name: "Black Currant Sorbet",
+        description:
+          "Fruity black currant sorbet. (?)\nSlogan: Fruity. Refreshing. Light.",
+        price: "5.70 ?",
+        dietary: ["vegan"]
+      },
+      {
+        id: "dessert-4",
+        category: "desserts",
+        name: "Gulab Jamun",
+        description:
+          "Mini cheesecakes with gulab jamun, caramel-colored and aromatic. Taste & color: sweet, aromatic, caramel-colored (g, h5)\nSlogan: Sweet. Aromatic. Irresistible.",
+        price: "5.70 ?",
+        dietary: ["vegetarian"]
+      },
+
       {
         id: "soft-1",
         category: "softdrinks",
