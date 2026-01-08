@@ -464,27 +464,18 @@
         category: "mains",
         name: "Saffron Flame Fish",
         description:
-          "Zartes Fischfilet in aromatischer Tomaten-Zwiebel-Sauce mit feinen GewÃ¼rzen, leichter SchÃ¤rfe und einem Hauch Safran. (d,g)\nSlogan: Fein. Exotisch. VerfÃ¼hrerisch.",
+          "Zartes Fischfilet in aromatischer Tomaten-Zwiebel-Sauce mit feinen Gewürzen, leichter Schärfe und einem Hauch Safran. (d,g)\nSlogan: Fein. Exotisch. Verführerisch.",
         price: "16,50 €",
         dietary: []
       },
       {
         id: "biryani-1",
         category: "biryani",
-        name: "GemÃ¼se Biryani",
+        name: "Vegetarisch",
         description:
-          "Basmati-Reis mit GemÃ¼se, Minze, RÃ¶stzwiebeln und Biryani-GewÃ¼rzen, serviert mit Raita.",
+          "Basmati-Reis mit frischem saisonalem Gemüse, milden Gewürzen, Kräutern und einem Hauch Safran – leicht und aromatisch geschichtet.(g)\nSlogan: Aromatisch. Duftend. Modern.",
         price: "13,20 €",
         dietary: ["vegetarisch"]
-      },
-      {
-        id: "biryani-2",
-        category: "biryani",
-        name: "Chicken Biryani",
-        description:
-          "Mariniertes HÃ¤hnchen, Basmati-Reis, Safran & KrÃ¤uter, im Dum-Stil gegart.",
-        price: "14,90 €",
-        dietary: []
       },
       {
         id: "bread-1",
@@ -1257,24 +1248,14 @@
           "Grilled lamb pieces with smoky notes, served on a hot plate with light masala sauce and fresh herbs.",
         price: "16.90 €",
         dietary: []
-      },
-      {
+      },      {
         id: "biryani-1",
         category: "biryani",
-        name: "Vegetable Biryani",
+        name: "Vegetarian",
         description:
-          "Basmati rice with vegetables, mint, crispy onions, and biryani spices; served with raita.",
+          "Basmati rice with fresh seasonal vegetables, mild spices, herbs, and a hint of saffron—light and aromatic, layered gently. (g)\nSlogan: Aromatic. Fragrant. Modern.",
         price: "13.20 €",
         dietary: ["vegetarian"]
-      },
-      {
-        id: "biryani-2",
-        category: "biryani",
-        name: "Chicken Biryani",
-        description:
-          "Marinated chicken, basmati rice, saffron, and herbs, slow-cooked dum style.",
-        price: "14.90 €",
-        dietary: []
       },
       {
         id: "bread-1",
