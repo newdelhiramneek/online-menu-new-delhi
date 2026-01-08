@@ -2,7 +2,7 @@
 
 const MenuItemCard = ({ item, addToCartLabel, onAddToList }) => {
   const ctaLabel = addToCartLabel || "Add To List";
-  const isToppingsCard = item.id === "bowl-toppings";
+  const isToppingsCard = item.id === "bowl-toppings" || item.id === "biryani-toppings";
   const isVeg =
     item.dietary &&
     item.dietary.some((tag) => {

@@ -536,6 +536,20 @@
         dietary: ["vegetarisch"]
       },
       {
+        id: "biryani-toppings",
+        category: "biryani",
+        name: "Biryani Extras",
+        description: "Kombiniere dein Biryani mit Deinem Lieblingszusatz",
+        sizes: [
+          { label: "Paneer (gewürzt & gebraten) (g, v)", price: "2,40 €" },
+          { label: "Chicken (mariniert & Gewürzen)", price: "2,60 €" },
+          { label: "Lamm (zart geschmort, Gewürzen)", price: "3,40 €" },
+          { label: "Scampi (Gewürzmarinade & Koriander) (d, g)", price: "3,40 €" }
+        ],
+        dietary: []
+      },
+
+      {
         id: "dessert-1",
         category: "desserts",
         name: "Mango Lassi Panna Cotta",
@@ -1210,6 +1224,19 @@
           "Light, yellow rice with lemon juice, curry leaves, and mustard seeds—refreshing and colorful. (j)\nSlogan: Fresh. Light. South Indian.",
         price: "3.75 €",
         dietary: ["vegetarian"]
+      },
+      {
+        id: "biryani-toppings",
+        category: "biryani",
+        name: "Biryani Extras",
+        description: "Pair your biryani with your favorite add-on",
+        sizes: [
+          { label: "Paneer (spiced & pan-fried) (g, v)", price: "2.40 €" },
+          { label: "Chicken (marinated & spiced)", price: "2.60 €" },
+          { label: "Lamb (slow-braised, spiced)", price: "3.40 €" },
+          { label: "Scampi (spice marinade & coriander) (d, g)", price: "3.40 €" }
+        ],
+        dietary: []
       },
 
       {
