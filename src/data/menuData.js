@@ -32,16 +32,6 @@
         subtitle: "Fein gewürzter, duftender Basmati-Reis mit Kräutern."
       },
       {
-        id: "rice",
-        title: "Reis - Duftend & Leicht",
-        subtitle: "Basmati-Beilagen auf einen Blick: klassisch, Jeera oder Lemon."
-      },
-      {
-        id: "bread",
-        title: "Brote & Beilagen",
-        subtitle: "Frisch aus dem Tandoor und aus der Küche."
-      },
-      {
         id: "desserts",
         title: "DESSERTKARTE",
         subtitle: "Süßer Abschluss mit einem Hauch Indien."
@@ -51,11 +41,6 @@
         title: "Softdrinks",
         subtitle: "Erfrischende Limonaden & Saefte."
       },
-      {
-        id: "drinks",
-        title: "Getränke",
-        subtitle: "Softdrinks, Lassi, Bier, Wein & Cocktails."
-      }
     ],
     items: [
       {
@@ -396,6 +381,150 @@
         price: "15,90 €",
         dietary: []
       },
+      {
+        id: "main-20",
+        category: "mains",
+        name: "Delhi Lamm Curry",
+        description:
+          "Zartes Lamm in aromatischer Tomaten-Zwiebel-Sauce mit Ingwer, Knoblauch und feiner Gewürzmischung, nach traditioneller Art aus Neu-Delhi. (g)\nSlogan: Aromatisch. Authentisch. Unvergesslich.",
+        price: "15,50 €",
+        dietary: []
+      },
+      {
+        id: "main-21",
+        category: "mains",
+        name: "Lamm Rogan Josh",
+        description:
+          "Zarte Lammstücke in aromatischer, tiefroter Tomaten-Gewürz-Sauce nach nordindischer Art. (g)\nSlogan: Kräftig. Würzig. Authentisch.",
+        price: "15,90 €",
+        dietary: []
+      },
+      {
+        id: "main-22",
+        category: "mains",
+        name: "Lamm Saag",
+        description:
+          "Zartes Lamm in leuchtend grüner Spinat-Sauce, verfeinert mit frischen Gewürzen. (g)\nSlogan: Grün. Würzig. Herzhaft.",
+        price: "15,90 €",
+        dietary: []
+      },
+      {
+        id: "main-23",
+        category: "mains",
+        name: "Lamm Korma",
+        description:
+          "Zartes Lamm in cremiger, hellgelber Cashew-Sauce mit einer feinen nussigen Note. (g, h4)\nSlogan: Mild. Cremig. Elegant.",
+        price: "16,50 €",
+        dietary: []
+      },
+      {
+        id: "main-24",
+        category: "mains",
+        name: "Smoky Lamm Sizzler",
+        description:
+          "Gegrillte Lammstücke mit rauchiger Note, serviert auf heißer Platte mit leichter Masala-Sauce und frischen Kräutern. (g)\nSlogan: Rauchig. Zart. Aromatisch",
+        price: "16,90 €",
+        dietary: []
+      },
+      {
+        id: "main-25",
+        category: "mains",
+        name: "Scampi Masala",
+        description:
+          "Scampi in kräftiger Tomaten-Zwiebel-Sauce mit Ingwer, Knoblauch und aromatischer Gewürzmischung, leicht pikant. (b)\nSlogan: Aromatisch. Würzig. Herzhaft.",
+        price: "15,50 €",
+        dietary: []
+      },
+      {
+        id: "main-26",
+        category: "mains",
+        name: "Scampi Butter Masala",
+        description:
+          "Scampi in cremiger Butter-Tomaten-Cashew-Sauce, mild gewürzt und verfeinert mit frischem Koriander. (b,g,h4)\nSlogan: Cremig. Aromatisch. Elegant.",
+        price: "15,90 €",
+        dietary: []
+      },
+      {
+        id: "main-27",
+        category: "mains",
+        name: "Saffron Flame Fish",
+        description:
+          "Zartes Fischfilet in aromatischer Tomaten-Zwiebel-Sauce mit feinen Gewürzen, leichter Schärfe und einem Hauch Safran. (d,g)\nSlogan: Fein. Exotisch. Verführerisch.",
+        price: "16,50 €",
+        dietary: []
+      },
+      {
+        id: "main-28",
+        category: "mains",
+        name: "Butter Naan",
+        description:
+          "Weiches, frisch gebackenes Naan-Brot mit leichter Butterglaze, ideal zum Dippen in cremige Currys. (a,g)\nSlogan: Weich. Klassisch. Perfekt zu jedem Curry.",
+        price: "3,50 €",
+        dietary: ["vegetarisch"]
+      },
+      {
+        id: "main-29",
+        category: "mains",
+        name: "Garlic Naan",
+        description:
+          "Aromatisches Naan mit frischem Knoblauch und Butter, im Tandoor gebacken, duftend & knusprig. (a,g)\nSlogan: Duftend. Knusprig. Beliebt.",
+        price: "3,75 €",
+        dietary: ["vegetarisch"]
+      },
+      {
+        id: "main-30",
+        category: "mains",
+        name: "Tandoori Roti (Vollkorn)",
+        description:
+          "Traditionelles, dünnes Vollkornbrot aus dem Tandoor – ohne Butter, leicht & vegan. (a)\nSlogan: Dünn. Knusprig. Gesund.",
+        price: "3,50 €",
+        dietary: ["vegan"]
+      },
+      {
+        id: "main-31",
+        category: "mains",
+        name: "Paneer Naan",
+        description:
+          "Weiches, frisch im Tandoor gebackenes Naan-Brot, gefüllt mit zart gewürfeltem Paneer und milden indischen Gewürzen – aromatisch & sättigend. (a, g)\nSlogan: Cremig. Herzhaft. Immer beliebt.",
+        price: "4,20€",
+        dietary: ["vegetarisch"]
+      },
+      {
+        id: "main-32",
+        category: "mains",
+        name: "Bread Basket (für zwei)",
+        description:
+          "Auswahl aus Butter Naan, Garlic Naan & Tandoori Roti – perfekt zum Teilen. (a,g)\nSlogan: Vielfältig. Frisch. Zum Genießen.",
+        price: "6,20 €",
+        dietary: ["vegetarisch"]
+      },
+      {
+        id: "main-33",
+        category: "mains",
+        name: "Basmati Reis",
+        description:
+          "Aromatischer, locker gekochter Premium-Basmati – die klassische Beilage zu allen Currys. (– )\nSlogan: Duftend. Locker. Klassisch.",
+        price: "3,50 €",
+        dietary: ["vegan"]
+      },
+      {
+        id: "main-34",
+        category: "mains",
+        name: "Jeera Rice (Kreuzkümmel-Reis)",
+        description:
+          "Basmati-Reis mit leicht geröstetem Kreuzkümmel & einem Hauch Ghee – duftend und aromatisch. (g)\nSlogan: Aromatisch. Fein. Leicht.",
+        price: "3,75 €",
+        dietary: ["vegetarisch"]
+      },
+      {
+        id: "main-35",
+        category: "mains",
+        name: "Lemon Rice (Südindischer Stil)",
+        description:
+          "Leichter, gelber Reis mit Zitronensaft, Curryblättern & Senfsamen – erfrischend und farbenfroh. (j)\nSlogan: Frisch. Leicht. Südindisch.",
+        price: "3,75 €",
+        dietary: ["vegetarisch"]
+      },
 
       {
         id: "biryani-1",
@@ -404,78 +533,6 @@
         description:
           "Basmati-Reis mit frischem saisonalem Gemüse, milden Gewürzen, Kräutern und einem Hauch Safran – leicht und aromatisch geschichtet.(g)\nSlogan: Aromatisch. Duftend. Modern.",
         price: "13,20 €",
-        dietary: ["vegetarisch"]
-      },
-      {
-        id: "bread-1",
-        category: "bread",
-        name: "Butter Naan",
-        description:
-          "Weiches, frisch gebackenes Naan-Brot mit leichter Butterglaze, ideal zum Dippen in cremige Currys. (a,g)\nSlogan: Weich. Klassisch. Perfekt zu jedem Curry.",
-        price: "3,50 €",
-        dietary: ["vegetarisch"]
-      },
-      {
-        id: "bread-2",
-        category: "bread",
-        name: "Garlic Naan",
-        description:
-          "Aromatisches Naan mit frischem Knoblauch und Butter, im Tandoor gebacken, duftend & knusprig. (a,g)\nSlogan: Duftend. Knusprig. Beliebt.",
-        price: "3,75 €",
-        dietary: ["vegetarisch"]
-      },
-      {
-        id: "bread-3",
-        category: "bread",
-        name: "Tandoori Roti (Vollkorn)",
-        description:
-          "Traditionelles, dÃ¼nnes Vollkornbrot aus dem Tandoor â ohne Butter, leicht & vegan. (a)\nSlogan: DÃ¼nn. Knusprig. Gesund.",
-        price: "3,50 €",
-        dietary: ["vegan"]
-      },
-      {
-        id: "bread-4",
-        category: "bread",
-        name: "Paneer Naan",
-        description:
-          "Weiches, frisch im Tandoor gebackenes Naan-Brot, gefÃ¼llt mit zart gewÃ¼rfeltem Paneer und milden indischen GewÃ¼rzen â aromatisch & sÃ¤ttigend. (a, g)\nSlogan: Cremig. Herzhaft. Immer beliebt.",
-        price: "4,20€",
-        dietary: ["vegetarisch"]
-      },
-      {
-        id: "bread-5",
-        category: "bread",
-        name: "Bread Basket (fÃ¼r zwei)",
-        description:
-          "Auswahl aus Butter Naan, Garlic Naan & Tandoori Roti â perfekt zum Teilen. (a,g)\nSlogan: VielfÃ¤ltig. Frisch. Zum GenieÃen.",
-        price: "6,20 €",
-        dietary: ["vegetarisch"]
-      },
-      {
-        id: "rice-1",
-        category: "rice",
-        name: "Basmati Reis",
-        description:
-          "Aromatischer, locker gekochter Premium-Basmati â die klassische Beilage zu allen Currys. (â )\nSlogan: Duftend. Locker. Klassisch.",
-        price: "3,50 €",
-        dietary: ["vegan"]
-      },
-      {
-        id: "rice-2",
-        category: "rice",
-        name: "Jeera Rice (KreuzkÃ¼mmel-Reis)",
-        description:
-          "Basmati-Reis mit leicht gerÃ¶stetem KreuzkÃ¼mmel & einem Hauch Ghee â duftend und aromatisch. (g)\nSlogan: Aromatisch. Fein. Leicht.",
-        price: "3,75 €",
-        dietary: ["vegetarisch"]
-      },
-      {
-        id: "rice-3",
-        category: "rice",
-        name: "Lemon Rice (SÃ¼dindischer Stil)",
-        description:
-          "Leichter, gelber Reis mit Zitronensaft, CurryblÃ¤ttern & Senfsamen â erfrischend und farbenfroh. (j)\nSlogan: Frisch. Leicht. SÃ¼dindisch.",
-        price: "3,75 €",
         dietary: ["vegetarisch"]
       },
       {
@@ -651,16 +708,6 @@
         subtitle: "Fragrant spiced basmati rice with herbs."
       },
       {
-        id: "rice",
-        title: "Rice - Fragrant & Light",
-        subtitle: "All basmati sides together: classic, jeera, or lemon."
-      },
-      {
-        id: "bread",
-        title: "Breads & sides",
-        subtitle: "Fresh from the tandoor and the kitchen."
-      },
-      {
         id: "desserts",
         title: "DESSERT MENU",
         subtitle: "A sweet finish with a touch of India."
@@ -670,11 +717,6 @@
         title: "Soft drinks",
         subtitle: "Refreshing sodas and juices."
       },
-      {
-        id: "drinks",
-        title: "Drinks",
-        subtitle: "Soft drinks, lassi, beer, wine, and cocktails."
-      }
     ],
     items: [
       {
@@ -1025,58 +1067,151 @@
         price: "15.90 ?",
         dietary: []
       },
-
       {
-        id: "bread-1",
-        category: "bread",
+        id: "main-20",
+        category: "mains",
+        name: "Delhi Lamb Curry",
+        description:
+          "Tender lamb in an aromatic tomato-onion sauce with ginger, garlic, and a fine spice blend, prepared in the traditional style of New Delhi. (g)\nSlogan: Aromatic. Authentic. Unforgettable.",
+        price: "15.50 €",
+        dietary: []
+      },
+      {
+        id: "main-21",
+        category: "mains",
+        name: "Lamb Rogan Josh",
+        description:
+          "Tender lamb pieces in an aromatic deep-red tomato-spice sauce, North Indian style. (g)\nSlogan: Bold. Spiced. Authentic.",
+        price: "15.90 €",
+        dietary: []
+      },
+      {
+        id: "main-22",
+        category: "mains",
+        name: "Lamb Saag",
+        description:
+          "Tender lamb in a vibrant green spinach sauce, refined with fresh spices. (g)\nSlogan: Green. Spiced. Hearty.",
+        price: "15.90 €",
+        dietary: []
+      },
+      {
+        id: "main-23",
+        category: "mains",
+        name: "Lamb Korma",
+        description:
+          "Tender lamb in a creamy pale-yellow cashew sauce with a delicate nutty note. (g, h4)\nSlogan: Mild. Creamy. Elegant.",
+        price: "16.50 €",
+        dietary: []
+      },
+      {
+        id: "main-24",
+        category: "mains",
+        name: "Smoky Lamb Sizzler",
+        description:
+          "Grilled lamb pieces with a smoky note, served on a hot plate with a light masala sauce and fresh herbs. (g)\nSlogan: Smoky. Tender. Aromatic.",
+        price: "16.90 €",
+        dietary: []
+      },
+      {
+        id: "main-25",
+        category: "mains",
+        name: "Scampi Masala",
+        description:
+          "Scampi in a bold tomato-onion sauce with ginger, garlic, and aromatic spices, lightly spicy. (b)\nSlogan: Aromatic. Spiced. Hearty.",
+        price: "15.50 €",
+        dietary: []
+      },
+      {
+        id: "main-26",
+        category: "mains",
+        name: "Scampi Butter Masala",
+        description:
+          "Scampi in a creamy butter-tomato-cashew sauce, mildly spiced and finished with fresh coriander. (b,g,h4)\nSlogan: Creamy. Aromatic. Elegant.",
+        price: "15.90 €",
+        dietary: []
+      },
+      {
+        id: "main-27",
+        category: "mains",
+        name: "Saffron Flame Fish",
+        description:
+          "Tender fish fillet in an aromatic tomato-onion sauce with fine spices, gentle heat, and a hint of saffron. (d,g)\nSlogan: Refined. Exotic. Irresistible.",
+        price: "16.50 €",
+        dietary: []
+      },
+      {
+        id: "main-28",
+        category: "mains",
         name: "Butter Naan",
-        description: "Soft tandoor flatbread with butter.",
+        description:
+          "Soft, freshly baked naan with a light butter glaze, ideal for dipping into creamy curries. (a,g)\nSlogan: Soft. Classic. Perfect with every curry.",
         price: "3.50 €",
         dietary: ["vegetarian"]
       },
       {
-        id: "bread-2",
-        category: "bread",
+        id: "main-29",
+        category: "mains",
         name: "Garlic Naan",
-        description: "Naan with garlic and coriander.",
-        price: "3.70 €",
+        description:
+          "Aromatic naan with fresh garlic and butter, baked in the tandoor, fragrant and crisp. (a,g)\nSlogan: Fragrant. Crisp. Popular.",
+        price: "3.75 €",
         dietary: ["vegetarian"]
       },
       {
-        id: "bread-3",
-        category: "bread",
-        name: "Basmati Rice",
-        description: "Fragrant premium basmati rice.",
-        price: "3.70 €",
-        dietary: ["vegan", "gluten free"]
-      },
-      {
-        id: "bread-4",
-        category: "bread",
+        id: "main-30",
+        category: "mains",
         name: "Tandoori Roti (Whole Wheat)",
         description:
-          "Traditional thin whole-wheat bread from the tandoor—no butter, light, and vegan. Slogan: Thin. Crisp. Healthy.",
+          "Traditional thin whole-wheat roti from the tandoor—no butter, light and vegan. (a)\nSlogan: Thin. Crisp. Healthy.",
         price: "3.50 €",
         dietary: ["vegan"]
       },
       {
-        id: "bread-5",
-        category: "bread",
+        id: "main-31",
+        category: "mains",
         name: "Paneer Naan",
         description:
-          "Soft tandoor-baked naan filled with gently spiced paneer cubes—aromatic and satisfying. Slogan: Creamy. Hearty. Always a favorite.",
-        price: "4.20 €",
+          "Soft tandoor-baked naan filled with gently spiced paneer cubes—aromatic and satisfying. (a, g)\nSlogan: Creamy. Hearty. Always a favorite.",
+        price: "4.20€",
         dietary: ["vegetarian"]
       },
       {
-        id: "bread-6",
-        category: "bread",
+        id: "main-32",
+        category: "mains",
         name: "Bread Basket (for two)",
         description:
-          "Selection of butter naan, garlic naan, and tandoori roti—perfect for sharing. Slogan: Variety. Fresh. Ready to enjoy.",
+          "Selection of butter naan, garlic naan, and tandoori roti—perfect for sharing. (a,g)\nSlogan: Variety. Fresh. Made to share.",
         price: "6.20 €",
         dietary: ["vegetarian"]
       },
+      {
+        id: "main-33",
+        category: "mains",
+        name: "Basmati Rice",
+        description:
+          "Aromatic, fluffy premium basmati—the classic side for all curries. (– )\nSlogan: Fragrant. Fluffy. Classic.",
+        price: "3.50 €",
+        dietary: ["vegan"]
+      },
+      {
+        id: "main-34",
+        category: "mains",
+        name: "Jeera Rice (Cumin Rice)",
+        description:
+          "Basmati rice with lightly toasted cumin and a hint of ghee—fragrant and aromatic. (g)\nSlogan: Aromatic. Fine. Light.",
+        price: "3.75 €",
+        dietary: ["vegetarian"]
+      },
+      {
+        id: "main-35",
+        category: "mains",
+        name: "Lemon Rice (South Indian Style)",
+        description:
+          "Light, yellow rice with lemon juice, curry leaves, and mustard seeds—refreshing and colorful. (j)\nSlogan: Fresh. Light. South Indian.",
+        price: "3.75 €",
+        dietary: ["vegetarian"]
+      },
+
       {
         id: "dessert-1",
         category: "desserts",
