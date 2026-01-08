@@ -223,7 +223,7 @@
         description:
           "Tandoori Chicken Masala & Lamb Saag Curry, serviert mit Basmati-Reis Naan und einem cremigen Dal Makhni.Dazu als süßer Abschluss wahlweise Mango Lassi Panna Cotta oder Pistazien-Cheesecake. (a2,g,h5)\nSlogan : Aromatisch. Leicht. Exotisch",
         price: "24,60 €",
-        dietary: ["vegetarisch"]
+        dietary: []
       },
       {
         id: "main-1",
