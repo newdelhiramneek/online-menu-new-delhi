@@ -553,7 +553,7 @@ export const menuData = {
         category: "desserts",
         name: "Mango Lassi Panna Cotta",
         description:
-          "Seidige Panna Cotta mit Mango-P?ree, leicht gew?rzt mit Kardamom. Geschmack & Farbe: Fruchtig, mild, sonniges Gelb (g)\nSlogan: Cremig. Fruchtig. Exotisch.",
+          "Seidige Panna Cotta mit Mango-Püree, leicht gewürzt mit Kardamom. Geschmack & Farbe: Fruchtig, mild, sonniges Gelb (g)\nSlogan: Cremig. Fruchtig. Exotisch.",
         price: "4,70 €",
         dietary: ["vegetarisch"]
       },
@@ -562,7 +562,7 @@ export const menuData = {
         category: "desserts",
         name: "Pistazien-Cheesecake",
         description:
-          "Zarter Cheesecake mit Pistazien-P?ree auf knusprigem Boden. Geschmack & Farbe: Cremig, nussig, hellgr?n (a1,c,g,h5)\nSlogan: Cremig. Nussig. Verf?hrerisch.",
+          "Zarter Cheesecake mit Pistazien-Püree auf knusprigem Boden. Geschmack & Farbe: Cremig, nussig, hellgrün (a1,c,g,h5)\nSlogan: Cremig. Nussig. Verführerisch.",
         price: "6,80 €",
         dietary: ["vegetarisch"]
       },
@@ -571,7 +571,7 @@ export const menuData = {
         category: "desserts",
         name: "Schwarze Johannisbeere Sorbet",
         description:
-          "Fruchtiges Sorbet aus schwarzer Johannisbeere. (?)\nSlogan: Fruchtig. Erfrischend. Leicht.",
+          "Fruchtiges Sorbet aus schwarzer Johannisbeere. ( –)\nSlogan: Fruchtig. Erfrischend. Leicht.",
         price: "5,70 €",
         dietary: ["vegan"]
       },
@@ -580,7 +580,7 @@ export const menuData = {
         category: "desserts",
         name: "Gulab Jamun",
         description:
-          "Mini-Cheesecakes mit Gulab Jamun karamellfarben und aromatisch. Geschmack & Farbe: S??, aromatisch, karamellfarben (g, h5)\nSlogan: S??. Aromatisch. Verf?hrerisch.",
+          "Mini-Cheesecakes mit Gulab Jamun karamellfarben und aromatisch. Geschmack & Farbe: Süß, aromatisch, karamellfarben (g, h5)\nSlogan: Süß. Aromatisch. Verführerisch.",
         price: "5,70 €",
         dietary: ["vegetarisch"]
       },
