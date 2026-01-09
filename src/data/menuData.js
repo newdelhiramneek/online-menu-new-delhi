@@ -1,4 +1,4 @@
-﻿export const menuData = {
+export const menuData = {
   de: {
     categories: [
       {
@@ -554,7 +554,7 @@
         name: "Mango Lassi Panna Cotta",
         description:
           "Seidige Panna Cotta mit Mango-P?ree, leicht gew?rzt mit Kardamom. Geschmack & Farbe: Fruchtig, mild, sonniges Gelb (g)\nSlogan: Cremig. Fruchtig. Exotisch.",
-        price: "4,70 ?",
+        price: "4,70 €",
         dietary: ["vegetarisch"]
       },
       {
@@ -563,7 +563,7 @@
         name: "Pistazien-Cheesecake",
         description:
           "Zarter Cheesecake mit Pistazien-P?ree auf knusprigem Boden. Geschmack & Farbe: Cremig, nussig, hellgr?n (a1,c,g,h5)\nSlogan: Cremig. Nussig. Verf?hrerisch.",
-        price: "6,80 ?",
+        price: "6,80 €",
         dietary: ["vegetarisch"]
       },
       {
@@ -572,7 +572,7 @@
         name: "Schwarze Johannisbeere Sorbet",
         description:
           "Fruchtiges Sorbet aus schwarzer Johannisbeere. (?)\nSlogan: Fruchtig. Erfrischend. Leicht.",
-        price: "5,70 ?",
+        price: "5,70 €",
         dietary: ["vegan"]
       },
       {
@@ -581,7 +581,7 @@
         name: "Gulab Jamun",
         description:
           "Mini-Cheesecakes mit Gulab Jamun karamellfarben und aromatisch. Geschmack & Farbe: S??, aromatisch, karamellfarben (g, h5)\nSlogan: S??. Aromatisch. Verf?hrerisch.",
-        price: "5,70 ?",
+        price: "5,70 €",
         dietary: ["vegetarisch"]
       },
 
@@ -601,7 +601,8 @@
         price: "3,50 €",
         dietary: ["vegetarisch"]
       },
-
+    ]
+  },
   en: {
     categories: [
       {
