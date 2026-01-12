@@ -41,6 +41,11 @@ export const menuData = {
         title: "Softdrinks",
         subtitle: "Erfrischende Limonaden & Saefte."
       },
+      {
+        id: "homemade",
+        title: "Homemade",
+        subtitle: "Hausgemachte Getraenke."
+      },
     ],
     items: [
       {
@@ -669,6 +674,25 @@ export const menuData = {
         sizes: [
           { label: "0,5l", price: "4,60 €" },
           { label: "0,3l", price: "3,20 €" }
+        ],
+        dietary: ["vegetarisch"]
+      },
+      {
+        id: "homemade-1",
+        category: "homemade",
+        name: "Lemonade",
+        description: "Green Apple, Lemon Rose, Mango Mint.",
+        sizes: [{ label: "0,4l", price: "4,60 €" }],
+        dietary: ["vegetarisch"]
+      },
+      {
+        id: "homemade-2",
+        category: "homemade",
+        name: "Lassi Auswahl",
+        description: "Mango, Strawberry.",
+        sizes: [
+          { label: "0,5l", price: "4,95 €" },
+          { label: "0,25l", price: "3,25 €" }
         ],
         dietary: ["vegetarisch"]
       },
