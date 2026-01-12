@@ -3,6 +3,8 @@
 const MenuItemCard = ({ item, addToCartLabel, onAddToList }) => {
   const ctaLabel = addToCartLabel || "Add To List";
   const isToppingsCard = item.id === "bowl-toppings" || item.id === "biryani-toppings";
+  const hasSizes = Array.isArray(item.sizes) && item.sizes.length > 0;
+  const isWideSizes = hasSizes && item.category === "wein";
   const isVeg =
     item.dietary &&
     item.dietary.some((tag) => {
@@ -12,8 +14,8 @@ const MenuItemCard = ({ item, addToCartLabel, onAddToList }) => {
   const cardClass =
     "menu-item-card" +
     (isVeg ? " menu-item-card--veg" : " menu-item-card--nonveg") +
-    (isToppingsCard ? " menu-item-card--toppings" : "");
-  const hasSizes = Array.isArray(item.sizes) && item.sizes.length > 0;
+    (isToppingsCard ? " menu-item-card--toppings" : "") +
+    (isWideSizes ? " menu-item-card--wide-sizes" : "");
 
   return (
     <article className={cardClass}>
@@ -77,15 +79,17 @@ const MenuItemCard = ({ item, addToCartLabel, onAddToList }) => {
             ) : null}
           </div>
 
-          <div className="menu-item-actions">
-            <button
-              className="btn-ghost"
-              type="button"
-              onClick={() => onAddToList && onAddToList(item)}
-            >
-              {ctaLabel}
-            </button>
-          </div>
+          {!isWideSizes && (
+            <div className="menu-item-actions">
+              <button
+                className="btn-ghost"
+                type="button"
+                onClick={() => onAddToList && onAddToList(item)}
+              >
+                {ctaLabel}
+              </button>
+            </div>
+          )}
         </>
       )}
     </article>

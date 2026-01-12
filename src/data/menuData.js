@@ -66,6 +66,11 @@ export const menuData = {
         title: "DIGESTIFS / 4 CL",
         subtitle: "Digestifs im 4 cl Ausschank."
       },
+      {
+        id: "wein",
+        title: "WEIN",
+        subtitle: "Hauswein und Flaschenweine."
+      },
     ],
     items: [
       {
@@ -1040,6 +1045,131 @@ export const menuData = {
         name: "Old Monk",
         description: "Indischer Rum. 4 cl.",
         price: "5,60 €",
+        dietary: ["vegetarisch"]
+      },
+      {
+        id: "wein-1",
+        category: "wein",
+        name: "Hauswein",
+        description: "Weinglas / Weinschorle.",
+        sizes: [
+          { label: "Weinglas 0,2l", price: "5,90 €" },
+          { label: "Weinschorle 0,2l", price: "5,70 €" },
+          { label: "Weinglas 0,5l", price: "11,50 €" },
+          { label: "Weinschorle 0,5l", price: "11,25 €" }
+        ],
+        dietary: ["vegetarisch"]
+      },
+      {
+        id: "wein-2",
+        category: "wein",
+        name: "Pinot Grigio DOC (trocken)",
+        description: "Weißwein. Villa Santa Flavia, Italien, Venetien.",
+        price: "",
+        dietary: ["vegetarisch"]
+      },
+      {
+        id: "wein-3",
+        category: "wein",
+        name: "Scheurebe (halbtrocken)",
+        description: "Weißwein. Jung & Knobloch, Deutschland, Rheinhessen.",
+        price: "",
+        dietary: ["vegetarisch"]
+      },
+      {
+        id: "wein-4",
+        category: "wein",
+        name: "Müller-Thurgau & Morio Muskat (lieblich)",
+        description: "Weißwein. Jung & Knobloch, Deutschland, Rheinhessen.",
+        price: "",
+        dietary: ["vegetarisch"]
+      },
+      {
+        id: "wein-5",
+        category: "wein",
+        name: "Rosato (trocken)",
+        description: "Roséwein. Villa Santa Flavia, Italien, Venetien.",
+        price: "",
+        dietary: ["vegetarisch"]
+      },
+      {
+        id: "wein-6",
+        category: "wein",
+        name: "Cheval d’Or Merlot (trocken)",
+        description: "Rotwein. Cheval d’Or, Frankreich.",
+        price: "",
+        dietary: ["vegetarisch"]
+      },
+      {
+        id: "wein-7",
+        category: "wein",
+        name: "Trollinger Qualitätswein (halbtrocken)",
+        description: "Rotwein. Jürgen Ellwanger, Deutschland, Württemberg.",
+        price: "",
+        dietary: ["vegetarisch"]
+      },
+      {
+        id: "wein-8",
+        category: "wein",
+        name: "Flaschenweine",
+        description: "Nur ganze Flasche.",
+        price: "",
+        dietary: ["vegetarisch"]
+      },
+      {
+        id: "wein-9",
+        category: "wein",
+        name: "Grauburgunder MP (trocken)",
+        description: "Weißwein. Markus Pfaffmann, Deutschland, Pfalz.",
+        price: "18,60 €",
+        dietary: ["vegetarisch"]
+      },
+      {
+        id: "wein-10",
+        category: "wein",
+        name: "Muskateller Qualitatswein (fruchtig/lieblich)",
+        description: "Weißwein. Punktlandung, Lorenz & Sohne, Deutschland, Nahe.",
+        price: "21,40 €",
+        dietary: ["vegetarisch"]
+      },
+      {
+        id: "wein-11",
+        category: "wein",
+        name: "José Pariente Verdejo DO",
+        description: "Weißwein. José Pariente, Spanien, Rueda.",
+        price: "34,00 €",
+        dietary: ["vegetarisch"]
+      },
+      {
+        id: "wein-12",
+        category: "wein",
+        name: "Merlot Rosé MP",
+        description: "Roséwein. Markus Pfaffmann, Deutschland, Pfalz.",
+        price: "19,60 €",
+        dietary: ["vegetarisch"]
+      },
+      {
+        id: "wein-13",
+        category: "wein",
+        name: "Leoluce Primitivo IGP",
+        description: "Rotwein. Leoluce, Italien, Apulien.",
+        price: "19,80 €",
+        dietary: ["vegetarisch"]
+      },
+      {
+        id: "wein-14",
+        category: "wein",
+        name: "Heritage Merlot (trocken)",
+        description: "Rotwein. Gérard Bertrand, Frankreicn, Languedoc-Roussillon.",
+        price: "26,80 €",
+        dietary: ["vegetarisch"]
+      },
+      {
+        id: "wein-15",
+        category: "wein",
+        name: "Barón de Ley Reserva Rioja DOCa",
+        description: "Rotwein. Barón de Lay, Spanien, Raja.",
+        price: "41,40 €",
         dietary: ["vegetarisch"]
       },
     ]
