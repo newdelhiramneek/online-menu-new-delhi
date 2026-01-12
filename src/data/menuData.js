@@ -52,6 +52,11 @@ export const menuData = {
         subtitle: "Biere vom Fass und aus der Flasche."
       },
       {
+        id: "wein",
+        title: "WEIN",
+        subtitle: "Hauswein und Flaschenweine."
+      },
+      {
         id: "cocktails",
         title: "Cocktails & Spritzkarte",
         subtitle: "Spritz und Cocktailklassiker."
@@ -66,11 +71,7 @@ export const menuData = {
         title: "DIGESTIFS / 4 CL",
         subtitle: "Digestifs im 4 cl Ausschank."
       },
-      {
-        id: "wein",
-        title: "WEIN",
-        subtitle: "Hauswein und Flaschenweine."
-      },
+      
     ],
     items: [
       {
@@ -1227,6 +1228,11 @@ export const menuData = {
   subtitle: "Draft and bottled beers."
 },
 {
+  id: "wein",
+  title: "WINE",
+  subtitle: "House wine and bottled wines."
+},
+{
   id: "cocktails",
   title: "Cocktails & Spritz Menu",
   subtitle: "Spritz and cocktail classics."
@@ -1241,11 +1247,7 @@ export const menuData = {
   title: "DIGESTIFS / 4 CL",
   subtitle: "Digestifs served in 4 cl pours."
 },
-{
-  id: "wein",
-  title: "WINE",
-  subtitle: "House wine and bottled wines."
-}
+
 
     ],
     items: [
