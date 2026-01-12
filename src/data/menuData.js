@@ -56,6 +56,11 @@ export const menuData = {
         title: "Cocktails & Spritzkarte",
         subtitle: "Spritz und Cocktailklassiker."
       },
+      {
+        id: "kaffee-tee",
+        title: "Kaffee & Tee",
+        subtitle: "Heisse Kaffeespezialitaeten und Tees."
+      },
     ],
     items: [
       {
@@ -894,6 +899,70 @@ export const menuData = {
         name: "Apfel Spritz",
         description: "Alkoholfrei. Apfelsaft, Soda, Limette.",
         price: "5,40 €",
+        dietary: ["vegetarisch"]
+      },
+      {
+        id: "kaffee-1",
+        category: "kaffee-tee",
+        name: "Masala Chai",
+        description: "Indischer Chai mit Milch.",
+        price: "3,50 €",
+        dietary: ["vegetarisch"]
+      },
+      {
+        id: "kaffee-2",
+        category: "kaffee-tee",
+        name: "Frischer Minz-Ingwer-Tee",
+        description: "Mit frischer Minze und Ingwer.",
+        price: "3,50 €",
+        dietary: ["vegetarisch"]
+      },
+      {
+        id: "kaffee-3",
+        category: "kaffee-tee",
+        name: "Tee",
+        description: "Schwarzer, Pfefferminz, Kamillen, Kraeuter.",
+        price: "2,95 €",
+        dietary: ["vegetarisch"]
+      },
+      {
+        id: "kaffee-4",
+        category: "kaffee-tee",
+        name: "Espresso",
+        description: "Klassischer Espresso.",
+        price: "2,25 €",
+        dietary: ["vegetarisch"]
+      },
+      {
+        id: "kaffee-5",
+        category: "kaffee-tee",
+        name: "Espresso Macchiato",
+        description: "Mit einem Hauch Milch.",
+        price: "2,50 €",
+        dietary: ["vegetarisch"]
+      },
+      {
+        id: "kaffee-6",
+        category: "kaffee-tee",
+        name: "Espresso Doppio",
+        description: "Doppelter Espresso.",
+        price: "2,95 €",
+        dietary: ["vegetarisch"]
+      },
+      {
+        id: "kaffee-7",
+        category: "kaffee-tee",
+        name: "Cappuccino",
+        description: "Mit Milch und Milchschaum.",
+        price: "3,25 €",
+        dietary: ["vegetarisch"]
+      },
+      {
+        id: "kaffee-8",
+        category: "kaffee-tee",
+        name: "Latte Macchiato",
+        description: "Mit Milch und Milchschaum.",
+        price: "3,50 €",
         dietary: ["vegetarisch"]
       },
     ]
