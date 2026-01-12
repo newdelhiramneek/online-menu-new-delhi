@@ -61,6 +61,11 @@ export const menuData = {
         title: "Kaffee & Tee",
         subtitle: "Heisse Kaffeespezialitaeten und Tees."
       },
+      {
+        id: "digestifs",
+        title: "DIGESTIFS / 4 CL",
+        subtitle: "Digestifs im 4 cl Ausschank."
+      },
     ],
     items: [
       {
@@ -963,6 +968,78 @@ export const menuData = {
         name: "Latte Macchiato",
         description: "Mit Milch und Milchschaum.",
         price: "3,50 €",
+        dietary: ["vegetarisch"]
+      },
+      {
+        id: "digestif-1",
+        category: "digestifs",
+        name: "Jäegermeister",
+        description: "4 cl.",
+        price: "4,40 €",
+        dietary: ["vegetarisch"]
+      },
+      {
+        id: "digestif-2",
+        category: "digestifs",
+        name: "Ramazotti",
+        description: "4 cl.",
+        price: "4,40 €",
+        dietary: ["vegetarisch"]
+      },
+      {
+        id: "digestif-3",
+        category: "digestifs",
+        name: "Limencello",
+        description: "4 cl.",
+        price: "4,40 €",
+        dietary: ["vegetarisch"]
+      },
+      {
+        id: "digestif-4",
+        category: "digestifs",
+        name: "Frangcella",
+        description: "4 cl.",
+        price: "4,80 €",
+        dietary: ["vegetarisch"]
+      },
+      {
+        id: "digestif-5",
+        category: "digestifs",
+        name: "Absolut Vodka",
+        description: "4 cl.",
+        price: "4,60 €",
+        dietary: ["vegetarisch"]
+      },
+      {
+        id: "digestif-6",
+        category: "digestifs",
+        name: "Red Label",
+        description: "4 cl.",
+        price: "4,40 €",
+        dietary: ["vegetarisch"]
+      },
+      {
+        id: "digestif-7",
+        category: "digestifs",
+        name: "Jack Daniel's",
+        description: "4 cl.",
+        price: "4,80 €",
+        dietary: ["vegetarisch"]
+      },
+      {
+        id: "digestif-8",
+        category: "digestifs",
+        name: "Jameson",
+        description: "4 cl.",
+        price: "5,10 €",
+        dietary: ["vegetarisch"]
+      },
+      {
+        id: "digestif-9",
+        category: "digestifs",
+        name: "Old Monk",
+        description: "Indischer Rum. 4 cl.",
+        price: "5,60 €",
         dietary: ["vegetarisch"]
       },
     ]
