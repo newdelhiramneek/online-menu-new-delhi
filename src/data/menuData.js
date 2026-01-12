@@ -601,6 +601,77 @@ export const menuData = {
         price: "3,50 €",
         dietary: ["vegetarisch"]
       },
+      {
+        id: "soft-1",
+        category: "softdrinks",
+        name: "San Pellegrino / Acqua Panna",
+        description: "Mineralwasser / Stilles Mineralwasser.",
+        sizes: [
+          { label: "0,75l", price: "5,80 €" },
+          { label: "0,25l (Flasche)", price: "2,80 €" }
+        ],
+        dietary: ["vegetarisch"]
+      },
+      {
+        id: "soft-2",
+        category: "softdrinks",
+        name: "Coca-Cola / Coca-Cola Zero",
+        description: "Klassisch oder zuckerfrei.",
+        sizes: [
+          { label: "0,5l", price: "4,20 €" },
+          { label: "0,3l", price: "2,95 €" }
+        ],
+        dietary: ["vegetarisch"]
+      },
+      {
+        id: "soft-3",
+        category: "softdrinks",
+        name: "Fanta / Sprite / Spezi",
+        description: "Spritzig und erfrischend.",
+        sizes: [
+          { label: "0,5l", price: "4,20 €" },
+          { label: "0,3l", price: "2,95 €" }
+        ],
+        dietary: ["vegetarisch"]
+      },
+      {
+        id: "soft-4",
+        category: "softdrinks",
+        name: "Bitter Lemon / Tonic Water / Ginger Ale",
+        description: "Herb, bitter oder würzig.",
+        sizes: [
+          { label: "0,5l", price: "4,60 €" },
+          { label: "0,3l", price: "3,20 €" }
+        ],
+        dietary: ["vegetarisch"]
+      },
+      {
+        id: "soft-5",
+        category: "softdrinks",
+        name: "Red Bull / Red Bull Zero",
+        description: "Energydrink.",
+        sizes: [{ label: "Dose 0,25l", price: "4,20 €" }],
+        dietary: ["vegetarisch"]
+      },
+      {
+        id: "soft-6",
+        category: "softdrinks",
+        name: "Ice Tea",
+        description: "Granatapfel, Pfirsich, Zitrone.",
+        sizes: [{ label: "Flasche 0,25l", price: "4,20 €" }],
+        dietary: ["vegetarisch"]
+      },
+      {
+        id: "soft-7",
+        category: "softdrinks",
+        name: "Saft-nektar oder Saftschorle",
+        description: "Apfel, Orange, Maracuja, Banna, Kiba.",
+        sizes: [
+          { label: "0,5l", price: "4,60 €" },
+          { label: "0,3l", price: "3,20 €" }
+        ],
+        dietary: ["vegetarisch"]
+      },
     ]
   },
   en: {
