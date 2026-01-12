@@ -1732,28 +1732,67 @@ export const menuData = {
   price: "3,75 €",
   dietary: ["vegetarian"]
 },
+      
       {
-        id: "main-35",
-        category: "mains",
-        name: "Lemon Rice (South Indian Style)",
-        description:
-          "Light, yellow rice with lemon juice, curry leaves, and mustard seeds—refreshing and colorful. (j)\nSlogan: Fresh. Light. South Indian.",
-        price: "3.75 €",
-        dietary: ["vegetarian"]
-      },
-      {
-        id: "biryani-toppings",
-        category: "biryani",
-        name: "Biryani Extras",
-        description: "Pair your biryani with your favorite add-on",
-        sizes: [
-          { label: "Paneer (spiced & pan-fried) (g, v)", price: "2.40 €" },
-          { label: "Chicken (marinated & spiced)", price: "2.60 €" },
-          { label: "Lamb (slow-braised, spiced)", price: "3.40 €" },
-          { label: "Scampi (spice marinade & coriander) (d, g)", price: "3.40 €" }
-        ],
-        dietary: []
-      },
+  id: "biryani-1",
+  category: "biryani",
+  name: "Vegetarian",
+  description:
+    "Basmati rice with fresh seasonal vegetables, mild spices, herbs, and a hint of saffron — lightly layered and aromatic. (g)\nSlogan: Aromatic. Fragrant. Modern.",
+  price: "13,20 €",
+  dietary: ["vegetarian"]
+},
+{
+  id: "biryani-toppings",
+  category: "biryani",
+  name: "Biryani Extras",
+  description: "Combine your biryani with your favorite add-ons",
+  sizes: [
+    { label: "Paneer (seasoned & pan-fried) (g, v)", price: "2,40 €" },
+    { label: "Chicken (marinated & spiced)", price: "2,60 €" },
+    { label: "Lamb (gently braised, spiced)", price: "3,40 €" },
+    { label: "Scampi (spice marinade & coriander) (d, g)", price: "3,40 €" }
+  ],
+  dietary: []
+},
+
+{
+  id: "dessert-1",
+  category: "desserts",
+  name: "Mango Lassi Panna Cotta",
+  description:
+    "Silky panna cotta with mango purée, lightly spiced with cardamom. Taste & color: fruity, mild, sunny yellow. (g)\nSlogan: Creamy. Fruity. Exotic.",
+  price: "4,70 €",
+  dietary: ["vegetarian"]
+},
+{
+  id: "dessert-2",
+  category: "desserts",
+  name: "Pistachio Cheesecake",
+  description:
+    "Delicate cheesecake with pistachio purée on a crispy base. Taste & color: creamy, nutty, light green. (a1,c,g,h5)\nSlogan: Creamy. Nutty. Seductive.",
+  price: "6,80 €",
+  dietary: ["vegetarian"]
+},
+{
+  id: "dessert-3",
+  category: "desserts",
+  name: "Blackcurrant Sorbet",
+  description:
+    "Fruity sorbet made from blackcurrants. (–)\nSlogan: Fruity. Refreshing. Light.",
+  price: "5,70 €",
+  dietary: ["vegan"]
+},
+{
+  id: "dessert-4",
+  category: "desserts",
+  name: "Gulab Jamun",
+  description:
+    "Mini cheesecakes with gulab jamun, caramel-colored and aromatic. Taste & color: sweet, aromatic, caramel-toned. (g,h5)\nSlogan: Sweet. Aromatic. Seductive.",
+  price: "5,70 €",
+  dietary: ["vegetarian"]
+},
+
 
       {
         id: "drink-1",
@@ -1771,55 +1810,426 @@ export const menuData = {
         price: "3.50 €",
         dietary: ["vegetarian"]
       },
-      {
-        id: "dessert-1",
-        category: "desserts",
-        name: "Mango Lassi Panna Cotta",
-        description:
-          "Silky panna cotta with mango pur?e, lightly spiced with cardamom. Taste & color: fruity, mild, sunny yellow (g)\nSlogan: Creamy. Fruity. Exotic.",
-        price: "4.70 ?",
-        dietary: ["vegetarian"]
-      },
-      {
-        id: "dessert-2",
-        category: "desserts",
-        name: "Pistachio Cheesecake",
-        description:
-          "Delicate cheesecake with pistachio pur?e on a crunchy base. Taste & color: creamy, nutty, light green (a1,c,g,h5)\nSlogan: Creamy. Nutty. Irresistible.",
-        price: "6.80 ?",
-        dietary: ["vegetarian"]
-      },
-      {
-        id: "dessert-3",
-        category: "desserts",
-        name: "Black Currant Sorbet",
-        description:
-          "Fruity black currant sorbet. (?)\nSlogan: Fruity. Refreshing. Light.",
-        price: "5.70 ?",
-        dietary: ["vegan"]
-      },
-      {
-        id: "dessert-4",
-        category: "desserts",
-        name: "Gulab Jamun",
-        description:
-          "Mini cheesecakes with gulab jamun, caramel-colored and aromatic. Taste & color: sweet, aromatic, caramel-colored (g, h5)\nSlogan: Sweet. Aromatic. Irresistible.",
-        price: "5.70 ?",
-        dietary: ["vegetarian"]
-      },
+      
 
-      {
-        id: "soft-7",
-        category: "softdrinks",
-        name: "Juice Nectar or Spritzer",
-        description: "Apple, orange, passion fruit, banana, cherry-banana.",
-        sizes: [
-          { label: "0.5l", price: "4.60 €" },
-          { label: "0.3l", price: "3.20 €" }
-        ],
-        price: "3.20 €",
-        dietary: []
-      }
+     {
+  id: "soft-1",
+  category: "softdrinks",
+  name: "San Pellegrino / Acqua Panna",
+  description: "Sparkling mineral water / still mineral water.",
+  sizes: [
+    { label: "0,75l", price: "5,80 €" },
+    { label: "0,25l (Bottle)", price: "2,80 €" }
+  ],
+  dietary: ["vegetarian"]
+},
+{
+  id: "soft-2",
+  category: "softdrinks",
+  name: "Coca-Cola / Coca-Cola Zero",
+  description: "Classic or sugar-free.",
+  sizes: [
+    { label: "0,5l", price: "4,20 €" },
+    { label: "0,3l", price: "2,95 €" }
+  ],
+  dietary: ["vegetarian"]
+},
+{
+  id: "soft-3",
+  category: "softdrinks",
+  name: "Fanta / Sprite / Spezi",
+  description: "Sparkling and refreshing.",
+  sizes: [
+    { label: "0,5l", price: "4,20 €" },
+    { label: "0,3l", price: "2,95 €" }
+  ],
+  dietary: ["vegetarian"]
+},
+{
+  id: "soft-4",
+  category: "softdrinks",
+  name: "Bitter Lemon / Tonic Water / Ginger Ale",
+  description: "Herbal, bitter, or spicy.",
+  sizes: [
+    { label: "0,5l", price: "4,60 €" },
+    { label: "0,3l", price: "3,20 €" }
+  ],
+  dietary: ["vegetarian"]
+},
+{
+  id: "soft-5",
+  category: "softdrinks",
+  name: "Red Bull / Red Bull Zero",
+  description: "Energy drink.",
+  sizes: [{ label: "Can 0,25l", price: "4,20 €" }],
+  dietary: ["vegetarian"]
+},
+{
+  id: "soft-6",
+  category: "softdrinks",
+  name: "Iced Tea",
+  description: "Pomegranate, peach, lemon.",
+  sizes: [{ label: "Bottle 0,25l", price: "4,20 €" }],
+  dietary: ["vegetarian"]
+},
+{
+  id: "soft-7",
+  category: "softdrinks",
+  name: "Juice Nectar or Juice Spritzer",
+  description: "Apple, orange, passion fruit, banana, Kiba.",
+  sizes: [
+    { label: "0,5l", price: "4,60 €" },
+    { label: "0,3l", price: "3,20 €" }
+  ],
+  dietary: ["vegetarian"]
+},
+{
+  id: "homemade-1",
+  category: "homemade",
+  name: "Lemonade",
+  description: "Green apple, lemon rose, mango mint.",
+  sizes: [{ label: "0,4l", price: "4,60 €" }],
+  dietary: ["vegetarian"]
+},
+{
+  id: "homemade-2",
+  category: "homemade",
+  name: "Lassi Selection",
+  description: "Mango, strawberry.",
+  sizes: [
+    { label: "0,5l", price: "4,95 €" },
+    { label: "0,25l", price: "3,25 €" }
+  ],
+  dietary: ["vegetarian"]
+},
+{
+  id: "bier-1",
+  category: "bier",
+  name: "Feldschlösschen",
+  description: "On tap.",
+  sizes: [
+    { label: "0,5l", price: "4,40 €" },
+    { label: "0,3l", price: "3,80 €" }
+  ],
+  dietary: ["vegetarian"]
+},
+{
+  id: "bier-2",
+  category: "bier",
+  name: "Kingfisher / Cobra",
+  description: "Indian beer. Bottle.",
+  sizes: [{ label: "0,33l", price: "3,70 €" }],
+  dietary: ["vegetarian"]
+},
+{
+  id: "bier-3",
+  category: "bier",
+  name: "Somersby Mango Lime",
+  description: "Very popular with women. Bottle.",
+  sizes: [{ label: "0,33l", price: "3,80 €" }],
+  dietary: ["vegetarian"]
+},
+{
+  id: "bier-4",
+  category: "bier",
+  name: "Dark Beer",
+  description: "Bottle.",
+  sizes: [{ label: "0,5l", price: "4,10 €" }],
+  dietary: ["vegetarian"]
+},
+{
+  id: "bier-5",
+  category: "bier",
+  name: "Radler / Diesel",
+  description: "Refreshing.",
+  sizes: [
+    { label: "0,5l", price: "4,40 €" },
+    { label: "0,3l", price: "3,80 €" }
+  ],
+  dietary: ["vegetarian"]
+},
+{
+  id: "bier-6",
+  category: "bier",
+  name: "Erdinger Wheat Beer / Alcohol-Free",
+  description: "Bottle.",
+  sizes: [{ label: "0,5l", price: "4,10 €" }],
+  dietary: ["vegetarian"]
+},
+{
+  id: "bier-7",
+  category: "bier",
+  name: "Alcohol-Free Radler",
+  description: "Bottle.",
+  sizes: [{ label: "0,33l", price: "3,70 €" }],
+  dietary: ["vegetarian"]
+},
+{
+  id: "cocktail-1",
+  category: "cocktails",
+  name: "Aperol Spritz",
+  description: "Frizzante, Aperol, soda.",
+  sizes: [{ label: "0,2l", price: "7,50 €" }],
+  dietary: ["vegetarian"]
+},
+{
+  id: "cocktail-2",
+  category: "cocktails",
+  name: "Aperol Passion Fruit / Mango",
+  description: "Frizzante, Aperol, passion fruit or mango.",
+  sizes: [{ label: "0,2l", price: "7,95 €" }],
+  dietary: ["vegetarian"]
+},
+{
+  id: "cocktail-3",
+  category: "cocktails",
+  name: "Veneziano",
+  description: "White wine, Aperol, soda.",
+  sizes: [{ label: "0,2l", price: "7,50 €" }],
+  dietary: ["vegetarian"]
+},
+{
+  id: "cocktail-4",
+  category: "cocktails",
+  name: "Hugo",
+  description: "Elderflower syrup, frizzante, lime, soda.",
+  sizes: [{ label: "0,2l", price: "7,50 €" }],
+  dietary: ["vegetarian"]
+},
+{
+  id: "cocktail-5",
+  category: "cocktails",
+  name: "Limoncello Spritz",
+  description: "Limoncello, frizzante, soda.",
+  sizes: [{ label: "0,2l", price: "7,95 €" }],
+  dietary: ["vegetarian"]
+},
+{
+  id: "cocktail-6",
+  category: "cocktails",
+  name: "Lillet Wildberry",
+  description: "Lillet Blanc with wild berry or tonic / bitter lemon, strawberry.",
+  sizes: [{ label: "0,2l", price: "8,40 €" }],
+  dietary: ["vegetarian"]
+},
+{
+  id: "cocktail-7",
+  category: "cocktails",
+  name: "Cuba Libre",
+  description: "Bacardi rum, fresh lime & cola.",
+  price: "7,95 €",
+  dietary: ["vegetarian"]
+},
+{
+  id: "cocktail-8",
+  category: "cocktails",
+  name: "Mojito",
+  description: "Mint, lime, cane sugar, Bacardi rum, soda.",
+  price: "8,25 €",
+  dietary: ["vegetarian"]
+},
+{
+  id: "cocktail-9",
+  category: "cocktails",
+  name: "Haus Monk",
+  description: "Old Monk rum, ginger ale, lime.",
+  price: "9,50 €",
+  dietary: ["vegetarian"]
+},
+{
+  id: "cocktail-10",
+  category: "cocktails",
+  name: "Bombay Sapphire / Malfy Gin",
+  description: "Gin with lemon & tonic or bitter lemon.",
+  price: "8,40 €",
+  dietary: ["vegetarian"]
+},
+{
+  id: "cocktail-11",
+  category: "cocktails",
+  name: "Red Apple",
+  description: "Whisky, apple juice & soda.",
+  price: "8,20 €",
+  dietary: ["vegetarian"]
+},
+{
+  id: "cocktail-12",
+  category: "cocktails",
+  name: "New York Sour",
+  description: "Whisky, lemon juice, sugar syrup & red wine float.",
+  price: "9,70 €",
+  dietary: ["vegetarian"]
+},
+{
+  id: "cocktail-13",
+  category: "cocktails",
+  name: "Fresh Maker",
+  description: "Non-alcoholic. Ginger ale, lime, brown sugar.",
+  price: "6,50 €",
+  dietary: ["vegetarian"]
+},
+{
+  id: "cocktail-14",
+  category: "cocktails",
+  name: "Hugo Non-Alcoholic",
+  description: "Non-alcoholic. Elderflower syrup, lime, soda.",
+  price: "6,40 €",
+  dietary: ["vegetarian"]
+},
+{
+  id: "cocktail-15",
+  category: "cocktails",
+  name: "Nojito Mango",
+  description: "Non-alcoholic. Mango, mint, lime.",
+  price: "6,80 €",
+  dietary: ["vegetarian"]
+},
+{
+  id: "cocktail-16",
+  category: "cocktails",
+  name: "Apple Spritz",
+  description: "Non-alcoholic. Apple juice, soda, lime.",
+  price: "5,40 €",
+  dietary: ["vegetarian"]
+},
+{
+  id: "kaffee-1",
+  category: "kaffee-tee",
+  name: "Masala Chai",
+  description: "Indian chai with milk.",
+  price: "3,50 €",
+  dietary: ["vegetarian"]
+},
+{
+  id: "kaffee-2",
+  category: "kaffee-tee",
+  name: "Fresh Mint Ginger Tea",
+  description: "With fresh mint and ginger.",
+  price: "3,50 €",
+  dietary: ["vegetarian"]
+},
+{
+  id: "kaffee-3",
+  category: "kaffee-tee",
+  name: "Tea",
+  description: "Black, peppermint, chamomile, herbal.",
+  price: "2,95 €",
+  dietary: ["vegetarian"]
+},
+{
+  id: "kaffee-4",
+  category: "kaffee-tee",
+  name: "Espresso",
+  description: "Classic espresso.",
+  price: "2,25 €",
+  dietary: ["vegetarian"]
+},
+{
+  id: "kaffee-5",
+  category: "kaffee-tee",
+  name: "Espresso Macchiato",
+  description: "With a touch of milk.",
+  price: "2,50 €",
+  dietary: ["vegetarian"]
+},
+{
+  id: "kaffee-6",
+  category: "kaffee-tee",
+  name: "Espresso Doppio",
+  description: "Double espresso.",
+  price: "2,95 €",
+  dietary: ["vegetarian"]
+},
+{
+  id: "kaffee-7",
+  category: "kaffee-tee",
+  name: "Cappuccino",
+  description: "With milk and milk foam.",
+  price: "3,25 €",
+  dietary: ["vegetarian"]
+},
+{
+  id: "kaffee-8",
+  category: "kaffee-tee",
+  name: "Latte Macchiato",
+  description: "With milk and milk foam.",
+  price: "3,50 €",
+  dietary: ["vegetarian"]
+},
+{
+  id: "digestif-1",
+  category: "digestifs",
+  name: "Jägermeister",
+  description: "4 cl.",
+  price: "4,40 €",
+  dietary: ["vegetarian"]
+},
+{
+  id: "digestif-2",
+  category: "digestifs",
+  name: "Ramazzotti",
+  description: "4 cl.",
+  price: "4,40 €",
+  dietary: ["vegetarian"]
+},
+{
+  id: "digestif-3",
+  category: "digestifs",
+  name: "Limoncello",
+  description: "4 cl.",
+  price: "4,40 €",
+  dietary: ["vegetarian"]
+},
+{
+  id: "digestif-4",
+  category: "digestifs",
+  name: "Frangelico",
+  description: "4 cl.",
+  price: "4,80 €",
+  dietary: ["vegetarian"]
+},
+{
+  id: "digestif-5",
+  category: "digestifs",
+  name: "Absolut Vodka",
+  description: "4 cl.",
+  price: "4,60 €",
+  dietary: ["vegetarian"]
+},
+{
+  id: "digestif-6",
+  category: "digestifs",
+  name: "Red Label",
+  description: "4 cl.",
+  price: "4,40 €",
+  dietary: ["vegetarian"]
+},
+{
+  id: "digestif-7",
+  category: "digestifs",
+  name: "Jack Daniel's",
+  description: "4 cl.",
+  price: "4,80 €",
+  dietary: ["vegetarian"]
+},
+{
+  id: "digestif-8",
+  category: "digestifs",
+  name: "Jameson",
+  description: "4 cl.",
+  price: "5,10 €",
+  dietary: ["vegetarian"]
+},
+{
+  id: "digestif-9",
+  category: "digestifs",
+  name: "Old Monk",
+  description: "Indian rum. 4 cl.",
+  price: "5,60 €",
+  dietary: ["vegetarian"]
+},
+
+
     ]
   }
 };
