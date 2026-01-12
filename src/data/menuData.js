@@ -2228,6 +2228,132 @@ export const menuData = {
   price: "5,60 €",
   dietary: ["vegetarian"]
 },
+{
+  id: "wein-1",
+  category: "wein",
+  name: "House Wine",
+  description: "Wine glass / wine spritzer.",
+  sizes: [
+    { label: "Wine glass 0,2l", price: "5,90 €" },
+    { label: "Wine spritzer 0,2l", price: "5,70 €" },
+    { label: "Wine glass 0,5l", price: "11,50 €" },
+    { label: "Wine spritzer 0,5l", price: "11,25 €" }
+  ],
+  dietary: ["vegetarian"]
+},
+{
+  id: "wein-2",
+  category: "wein",
+  name: "Pinot Grigio DOC (dry)",
+  description: "White wine. Villa Santa Flavia, Italy, Veneto.",
+  price: "",
+  dietary: ["vegetarian"]
+},
+{
+  id: "wein-3",
+  category: "wein",
+  name: "Scheurebe (semi-dry)",
+  description: "White wine. Jung & Knobloch, Germany, Rheinhessen.",
+  price: "",
+  dietary: ["vegetarian"]
+},
+{
+  id: "wein-4",
+  category: "wein",
+  name: "Müller-Thurgau & Morio Muskat (sweet)",
+  description: "White wine. Jung & Knobloch, Germany, Rheinhessen.",
+  price: "",
+  dietary: ["vegetarian"]
+},
+{
+  id: "wein-5",
+  category: "wein",
+  name: "Rosato (dry)",
+  description: "Rosé wine. Villa Santa Flavia, Italy, Veneto.",
+  price: "",
+  dietary: ["vegetarian"]
+},
+{
+  id: "wein-6",
+  category: "wein",
+  name: "Cheval d’Or Merlot (dry)",
+  description: "Red wine. Cheval d’Or, France.",
+  price: "",
+  dietary: ["vegetarian"]
+},
+{
+  id: "wein-7",
+  category: "wein",
+  name: "Trollinger Quality Wine (semi-dry)",
+  description: "Red wine. Jürgen Ellwanger, Germany, Württemberg.",
+  price: "",
+  dietary: ["vegetarian"]
+},
+{
+  id: "wein-8",
+  category: "wein",
+  name: "Bottled Wines",
+  description: "Whole bottle only.",
+  price: "",
+  dietary: ["vegetarian"]
+},
+{
+  id: "wein-9",
+  category: "wein",
+  name: "Grauburgunder MP (dry)",
+  description: "White wine. Markus Pfaffmann, Germany, Palatinate.",
+  price: "18,60 €",
+  dietary: ["vegetarian"]
+},
+{
+  id: "wein-10",
+  category: "wein",
+  name: "Muscat Quality Wine (fruity/sweet)",
+  description: "White wine. Punktlandung, Lorenz & Söhne, Germany, Nahe.",
+  price: "21,40 €",
+  dietary: ["vegetarian"]
+},
+{
+  id: "wein-11",
+  category: "wein",
+  name: "José Pariente Verdejo DO",
+  description: "White wine. José Pariente, Spain, Rueda.",
+  price: "34,00 €",
+  dietary: ["vegetarian"]
+},
+{
+  id: "wein-12",
+  category: "wein",
+  name: "Merlot Rosé MP",
+  description: "Rosé wine. Markus Pfaffmann, Germany, Palatinate.",
+  price: "19,60 €",
+  dietary: ["vegetarian"]
+},
+{
+  id: "wein-13",
+  category: "wein",
+  name: "Leoluce Primitivo IGP",
+  description: "Red wine. Leoluce, Italy, Apulia.",
+  price: "19,80 €",
+  dietary: ["vegetarian"]
+},
+{
+  id: "wein-14",
+  category: "wein",
+  name: "Heritage Merlot (dry)",
+  description: "Red wine. Gérard Bertrand, France, Languedoc-Roussillon.",
+  price: "26,80 €",
+  dietary: ["vegetarian"]
+},
+{
+  id: "wein-15",
+  category: "wein",
+  name: "Barón de Ley Reserva Rioja DOCa",
+  description: "Red wine. Barón de Ley, Spain, Rioja.",
+  price: "41,40 €",
+  dietary: ["vegetarian"]
+}
+
 
 
     ]
