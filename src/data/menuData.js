@@ -1299,50 +1299,45 @@ export const menuData = {
 },
 
       {
-        id: "chaat-1",
-        category: "chaat",
-        name: "Peanut Masala Chaat",
-        description:
-          "Roasted peanuts with fresh tomatoes, onions, green chili, lime, and coriander—spicy, crunchy, and refreshing like Mumbai’s streets.",
-        price: "6.40 €",
-        dietary: ["vegetarian"]
-      },
-      {
-        id: "chaat-2",
-        category: "chaat",
-        name: "Dahi Cloud Papdi",
-        description:
-          "Crispy papdi layers, creamy yogurt, chutney trio, and sev—cool, creamy with a hint of sweetness and spice.",
-        price: "8.20 €",
-        dietary: ["vegetarian"]
-      },
-      {
-        id: "chaat-3",
-        category: "chaat",
-        name: "Quinoa Glow Chaat",
-        description:
-          "Roasted sweet potatoes and protein-rich quinoa with pomegranate, chickpeas, and mint-yogurt dressing—healthy, light, and colorful.",
-        price: "10.20 €",
-        dietary: ["vegetarian"]
-      },
-      {
-        id: "chaat-4",
-        category: "chaat",
-        name: "Avocado Bombay Bites",
-        description:
-          "Mini puris filled with creamy avocado, sweet mango, and spiced chickpeas—fresh, crisp, and a modern take on Bombay puris.",
-        price: "10.60 €",
-        dietary: ["vegetarian"]
-      },
-      {
-        id: "chaat-5",
-        category: "chaat",
-        name: "Tandoori Street Toss",
-        description:
-          "Tender tandoori chicken tossed with onions, tomatoes, fresh coriander, spices, and a squeeze of lime—smoky, spicy, and exciting.",
-        price: "11.80 €",
-        dietary: []
-      },
+  "id": "chaat-1",
+  "category": "chaat",
+  "name": "Peanut Masala Chaat",
+  "description": "Roasted peanuts with fresh tomatoes, onions, green chili, lime, and coriander — spicy, crunchy, and refreshing, just like on the streets of Mumbai. Light, protein-rich & full of flavor. (e)\nSlogan: Spicy. Tangy. Crunchy.",
+  "price": "6,40 €",
+  "dietary": ["vegetarian"]
+},
+{
+  "id": "chaat-2",
+  "category": "chaat",
+  "name": "Dahi Cloud Papdi",
+  "description": "Crispy papdi layers, creamy yogurt, a trio of chutneys, and sev — soft, cool, and creamy, with a hint of sweetness and spice. (a1,g)",
+  "price": "8,20 €",
+  "dietary": ["vegetarian"]
+},
+{
+  "id": "chaat-3",
+  "category": "chaat",
+  "name": "Quinoa Glow Chaat",
+  "description": "Roasted sweet potatoes and protein-rich quinoa with fresh pomegranate, chickpeas, and a refreshing mint-yogurt dressing. Healthy, light, and colorful — perfect for mindful food lovers. (g,h)",
+  "price": "10,20 €",
+  "dietary": ["vegetarian"]
+},
+{
+  "id": "chaat-4",
+  "category": "chaat",
+  "name": "Avocado Bombay Bites",
+  "description": "Mini puris filled with creamy avocado, sweet mango, spiced chickpeas, and crispy sev. Fresh, crunchy, and a modern twist on traditional Bombay puris. (a,e)",
+  "price": "10,60 €",
+  "dietary": ["vegetarian"]
+},
+{
+  "id": "chaat-5",
+  "category": "chaat",
+  "name": "Tandoori Street Toss",
+  "description": "Tender tandoori chicken, marinated in spices, combined with onions, tomatoes, fresh coriander, and a splash of lime. Smoky, spicy, and exciting — a modern street-food delight. (g)",
+  "price": "11,80 €",
+  "dietary": []
+},
       {
         id: "bowl-1",
         category: "bowls",
