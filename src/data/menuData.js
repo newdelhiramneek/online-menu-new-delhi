@@ -1177,45 +1177,76 @@ export const menuData = {
   en: {
     categories: [
       {
-        id: "starters",
-        title: "Starters",
-        subtitle: "A perfect start to your New Delhi experience."
-      },
-      {
-        id: "chaat",
-        title: "Chaat Specials",
-        subtitle: "Spiced Indian street-food favorites."
-      },
-      {
-        id: "bowls",
-        title: "Bowls",
-        subtitle: "Modern & light - vegetarian, vegan, or with meat."
-      },
-      {
-        id: "thalis",
-        title: "Thalis (Indian platters)",
-        subtitle: "Complete meal on one tray, served traditionally."
-      },
-      {
-        id: "mains",
-        title: "Mains",
-        subtitle: "Classic curries and specialties served with rice."
-      },
-      {
-        id: "biryani",
-        title: "Biryani rice dishes",
-        subtitle: "Fragrant spiced basmati rice with herbs."
-      },
-      {
-        id: "desserts",
-        title: "DESSERT MENU",
-        subtitle: "A sweet finish with a touch of India."
-      },
-      {
-        id: "softdrinks",
-        title: "Soft drinks",
-        subtitle: "Refreshing sodas and juices."
-      },
+  id: "starters",
+  title: "Starters",
+  subtitle: "A perfect start to your New Delhi experience."
+},
+{
+  id: "chaat",
+  title: "Chaat Specialties",
+  subtitle: "Spicy Indian street food classics."
+},
+{
+  id: "bowls",
+  title: "Bowls",
+  subtitle: "Modern & light – vegetarian, vegan, or with meat."
+},
+{
+  id: "thalis",
+  title: "Thalis (Indian Platters)",
+  subtitle: "A complete meal on one plate, traditionally served."
+},
+{
+  id: "mains",
+  title: "Main Courses",
+  subtitle: "Classic curries & specialties, served with rice."
+},
+{
+  id: "biryani",
+  title: "Biryani Rice Dishes",
+  subtitle: "Finely spiced, aromatic basmati rice with herbs."
+},
+{
+  id: "desserts",
+  title: "DESSERT MENU",
+  subtitle: "A sweet finish with a touch of India."
+},
+{
+  id: "softdrinks",
+  title: "Soft Drinks",
+  subtitle: "Refreshing sodas & juices."
+},
+{
+  id: "homemade",
+  title: "Homemade",
+  subtitle: "Homemade beverages."
+},
+{
+  id: "bier",
+  title: "Beer",
+  subtitle: "Draft and bottled beers."
+},
+{
+  id: "cocktails",
+  title: "Cocktails & Spritz Menu",
+  subtitle: "Spritz and cocktail classics."
+},
+{
+  id: "kaffee-tee",
+  title: "Coffee & Tea",
+  subtitle: "Hot coffee specialties and teas."
+},
+{
+  id: "digestifs",
+  title: "DIGESTIFS / 4 CL",
+  subtitle: "Digestifs served in 4 cl pours."
+},
+{
+  id: "wein",
+  title: "WINE",
+  subtitle: "House wine and bottled wines."
+}
+
     ],
     items: [
       {
