@@ -51,6 +51,11 @@ export const menuData = {
         title: "Bier",
         subtitle: "Biere vom Fass und aus der Flasche."
       },
+      {
+        id: "cocktails",
+        title: "Cocktails & Spritzkarte",
+        subtitle: "Spritz und Cocktailklassiker."
+      },
     ],
     items: [
       {
@@ -761,6 +766,134 @@ export const menuData = {
         name: "Radler Alkoholfrei",
         description: "Flasche.",
         sizes: [{ label: "0,33l", price: "3,70 €" }],
+        dietary: ["vegetarisch"]
+      },
+      {
+        id: "cocktail-1",
+        category: "cocktails",
+        name: "Aperol Spritz",
+        description: "Frizzante, Aperol, Soda.",
+        sizes: [{ label: "0,2l", price: "7,50 €" }],
+        dietary: ["vegetarisch"]
+      },
+      {
+        id: "cocktail-2",
+        category: "cocktails",
+        name: "Aperol Maracuja / Mango",
+        description: "Frizzante, Aperol, Maracuja oder Mango.",
+        sizes: [{ label: "0,2l", price: "7,95 €" }],
+        dietary: ["vegetarisch"]
+      },
+      {
+        id: "cocktail-3",
+        category: "cocktails",
+        name: "Veneziano",
+        description: "Weisswein, Aperol, Soda.",
+        sizes: [{ label: "0,2l", price: "7,50 €" }],
+        dietary: ["vegetarisch"]
+      },
+      {
+        id: "cocktail-4",
+        category: "cocktails",
+        name: "Hugo",
+        description: "Holunderbluetensirup, Frizzante, Limette, Soda.",
+        sizes: [{ label: "0,2l", price: "7,50 €" }],
+        dietary: ["vegetarisch"]
+      },
+      {
+        id: "cocktail-5",
+        category: "cocktails",
+        name: "Limoncello Spritz",
+        description: "Limoncello, Frizzante, Soda.",
+        sizes: [{ label: "0,2l", price: "7,95 €" }],
+        dietary: ["vegetarisch"]
+      },
+      {
+        id: "cocktail-6",
+        category: "cocktails",
+        name: "Lillet Wildberry",
+        description: "Lillet Blanc mit Wild Berry oder Tonic / Bitter Lemon, Erdbeere.",
+        sizes: [{ label: "0,2l", price: "8,40 €" }],
+        dietary: ["vegetarisch"]
+      },
+      {
+        id: "cocktail-7",
+        category: "cocktails",
+        name: "Cuba Libre",
+        description: "Bacardi Rum, frische Limette & Cola.",
+        price: "7,95 €",
+        dietary: ["vegetarisch"]
+      },
+      {
+        id: "cocktail-8",
+        category: "cocktails",
+        name: "Mojito",
+        description: "Minze, Limette, Rohrzucker, Bacardi Rum, Soda.",
+        price: "8,25 €",
+        dietary: ["vegetarisch"]
+      },
+      {
+        id: "cocktail-9",
+        category: "cocktails",
+        name: "Haus Monk",
+        description: "Old Monk Rum, Ginger Ale, Limette.",
+        price: "9,50 €",
+        dietary: ["vegetarisch"]
+      },
+      {
+        id: "cocktail-10",
+        category: "cocktails",
+        name: "Bombay Sapphire / Malfy Gin",
+        description: "Gin mit Zitrone & Tonic oder Bitter Lemon.",
+        price: "8,40 €",
+        dietary: ["vegetarisch"]
+      },
+      {
+        id: "cocktail-11",
+        category: "cocktails",
+        name: "Red Apple",
+        description: "Whisky, Apfelsaft & Soda.",
+        price: "8,20 €",
+        dietary: ["vegetarisch"]
+      },
+      {
+        id: "cocktail-12",
+        category: "cocktails",
+        name: "New York Sour",
+        description: "Whisky, Zitronensaft, Zuckersirup & Rotwein-Float.",
+        price: "9,70 €",
+        dietary: ["vegetarisch"]
+      },
+      {
+        id: "cocktail-13",
+        category: "cocktails",
+        name: "Fresh Maker",
+        description: "Alkoholfrei. Ginger Ale, Limette, brauner Zucker.",
+        price: "6,50 €",
+        dietary: ["vegetarisch"]
+      },
+      {
+        id: "cocktail-14",
+        category: "cocktails",
+        name: "Hugo Alkoholfrei",
+        description: "Alkoholfrei. Holunder Sirup, Limette, Soda.",
+        price: "6,40 €",
+        dietary: ["vegetarisch"]
+      },
+      {
+        id: "cocktail-15",
+        category: "cocktails",
+        name: "Nojito Mango",
+        description: "Alkoholfrei. Mango, Minze, Limette.",
+        price: "6,80 €",
+        dietary: ["vegetarisch"]
+      },
+      {
+        id: "cocktail-16",
+        category: "cocktails",
+        name: "Apfel Spritz",
+        description: "Alkoholfrei. Apfelsaft, Soda, Limette.",
+        price: "5,40 €",
         dietary: ["vegetarisch"]
       },
     ]
