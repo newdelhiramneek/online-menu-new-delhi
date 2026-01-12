@@ -1339,389 +1339,399 @@ export const menuData = {
   "dietary": []
 },
       {
-        id: "bowl-1",
-        category: "bowls",
-        name: "Avocado Mango Fusion Bowl",
-        description:
-          "Colorful bowl with quinoa, avocado, mango, baby spinach, chickpeas, and mint yogurt dressing.",
-        price: "10.20 €",
-        dietary: ["vegetarian"]
-      },
+  id: "bowl-1",
+  category: "bowls",
+  name: "Avocado Mango Fusion Bowl (Vegan possible)",
+  description:
+    "Creamy avocado and sun-ripened mango on a bed of quinoa and baby spinach, topped with roasted chickpeas,\npomegranate, fresh mint & coriander. Finished with a light yogurt–cumin dressing or coconut yogurt. (g)\nSlogan: Tropical. fresh. light.",
+  price: "10,20 €",
+  dietary: ["vegetarian"]
+},
+{
+  id: "bowl-2",
+  category: "bowls",
+  name: "Masala Rainbow Veggie Bowl (Vegan)",
+  description:
+    "Colorful vegetables (carrots, zucchini, broccoli, cauliflower) in a mild masala curry, served on\nwhole-grain rice or quinoa. With roasted walnuts, fresh herbs, and pomegranate seeds for color and crunch. (h3)\nSlogan: Healthy. aromatic. Instagram-worthy.",
+  price: "10,20 €",
+  dietary: ["vegan"]
+},
+{
+  id: "bowl-3",
+  category: "bowls",
+  name: "Chili Paneer Power Bowl",
+  description:
+    "Description: Pan-fried paneer with bell peppers, sugar snap peas, and spring onions in a spicy-sweet chili masala sauce,\nserved with basmati rice. A modern classic full of color, aroma, and energy — perfect for those who love it spicy. (g)\nSlogan: Hot. Sweet. Addictive.",
+  price: "10,50 €",
+  dietary: ["vegetarian"]
+},
+{
+  id: "bowl-4",
+  category: "bowls",
+  name: "Tandoori Chicken & Mango Bowl (remains)",
+  description:
+    "Tender tandoori chicken on quinoa and baby spinach, combined with sweet mango, roasted chickpeas, and mint-yogurt dressing. A light, fresh twist on an Indian classic. (g)\nSlogan: Aromatic. light. tropical.",
+  price: "12,70 €",
+  dietary: []
+},
+{
+  id: "bowl-5",
+  category: "bowls",
+  name: "Lamb & Quinoa Bowl (Fusion Style)",
+  description:
+    "Tender lamb fillet with light garam masala flavors, served on quinoa with grilled vegetables, walnuts, and fresh coriander. A fresh, creative fusion dish with Indian flair. (h3)\nSlogan: Light. spicy. modern.",
+  price: "14,10 €",
+  dietary: []
+},
+{
+  id: "bowl-toppings",
+  category: "bowls",
+  name: "Extra Toppings",
+  description: "Make your bowl even better!",
+  sizes: [
+    { label: "Sweet potato cubes", price: "2,50 €" },
+    { label: "Paneer/Avocado", price: "2,80 €" },
+    { label: "Chicken", price: "3,50 €" },
+    { label: "Lamb", price: "4,50 €" },
+    { label: "Scampi", price: "5,20 €" },
+    { label: "Sauce of your choice", price: "2,60 €" }
+  ],
+  dietary: []
+},
+
       {
-        id: "bowl-2",
-        category: "bowls",
-        name: "Masala Rainbow Veggie Bowl",
-        description:
-          "Roasted vegetables, lentils, basmati rice, pickles, and cashew masala sauce.",
-        price: "10.20 €",
-        dietary: ["vegan"]
-      },
-      {
-        id: "bowl-3",
-        category: "bowls",
-        name: "Chili Paneer Power Bowl",
-        description:
-          "Paneer cubes with bell pepper, onions, and chili sauce over basmati rice with herbs.",
-        price: "10.50 €",
-        dietary: ["vegetarian"]
-      },
-      {
-        id: "bowl-4",
-        category: "bowls",
-        name: "Tandoori Chicken & Mango Bowl",
-        description:
-          "Tender tandoori chicken on quinoa and baby spinach, paired with sweet mango, roasted chickpeas, and mint yogurt dressing. A light, fresh twist on an Indian classic.",
-        price: "12.70 €",
-        dietary: []
-      },
-      {
-        id: "bowl-5",
-        category: "bowls",
-        name: "Lamb & Quinoa Bowl (Fusion-Style)",
-        description:
-          "Tender lamb fillet with light garam masala notes, served on quinoa with grilled vegetables, pomegranate seeds, and fresh coriander. A fresh, creative fusion bowl with Indian flair.",
-        price: "14.10 €",
-        dietary: []
-      },
-      {
-        id: "bowl-toppings",
-        category: "bowls",
-        name: "Extra Toppings",
-        description: "Make your bowl even better!",
-        sizes: [
-          { label: "Sweet potato cubes", price: "2.50 €" },
-          { label: "Paneer/Avocado", price: "2.80 €" },
-          { label: "Chicken", price: "3.50 €" },
-          { label: "Lamb", price: "4.50 €" },
-          { label: "Scampi", price: "5.20 €" },
-          { label: "Sauce of choice", price: "2.60 €" }
-        ],
-        dietary: []
-      },
-      {
-        id: "thali-1",
-        category: "thalis",
-        name: "Vegetarian Thali",
-        description:
-          "Paneer curry, vegetable sabji, dal, raita, papadam, naan, and dessert of the day.",
-        price: "22.50 €",
-        dietary: ["vegetarian"]
-      },
-      {
-        id: "thali-2",
-        category: "thalis",
-        name: "New Delhi Signature Thali",
-        description:
-          "Butter chicken, lamb curry, dal makhni, vegetables, rice, naan, and dessert.",
-        price: "24.60 €",
-        dietary: []
-      },
-      {
-        id: "main-1",
-        category: "mains",
-        name: "Aloo Shimla Masala",
-        description:
-          "Potatoes with bell peppers and onions in a robust tomato-onion sauce, lightly roasted and aromatic. (m)\nSlogan: Hearty. Bold. Homemade.",
-        price: "12.40 €",
-        dietary: ["vegetarian"]
-      },
-      {
-        id: "main-2",
-        category: "mains",
-        name: "Smoky Baingan Roast",
-        description:
-          "Roasted eggplant with a smoky aroma, lightly spiced and modern in presentation. (– )\nSlogan: Smoky. Spiced. Healthy.",
-        price: "12.40 €",
-        dietary: ["vegetarian"]
-      },
-      {
-        id: "main-3",
-        category: "mains",
-        name: "Mix Sabji",
-        description:
-          "Seasonal mixed vegetables in a light curry sauce, fresh and homemade. (– )\nSlogan: Fresh. Colorful. Homemade.",
-        price: "12.95 €",
-        dietary: ["vegetarian"]
-      },
-      {
-        id: "main-4",
-        category: "mains",
-        name: "Delhi Street Chana",
-        description:
-          "Chickpeas in a light tomato-coconut sauce with curry leaves, mustard seeds, and fresh herbs.\nInspired by the flavors of Delhi—modern, light, and aromatic. (j)\nSlogan: Hearty. Fresh. Authentic.",
-        price: "12.95 €",
-        dietary: ["vegan"]
-      },
-      {
-        id: "main-5",
-        category: "mains",
-        name: "Dal Tadka",
-        description:
-          "Yellow lentils with spices and fresh herbs, aromatic and light.\nSlogan: Hearty. Spiced. Light.",
-        price: "13.75 €",
-        dietary: ["vegan"]
-      },
-      {
-        id: "main-6",
-        category: "mains",
-        name: "Chili Paneer Stir-Fry / Mushroom & Spinach",
-        description:
-          "Paneer cubes with peppers and onions in a light chili-tomato sauce, quickly stir-fried. (g)\nSlogan: Spicy. Crisp. Light.",
-        price: "14.50 €",
-        dietary: ["vegetarian"]
-      },
-      {
-        id: "main-7",
-        category: "mains",
-        name: "Palak Paneer",
-        description:
-          "Paneer in a mild spinach curry, creamy, light, and quick to prepare. (g)\nSlogan: Green. Creamy. Healthy.",
-        price: "14.95 €",
-        dietary: ["vegetarian"]
-      },
-      {
-        id: "main-8",
-        category: "mains",
-        name: "Methi Malai Kofta (Alternative mit Kartoffel )",
-        description:
-          "Vegetable dumplings in a creamy methi-cashew-tomato sauce, modern presentation. (g,h1,h4)\nSlogan: Creamy. Light. Delicious.",
-        price: "14.95 €",
-        dietary: ["vegetarian"]
-      },
-      {
-        id: "main-9",
-        category: "mains",
-        name: "Shahi Paneer",
-        description:
-          "Creamy paneer in a light cashew-tomato sauce, modern interpretation. (g,h1,h4)\nSlogan: Creamy. Aromatic. Elegant.",
-        price: "15.50 €",
-        dietary: ["vegetarian"]
-      },
-      {
-        id: "main-10",
-        category: "mains",
-        name: "Dal Makhni",
-        description:
-          "Black lentils and kidney beans, slow-simmered for over 16 hours in a light butter-cream sauce in traditional Indian style. (g,h) \nSlogan: Creamy. Aromatic. Traditional.",
-        price: "15.70 €",
-        dietary: ["vegetarian"]
-      },
-      {
-        id: "main-11",
-        category: "mains",
-        name: "Paneer Tikka Light / Sizzler",
-        description:
-          "Grilled paneer cubes with peppers and onions, lightly spiced, in a mild tomato-cashew sauce. / served on a hot cast-iron plate with smoky masala sauce. (g,h4)\nSlogan: Grilled. Aromatic. Light.",
-        price: "15.90 €",
-        dietary: ["vegetarian"]
-      },
-      {
-        id: "main-12",
-        category: "mains",
-        name: "Chicken Chettinad",
-        description:
-          "South Indian chicken curry with pepper, coconut, curry leaves, and aromatic spices?bold yet balanced. (g)\nSlogan: Bold. Spiced. Authentic.",
-        price: "13.90 ?",
-        dietary: []
-      },
-      {
-        id: "main-13",
-        category: "mains",
-        name: "Chicken Jalfrezi",
-        description:
-          "Chicken pieces with peppers, onions, and tomatoes stir-fried in a spicy sauce. (? )\nSlogan: Crisp. Spiced. Aromatic.",
-        price: "14.50 ?",
-        dietary: []
-      },
-      {
-        id: "main-14",
-        category: "mains",
-        name: "Chicken Madras",
-        description:
-          "Robust chicken curry with tomatoes, onions, curry leaves, and South Indian spices, pleasantly hot. (? )\nSlogan: Aromatic. Spicy. Classic.",
-        price: "14.90 ?",
-        dietary: []
-      },
-      {
-        id: "main-15",
-        category: "mains",
-        name: "Smoky Tandoori Chicken Sizzler",
-        description:
-          "Tender grilled chicken with a smoky tandoori note, served on a hot plate with a light curry sauce. (g)\nSlogan: Smoky. Spiced. Crispy.",
-        price: "14.90 ?",
-        dietary: []
-      },
-      {
-        id: "main-16",
-        category: "mains",
-        name: "Chicken Saagwala",
-        description:
-          "Tender chicken in a creamy spinach curry with ginger, garlic, and gentle spices. (g)\nSlogan: Green. Creamy. Healthy.",
-        price: "14.90 ?",
-        dietary: []
-      },
-      {
-        id: "main-17",
-        category: "mains",
-        name: "Mango Chicken Curry",
-        description:
-          "Chicken pieces in a bright mango curry sauce with mild spices. (g)\nSlogan: Fruity. Aromatic. Juicy.",
-        price: "14.90 ?",
-        dietary: []
-      },
-      {
-        id: "main-18",
-        category: "mains",
-        name: "Chicken Tikka Masala",
-        description:
-          "Grilled chicken in a creamy, mildly spiced orange sauce with tomatoes and cashew. (g,h4)\nSlogan: Creamy. Aromatic. Spiced.",
-        price: "15.50 ?",
-        dietary: []
-      },
-      {
-        id: "main-19",
-        category: "mains",
-        name: "Butter Chicken",
-        description:
-          "Tender chicken in a creamy tomato-cashew sauce, delicately seasoned. (g,h4)\nSlogan: Creamy. Aromatic. Juicy.",
-        price: "15.90 ?",
-        dietary: []
-      },
-      {
-        id: "main-20",
-        category: "mains",
-        name: "Delhi Lamb Curry",
-        description:
-          "Tender lamb in an aromatic tomato-onion sauce with ginger, garlic, and a fine spice blend, prepared in the traditional style of New Delhi. (g)\nSlogan: Aromatic. Authentic. Unforgettable.",
-        price: "15.50 €",
-        dietary: []
-      },
-      {
-        id: "main-21",
-        category: "mains",
-        name: "Lamb Rogan Josh",
-        description:
-          "Tender lamb pieces in an aromatic deep-red tomato-spice sauce, North Indian style. (g)\nSlogan: Bold. Spiced. Authentic.",
-        price: "15.90 €",
-        dietary: []
-      },
-      {
-        id: "main-22",
-        category: "mains",
-        name: "Lamb Saag",
-        description:
-          "Tender lamb in a vibrant green spinach sauce, refined with fresh spices. (g)\nSlogan: Green. Spiced. Hearty.",
-        price: "15.90 €",
-        dietary: []
-      },
-      {
-        id: "main-23",
-        category: "mains",
-        name: "Lamb Korma",
-        description:
-          "Tender lamb in a creamy pale-yellow cashew sauce with a delicate nutty note. (g, h4)\nSlogan: Mild. Creamy. Elegant.",
-        price: "16.50 €",
-        dietary: []
-      },
-      {
-        id: "main-24",
-        category: "mains",
-        name: "Smoky Lamb Sizzler",
-        description:
-          "Grilled lamb pieces with a smoky note, served on a hot plate with a light masala sauce and fresh herbs. (g)\nSlogan: Smoky. Tender. Aromatic.",
-        price: "16.90 €",
-        dietary: []
-      },
-      {
-        id: "main-25",
-        category: "mains",
-        name: "Scampi Masala",
-        description:
-          "Scampi in a bold tomato-onion sauce with ginger, garlic, and aromatic spices, lightly spicy. (b)\nSlogan: Aromatic. Spiced. Hearty.",
-        price: "15.50 €",
-        dietary: []
-      },
-      {
-        id: "main-26",
-        category: "mains",
-        name: "Scampi Butter Masala",
-        description:
-          "Scampi in a creamy butter-tomato-cashew sauce, mildly spiced and finished with fresh coriander. (b,g,h4)\nSlogan: Creamy. Aromatic. Elegant.",
-        price: "15.90 €",
-        dietary: []
-      },
-      {
-        id: "main-27",
-        category: "mains",
-        name: "Saffron Flame Fish",
-        description:
-          "Tender fish fillet in an aromatic tomato-onion sauce with fine spices, gentle heat, and a hint of saffron. (d,g)\nSlogan: Refined. Exotic. Irresistible.",
-        price: "16.50 €",
-        dietary: []
-      },
-      {
-        id: "main-28",
-        category: "mains",
-        name: "Butter Naan",
-        description:
-          "Soft, freshly baked naan with a light butter glaze, ideal for dipping into creamy curries. (a,g)\nSlogan: Soft. Classic. Perfect with every curry.",
-        price: "3.50 €",
-        dietary: ["vegetarian"]
-      },
-      {
-        id: "main-29",
-        category: "mains",
-        name: "Garlic Naan",
-        description:
-          "Aromatic naan with fresh garlic and butter, baked in the tandoor, fragrant and crisp. (a,g)\nSlogan: Fragrant. Crisp. Popular.",
-        price: "3.75 €",
-        dietary: ["vegetarian"]
-      },
-      {
-        id: "main-30",
-        category: "mains",
-        name: "Tandoori Roti (Whole Wheat)",
-        description:
-          "Traditional thin whole-wheat roti from the tandoor—no butter, light and vegan. (a)\nSlogan: Thin. Crisp. Healthy.",
-        price: "3.50 €",
-        dietary: ["vegan"]
-      },
-      {
-        id: "main-31",
-        category: "mains",
-        name: "Paneer Naan",
-        description:
-          "Soft tandoor-baked naan filled with gently spiced paneer cubes—aromatic and satisfying. (a, g)\nSlogan: Creamy. Hearty. Always a favorite.",
-        price: "4.20€",
-        dietary: ["vegetarian"]
-      },
-      {
-        id: "main-32",
-        category: "mains",
-        name: "Bread Basket (for two)",
-        description:
-          "Selection of butter naan, garlic naan, and tandoori roti—perfect for sharing. (a,g)\nSlogan: Variety. Fresh. Made to share.",
-        price: "6.20 €",
-        dietary: ["vegetarian"]
-      },
-      {
-        id: "main-33",
-        category: "mains",
-        name: "Basmati Rice",
-        description:
-          "Aromatic, fluffy premium basmati—the classic side for all curries. (– )\nSlogan: Fragrant. Fluffy. Classic.",
-        price: "3.50 €",
-        dietary: ["vegan"]
-      },
-      {
-        id: "main-34",
-        category: "mains",
-        name: "Jeera Rice (Cumin Rice)",
-        description:
-          "Basmati rice with lightly toasted cumin and a hint of ghee—fragrant and aromatic. (g)\nSlogan: Aromatic. Fine. Light.",
-        price: "3.75 €",
-        dietary: ["vegetarian"]
-      },
+  id: "thali-1",
+  category: "thalis",
+  name: "Vegetarian",
+  description:
+    "Palak paneer, mixed vegetable sabji & chili paneer stir-fry, served with fragrant basmati rice, naan, and a small portion of dal makhani. Finished with a refreshing black currant sorbet or a slice of pistachio cheesecake. (a1,g)\nSlogan: Light. Colorful. Aromatic.",
+  price: "22,95 €",
+  dietary: ["vegetarian"]
+},
+{
+  id: "thali-2",
+  category: "thalis",
+  name: "Non-Vegetarian",
+  description:
+    "Tandoori chicken masala & lamb saag curry, served with basmati rice, naan, and a creamy dal makhani. As a sweet finish, choose between mango lassi panna cotta or pistachio cheesecake. (a2,g,h5)\nSlogan: Aromatic. Light. Exotic.",
+  price: "24,60 €",
+  dietary: []
+},
+     {
+  id: "main-1",
+  category: "mains",
+  name: "Aloo Shimla Masala",
+  description:
+    "Potatoes with bell peppers & onions in a rich tomato-onion sauce, lightly roasted and aromatically spiced. (m)\nSlogan: Hearty. Robust. Homemade.",
+  price: "12,40 €",
+  dietary: ["vegetarian"]
+},
+{
+  id: "main-2",
+  category: "mains",
+  name: "Smoky Baingan Roast",
+  description:
+    "Roasted eggplant with a smoky aroma, lightly spiced and modernly presented. (– )\nSlogan: Smoky. Spicy. Healthy.",
+  price: "12,40 €",
+  dietary: ["vegetarian"]
+},
+{
+  id: "main-3",
+  category: "mains",
+  name: "Mix Sabji",
+  description:
+    "Colorful vegetable medley with seasonal vegetables in a light curry sauce, fresh and homemade. (– )\nSlogan: Fresh. Colorful. Homemade.",
+  price: "12,95 €",
+  dietary: ["vegetarian"]
+},
+{
+  id: "main-4",
+  category: "mains",
+  name: "Delhi Street Chana",
+  description:
+    "Chickpeas in a light tomato-coconut sauce with curry leaves, mustard seeds, and fresh herbs.\nInspired by the flavors of Delhi — modern, light, and aromatically served. (j)\nSlogan: Hearty. Fresh. Authentic.",
+  price: "12,95 €",
+  dietary: ["vegan"]
+},
+{
+  id: "main-5",
+  category: "mains",
+  name: "Dal Tadka",
+  description:
+    "Yellow lentils with spices & fresh herbs, aromatic and light.\nSlogan: Hearty. Spicy. Light.",
+  price: "13,75 €",
+  dietary: ["vegan"]
+},
+{
+  id: "main-6",
+  category: "mains",
+  name: "Chili Paneer Stir-Fry / Mushroom & Spinach",
+  description:
+    "Paneer cubes with bell peppers and onions in a light chili-tomato sauce, quickly stir-fried. (g)\nSlogan: Spicy. Crunchy. Light.",
+  price: "14,50 €",
+  dietary: ["vegetarian"]
+},
+{
+  id: "main-7",
+  category: "mains",
+  name: "Palak Paneer",
+  description:
+    "Paneer in a mild spinach curry, creamy, light, and freshly prepared. (g)\nSlogan: Green. Creamy. Healthy.",
+  price: "14,95 €",
+  dietary: ["vegetarian"]
+},
+{
+  id: "main-8",
+  category: "mains",
+  name: "Methi Malai Kofta (Alternative with Potato)",
+  description:
+    "Vegetable dumplings in a creamy fenugreek–cashew–tomato sauce, modernly presented. (g,h1,h4)\nSlogan: Creamy. Light. Delicious.",
+  price: "14,95 €",
+  dietary: ["vegetarian"]
+},
+{
+  id: "main-9",
+  category: "mains",
+  name: "Shahi Paneer",
+  description:
+    "Creamy paneer in a light cashew-tomato sauce, modernly interpreted. (g,h1,h4)\nSlogan: Creamy. Aromatic. Elegant.",
+  price: "15,50 €",
+  dietary: ["vegetarian"]
+},
+{
+  id: "main-10",
+  category: "mains",
+  name: "Dal Makhni",
+  description:
+    "Black lentils and kidney beans, gently simmered for over 16 hours, in a light\nbutter-cream sauce prepared in original Indian style. (g,h)\nSlogan: Creamy. Aromatic. Traditional.",
+  price: "15,70 €",
+  dietary: ["vegetarian"]
+},
+{
+  id: "main-11",
+  category: "mains",
+  name: "Paneer Tikka Light / Sizzler",
+  description:
+    "Grilled paneer cubes with bell peppers & onions, lightly spiced, in a mild tomato-cashew sauce. / served on\na hot cast-iron plate with smoky masala sauce. (g,h4)\nSlogan: Grilled. Aromatic. Light.",
+  price: "15,90 €",
+  dietary: ["vegetarian"]
+},
+{
+  id: "main-12",
+  category: "mains",
+  name: "Chicken Chettinad",
+  description:
+    "South Indian chicken curry with pepper, coconut, curry leaves, and aromatic spices — bold yet balanced. (g)\nSlogan: Bold. Spicy. Authentic.",
+  price: "13,90 €",
+  dietary: []
+},
+{
+  id: "main-13",
+  category: "mains",
+  name: "Chicken Jalfrezi",
+  description:
+    "Chicken pieces stir-fried with bell peppers, onions, and tomatoes in a spicy sauce. (– )\nSlogan: Crunchy. Spicy. Aromatic.",
+  price: "14,50 €",
+  dietary: []
+},
+{
+  id: "main-14",
+  category: "mains",
+  name: "Chicken Madras",
+  description:
+    "Robust chicken curry with tomatoes, onions, curry leaves, and South Indian spices, pleasantly spicy. (– )\nSlogan: Aromatic. Spicy. Classic.",
+  price: "14,90 €",
+  dietary: []
+},
+{
+  id: "main-15",
+  category: "mains",
+  name: "Smoky Tandoori Chicken Sizzler",
+  description:
+    "Tender grilled chicken with a smoky tandoori note, served on a hot plate with light curry sauce. (g)\nSlogan: Smoky. Spicy. Crispy.",
+  price: "14,90 €",
+  dietary: []
+},
+{
+  id: "main-16",
+  category: "mains",
+  name: "Chicken Saagwala",
+  description:
+    "Tender chicken in a creamy spinach curry with ginger, garlic, and mild spices. (g)\nSlogan: Green. Creamy. Healthy.",
+  price: "14,90 €",
+  dietary: []
+},
+{
+  id: "main-17",
+  category: "mains",
+  name: "Mango Chicken Curry",
+  description:
+    "Chicken pieces in a yellow, fruity mango curry sauce with mild spices. (g)\nSlogan: Fruity. Aromatic. Juicy.",
+  price: "14,90 €",
+  dietary: []
+},
+{
+  id: "main-18",
+  category: "mains",
+  name: "Chicken Tikka Masala",
+  description:
+    "Grilled chicken in a creamy, mildly spiced orange-colored sauce with tomatoes and cashew. (g,h4)\nSlogan: Creamy. Aromatic. Spicy.",
+  price: "15,50 €",
+  dietary: []
+},
+{
+  id: "main-19",
+  category: "mains",
+  name: "Butter Chicken",
+  description:
+    "Tender chicken in a creamy tomato-cashew sauce, delicately spiced. (g,h4)\nSlogan: Creamy. Aromatic. Juicy.",
+  price: "15,90 €",
+  dietary: []
+},
+{
+  id: "main-20",
+  category: "mains",
+  name: "Delhi Lamb Curry",
+  description:
+    "Tender lamb in an aromatic tomato-onion sauce with ginger, garlic, and a fine spice blend, prepared in traditional New Delhi style. (g)\nSlogan: Aromatic. Authentic. Unforgettable.",
+  price: "15,50 €",
+  dietary: []
+},
+{
+  id: "main-21",
+  category: "mains",
+  name: "Lamb Rogan Josh",
+  description:
+    "Tender lamb pieces in an aromatic, deep-red tomato-spice sauce in North Indian style. (g)\nSlogan: Bold. Spicy. Authentic.",
+  price: "15,90 €",
+  dietary: []
+},
+{
+  id: "main-22",
+  category: "mains",
+  name: "Lamb Saag",
+  description:
+    "Tender lamb in a vibrant green spinach sauce, refined with fresh spices. (g)\nSlogan: Green. Spicy. Hearty.",
+  price: "15,90 €",
+  dietary: []
+},
+{
+  id: "main-23",
+  category: "mains",
+  name: "Lamb Korma",
+  description:
+    "Tender lamb in a creamy, light-yellow cashew sauce with a delicate nutty note. (g, h4)\nSlogan: Mild. Creamy. Elegant.",
+  price: "16,50 €",
+  dietary: []
+},
+{
+  id: "main-24",
+  category: "mains",
+  name: "Smoky Lamb Sizzler",
+  description:
+    "Grilled lamb pieces with a smoky note, served on a hot plate with light masala sauce and fresh herbs. (g)\nSlogan: Smoky. Tender. Aromatic",
+  price: "16,90 €",
+  dietary: []
+},
+{
+  id: "main-25",
+  category: "mains",
+  name: "Scampi Masala",
+  description:
+    "Scampi in a robust tomato-onion sauce with ginger, garlic, and aromatic spices, lightly spicy. (b)\nSlogan: Aromatic. Spicy. Hearty.",
+  price: "15,50 €",
+  dietary: []
+},
+{
+  id: "main-26",
+  category: "mains",
+  name: "Scampi Butter Masala",
+  description:
+    "Scampi in a creamy butter tomato-cashew sauce, mildly spiced and refined with fresh coriander. (b,g,h4)\nSlogan: Creamy. Aromatic. Elegant.",
+  price: "15,90 €",
+  dietary: []
+},
+{
+  id: "main-27",
+  category: "mains",
+  name: "Saffron Flame Fish",
+  description:
+    "Tender fish fillet in an aromatic tomato-onion sauce with fine spices, gentle heat, and a hint of saffron. (d,g)\nSlogan: Delicate. Exotic. Seductive.",
+  price: "16,50 €",
+  dietary: []
+},
+{
+  id: "main-28",
+  category: "mains",
+  name: "Butter Naan",
+  description:
+    "Soft, freshly baked naan bread with a light butter glaze, ideal for dipping into creamy curries. (a,g)\nSlogan: Soft. Classic. Perfect with any curry.",
+  price: "3,50 €",
+  dietary: ["vegetarian"]
+},
+{
+  id: "main-29",
+  category: "mains",
+  name: "Garlic Naan",
+  description:
+    "Aromatic naan with fresh garlic and butter, baked in the tandoor, fragrant & crispy. (a,g)\nSlogan: Fragrant. Crispy. Popular.",
+  price: "3,75 €",
+  dietary: ["vegetarian"]
+},
+{
+  id: "main-30",
+  category: "mains",
+  name: "Tandoori Roti (Whole Wheat)",
+  description:
+    "Traditional thin whole-wheat bread from the tandoor — without butter, light & vegan. (a)\nSlogan: Thin. Crispy. Healthy.",
+  price: "3,50 €",
+  dietary: ["vegan"]
+},
+{
+  id: "main-31",
+  category: "mains",
+  name: "Paneer Naan",
+  description:
+    "Soft naan bread freshly baked in the tandoor, filled with delicately spiced paneer cubes — aromatic & filling. (a, g)\nSlogan: Creamy. Hearty. Always popular.",
+  price: "4,20€",
+  dietary: ["vegetarian"]
+},
+{
+  id: "main-32",
+  category: "mains",
+  name: "Bread Basket (for two)",
+  description:
+    "Selection of butter naan, garlic naan & tandoori roti — perfect for sharing. (a,g)\nSlogan: Varied. Fresh. For sharing.",
+  price: "6,20 €",
+  dietary: ["vegetarian"]
+},
+{
+  id: "main-33",
+  category: "mains",
+  name: "Basmati Rice",
+  description:
+    "Aromatic, fluffy-cooked premium basmati — the classic side for all curries. (– )\nSlogan: Fragrant. Fluffy. Classic.",
+  price: "3,50 €",
+  dietary: ["vegan"]
+},
+{
+  id: "main-34",
+  category: "mains",
+  name: "Jeera Rice (Cumin Rice)",
+  description:
+    "Basmati rice with lightly roasted cumin & a hint of ghee — fragrant and aromatic. (g)\nSlogan: Aromatic. Delicate. Light.",
+  price: "3,75 €",
+  dietary: ["vegetarian"]
+},
+{
+  id: "main-35",
+  category: "mains",
+  name: "Lemon Rice (South Indian Style)",
+  description:
+    "Light yellow rice with lemon juice, curry leaves & mustard seeds — refreshing and colorful. (j)\nSlogan: Fresh. Light. South Indian.",
+  price: "3,75 €",
+  dietary: ["vegetarian"]
+},
       {
         id: "main-35",
         category: "mains",
