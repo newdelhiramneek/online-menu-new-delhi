@@ -1250,59 +1250,54 @@ export const menuData = {
     ],
     items: [
       {
-        id: "starter-1",
-        category: "starters",
-        name: "Masala Papadam Chips",
-        description:
-          "Crispy papadam chips with house masala salt, served with mango chutney and mint yogurt.",
-        price: "3.80 €",
-        dietary: ["vegan"]
-      },
-      {
-        id: "starter-2",
-        category: "starters",
-        name: "Tandoori Broccoli & Cauliflower",
-        description:
-          "Broccoli and cauliflower marinated for the tandoor with yogurt, garam masala, and fresh coriander.",
-        price: "6.10 €",
-        dietary: ["vegetarian"]
-      },
-      {
-        id: "starter-3",
-        category: "starters",
-        name: "Samosa",
-        description:
-          "Homemade pastry pockets filled with potatoes, peas, and spices. Served with chutneys.",
-        price: "6.20 €",
-        dietary: ["vegan"]
-      },
-      {
-        id: "starter-4",
-        category: "starters",
-        name: "Dhokla Glow Tartine",
-        description:
-          "Fluffy dhokla topped with smashed avocado, cherry tomatoes, lime, pomegranate, roasted pumpkin seeds, and a touch of cheese—a colorful homage to Indian flavors.",
-        price: "7.30 €",
-        dietary: ["vegetarian"]
-      },
-      {
-        id: "starter-5",
-        category: "starters",
-        name: "Palak Pop Crunch",
-        description:
-          "Crispy spinach leaves fried in chickpea, semolina, and cornmeal batter, served with sweet yogurt, saunth and mint chutney, pomegranate seeds, and crunchy sev for a vibrant, texture-rich snack.",
-        price: "8.20 €",
-        dietary: ["vegetarian"]
-      },
-      {
-        id: "starter-6",
-        category: "starters",
-        name: "Lentil Soup or Garlic Soup",
-        description:
-          "Aromatic choice: red lentils with cumin, turmeric, and ginger, or roasted garlic with onions and fresh herbs. Slogan: Soulful. Aromatic. Comforting.",
-        price: "5.90 €",
-        dietary: ["vegetarian"]
-      },
+  "id": "starter-1",
+  "category": "starters",
+  "name": "Masala Papadam Chips",
+  "description": "Crispy papadam chips with masala salt. Served with homemade dips: mango chutney, mint yogurt & tomato salsa. (f,g)",
+  "price": "3,80 €",
+  "dietary": ["vegetarian"]
+},
+{
+  "id": "starter-2",
+  "category": "starters",
+  "name": "Tandoori Broccoli & Cauliflower",
+  "description": "Marinated and roasted in the tandoor, served with lime yogurt, pomegranate, and fresh coriander. (g)",
+  "price": "6,10 €",
+  "dietary": ["vegetarian"]
+},
+{
+  "id": "starter-3",
+  "category": "starters",
+  "name": "Samosa",
+  "description": "A trio of classic samosas: potato-pea and mango-chili. Served with mint and tamarind chutney. (a1)",
+  "price": "6,20 €",
+  "dietary": ["vegetarian"]
+},
+{
+  "id": "starter-4",
+  "category": "starters",
+  "name": "Dhokla Glow Tartine",
+  "description": "Fluffy dhokla with smashed avocado, cherry tomatoes, lime, pomegranate, roasted pumpkin seeds, and a touch of cheese — a colorful homage to the flavors of India. (a,g)",
+  "price": "7,30 €",
+  "dietary": ["vegetarian"]
+},
+{
+  "id": "starter-5",
+  "category": "starters",
+  "name": "Palak Corn Tikki",
+  "description": "Golden-brown pan-fried patties made from fresh spinach and sweet corn, delicately seasoned with selected Indian spices, served with homemade chutney. (a1)",
+  "price": "8,20 €",
+  "dietary": ["vegetarian"]
+},
+{
+  "id": "starter-6",
+  "category": "starters",
+  "name": "Lentil Soup or Lasan Soup",
+  "description": "(Garlic Soup)\nAromatic choice: red lentils with cumin, turmeric & ginger or roasted garlic with onions & fresh herbs. (– / g with ghee)\nSlogan: Soulful. Aromatic. Comforting.",
+  "price": "5,90 €",
+  "dietary": ["vegetarian"]
+},
+
       {
         id: "chaat-1",
         category: "chaat",
