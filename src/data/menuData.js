@@ -46,6 +46,11 @@ export const menuData = {
         title: "Homemade",
         subtitle: "Hausgemachte Getraenke."
       },
+      {
+        id: "bier",
+        title: "Bier",
+        subtitle: "Biere vom Fass und aus der Flasche."
+      },
     ],
     items: [
       {
@@ -694,6 +699,68 @@ export const menuData = {
           { label: "0,5l", price: "4,95 €" },
           { label: "0,25l", price: "3,25 €" }
         ],
+        dietary: ["vegetarisch"]
+      },
+      {
+        id: "bier-1",
+        category: "bier",
+        name: "Feldschlösschen",
+        description: "Vom Fass.",
+        sizes: [
+          { label: "0,5l", price: "4,40 €" },
+          { label: "0,3l", price: "3,80 €" }
+        ],
+        dietary: ["vegetarisch"]
+      },
+      {
+        id: "bier-2",
+        category: "bier",
+        name: "Kingfisher / Cobra",
+        description: "Indisches Bier. Flasche.",
+        sizes: [{ label: "0,33l", price: "3,70 €" }],
+        dietary: ["vegetarisch"]
+      },
+      {
+        id: "bier-3",
+        category: "bier",
+        name: "Somersby Mango Lime",
+        description: "Sehr beliebt bei Frauen. Flasche.",
+        sizes: [{ label: "0,33l", price: "3,80 €" }],
+        dietary: ["vegetarisch"]
+      },
+      {
+        id: "bier-4",
+        category: "bier",
+        name: "Schwarzbier",
+        description: "Flasche.",
+        sizes: [{ label: "0,5l", price: "4,10 €" }],
+        dietary: ["vegetarisch"]
+      },
+      {
+        id: "bier-5",
+        category: "bier",
+        name: "Radler / Diesel",
+        description: "Erfrischend.",
+        sizes: [
+          { label: "0,5l", price: "4,40 €" },
+          { label: "0,3l", price: "3,80 €" }
+        ],
+        dietary: ["vegetarisch"]
+      },
+      {
+        id: "bier-6",
+        category: "bier",
+        name: "Erdinger Weißbier / Alkoholfrei",
+        description: "Flasche.",
+        sizes: [{ label: "0,5l", price: "4,10 €" }],
+        dietary: ["vegetarisch"]
+      },
+      {
+        id: "bier-7",
+        category: "bier",
+        name: "Radler Alkoholfrei",
+        description: "Flasche.",
+        sizes: [{ label: "0,33l", price: "3,70 €" }],
         dietary: ["vegetarisch"]
       },
     ]
