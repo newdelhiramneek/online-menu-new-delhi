@@ -1,6 +1,6 @@
 ﻿import React from "react";
 
-const Footer = ({ copy }) => {
+const Footer = ({ copy, onImpressumClick }) => {
   const year = new Date().getFullYear();
   const safeCopy = copy || {};
   const allergenItems =
@@ -12,6 +12,15 @@ const Footer = ({ copy }) => {
   const allergenColumns = Array.from({ length: 3 }, (_, colIdx) =>
     allergenItems.slice(colIdx * itemsPerColumn, (colIdx + 1) * itemsPerColumn)
   );
+  const impressumLabel = safeCopy.impressumLabel || "Impressum";
+  const impressumHref = safeCopy.impressumHref || "/impressum";
+  const handleImpressumClick = (event) => {
+    if (!onImpressumClick) {
+      return;
+    }
+    event.preventDefault();
+    onImpressumClick();
+  };
 
   return (
     <footer className="menu-footer">
@@ -65,7 +74,19 @@ const Footer = ({ copy }) => {
         <p className="footer-note">{safeCopy.allergenNote}</p>
       </div>
 
-      <p className="footer-bottom">(c) {year} {safeCopy.bottomLabel}</p>
+      <p className="footer-bottom">
+        (c) {year} {safeCopy.bottomLabel}
+        <span className="footer-separator" aria-hidden="true">
+          |
+        </span>
+        <a
+          className="footer-link"
+          href={impressumHref}
+          onClick={handleImpressumClick}
+        >
+          {impressumLabel}
+        </a>
+      </p>
     </footer>
   );
 };

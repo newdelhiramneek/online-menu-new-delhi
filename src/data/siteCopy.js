@@ -11,6 +11,8 @@
     addToCart: "Zur Liste hinzufügen",
     toastAdded: "Zur Liste hinzugefuegt.",
     emptyState: "In dieser Kategorie sind aktuell keine Gerichte hinterlegt.",
+    impressumTitle: "Impressum",
+    impressumBackLabel: "Zurück zur Speisekarte",
     footer: {
       addressHeading: "New Delhi",
       addressLines: ["Pfotenhauer Straße 70", "01307 Dresden, Germany"],
@@ -23,7 +25,9 @@
         "A - glutenhaltiges Getreide • B - Krebstiere • C - Eier • D - Fisch • E - Erdnüsse • F - Soja • G - Milch • H - Schalenfrüchte • I - Sellerie • J - Senf • K - Sesamsamen • L - Schwefeldioxid & Sulfite • M - Lupinen • N - Weichtiere",
       allergenNote:
         "Trotz sorgfältiger Zubereitung können Spuren anderer Allergene nicht ausgeschlossen werden.",
-      bottomLabel: "New Delhi - Digitale Speisekarte"
+      bottomLabel: "New Delhi - Digitale Speisekarte",
+      impressumLabel: "Impressum",
+      impressumHref: "/impressum"
     }
   },
   en: {
@@ -38,6 +42,8 @@
     addToCart: "Add To List",
     toastAdded: "Item added to the list.",
     emptyState: "No dishes in this category yet.",
+    impressumTitle: "Impressum",
+    impressumBackLabel: "Back to menu",
     footer: {
       addressHeading: "New Delhi",
       addressLines: ["Pfotenhauer Straße 70", "01307 Dresden, Germany"],
@@ -50,7 +56,9 @@
         "A - cereals containing gluten • B - crustaceans • C - eggs • D - fish • E - peanuts • F - soybeans • G - milk • H - nuts • I - celery • J - mustard • K - sesame seeds • L - sulphur dioxide & sulphites • M - lupin • N - molluscs",
       allergenNote:
         "Despite careful preparation, traces of other allergens may be present.",
-      bottomLabel: "New Delhi - Digital menu"
+      bottomLabel: "New Delhi - Digital menu",
+      impressumLabel: "Impressum",
+      impressumHref: "/impressum"
     }
   }
 };

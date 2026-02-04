@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import CategoryTabs from "./components/CategoryTabs";
 import MenuSection from "./components/MenuSection";
 import Footer from "./components/Footer";
+import ImpressumPage from "./components/ImpressumPage";
 import { menuData } from "./data/menuData";
 import { siteCopy } from "./data/siteCopy";
 
@@ -12,6 +13,7 @@ const App = () => {
   const [activeCategory, setActiveCategory] = useState("starters");
   const [listItems, setListItems] = useState([]);
   const [isListOpen, setIsListOpen] = useState(false);
+  const [activePage, setActivePage] = useState("menu");
   const [toastMessage, setToastMessage] = useState("");
   const [isToastVisible, setIsToastVisible] = useState(false);
   const toastTimerRef = useRef(null);
@@ -85,6 +87,20 @@ const App = () => {
     );
   };
 
+  const handleToggleList = () => {
+    setActivePage("menu");
+    setIsListOpen((prev) => !prev);
+  };
+
+  const openImpressum = () => {
+    setIsListOpen(false);
+    setActivePage("impressum");
+  };
+
+  const handleBackToMenu = () => {
+    setActivePage("menu");
+  };
+
   useEffect(() => {
     return () => {
       if (toastTimerRef.current) {
@@ -100,7 +116,8 @@ const App = () => {
         onToggleLanguage={() =>
           setLanguage((prev) => (prev === "en" ? "de" : "en"))
         }
-        onToggleList={() => setIsListOpen((prev) => !prev)}
+        onToggleList={handleToggleList}
+        onLogoClick={handleBackToMenu}
         listItems={listItems}
       />
 
@@ -114,7 +131,15 @@ const App = () => {
         {toastMessage}
       </div>
 
-      {isListOpen ? (
+      {activePage === "impressum" ? (
+        <main className="menu-main">
+          <ImpressumPage
+            title={copy.impressumTitle}
+            backLabel={copy.impressumBackLabel}
+            onBack={handleBackToMenu}
+          />
+        </main>
+      ) : isListOpen ? (
         <main className="menu-main">
           <section className="list-page">
             <div className="list-page-header">
@@ -207,7 +232,7 @@ const App = () => {
           </section>
         </main>
       )}
-      <Footer copy={copy.footer} />
+      <Footer copy={copy.footer} onImpressumClick={openImpressum} />
     </Layout>
   );
 };

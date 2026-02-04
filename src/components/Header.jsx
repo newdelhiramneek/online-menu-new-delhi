@@ -4,7 +4,8 @@ const Header = ({
   onToggleLanguage,
   language,
   onToggleList,
-  listItems = []
+  listItems = [],
+  onLogoClick
 }) => {
   const isEnglish = language === "en";
   const buttonLabel = isEnglish ? "German Menu" : "English Menu";
@@ -12,11 +13,18 @@ const Header = ({
     (sum, item) => sum + (item.quantity || 1),
     0
   );
+  const handleLogoClick = (event) => {
+    if (!onLogoClick) {
+      return;
+    }
+    event.preventDefault();
+    onLogoClick();
+  };
 
   return (
     <header className="menu-header">
       <div className="menu-header-left">
-        <a href="/" className="logo-link">
+        <a href="/" className="logo-link" onClick={handleLogoClick}>
           <img
             src="/newdelhi_logo.png"
             alt="New Delhi logo"
