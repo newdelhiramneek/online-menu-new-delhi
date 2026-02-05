@@ -2,65 +2,45 @@ import React from "react";
 
 const impressumSections = [
   {
+    heading: "Angaben gemäß § 5 TMG",
     lines: [
       "New Delhi Restaurant",
-      "XYZ Gastro GmbH",
-      "Represented by: Ramneek",
-      "Street Name 12",
-      "12345 Berlin",
-      "Germany",
-      "",
-      "Phone: +49 1521 4704642",
-      "Email: hello@newdelhi.com"
+      "Kumar und Sehjal GbR",
+      "Vertreten durch:",
+      "Ramneek Kumar und Arbind Sehjal",
+      "Pfotenhauerstraße 70",
+      "01307 Dresden",
+      "Deutschland",
+      "Telefon: +49 152 14704642",
+      "E-Mail: hallo.newdelhi@gmail.com"
     ]
   },
   {
-    heading: "Registered in the commercial register",
+    heading: "Umsatzsteuer-ID",
     lines: [
-      "Register court: Amtsgericht Berlin-Charlottenburg",
-      "Registration number: HRB 123456"
+      "Umsatzsteuer-Identifikationsnummer gemäß §27a Umsatzsteuergesetz:",
+      "DE458817652"
     ]
   },
   {
-    heading: "VAT Identification Number according to §27a UStG:",
-    lines: ["DE123456789"]
+    heading: "Handelsregister",
+    lines: ["Eintragung im Handelsregister: Nein"]
   },
   {
-    heading: "Responsible for content according to §18 Abs. 2 MStV:",
-    lines: ["Max Mustermann", "Street Name 12", "12345 Berlin"]
-  },
-  {
-    heading: "Online Dispute Resolution",
+    heading: "Verantwortlich für den Inhalt nach §18 Abs. 2 MStV",
     lines: [
-      "The European Commission provides a platform for online dispute resolution (ODR):",
-      "https://ec.europa.eu/consumers/odr"
+      "Ramneek Kumar",
+      "Pfotenhauerstraße 70",
+      "01307 Dresden",
+      "Deutschland"
     ]
   },
   {
+    heading: "Online-Streitbeilegung",
     lines: [
-      "We are not willing or obliged to participate in dispute resolution proceedings before a consumer arbitration board."
-    ]
-  },
-  {
-    heading: "Liability for Contents",
-    lines: [
-      "As service providers, we are liable for own contents of these websites according to §7 Abs.1 TMG."
-    ]
-  },
-  {
-    heading: "Liability for Links",
-    lines: [
-      "We have no influence on the contents of linked external websites and therefore cannot assume any liability."
-    ]
-  },
-  {
-    heading: "Copyright",
-    lines: ["All content on this website is subject to German copyright law."]
-  },
-  {
-    heading: "Allergen Information",
-    lines: [
-      "Information on allergens and additives is available upon request before ordering."
+      "Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit:",
+      "https://ec.europa.eu/consumers/odr",
+      "Wir sind nicht verpflichtet und nicht bereit, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen."
     ]
   }
 ];
